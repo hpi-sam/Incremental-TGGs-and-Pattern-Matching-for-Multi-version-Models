@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?><!--
+--><plugin>
+               
+   
+   
+    <extension point="org.eclipse.emf.ecore.generated_package">
+              
+        <!-- @generated java2class -->
+              
+        <package class="de.mdelab.mltgg.java2class.java2class.Java2classPackage" genModel="model-gen/model/java2class.genmodel" uri="http://www.mdelab.de/mltgg/java2class/1.0"/>
+           
+    </extension>
+               
+   
+   
+    <extension point="org.eclipse.emf.ecore.generated_package">
+              
+        <!-- @generated java2class -->
+              
+        <package class="de.mdelab.mltgg.java2class.java2class.generated.GeneratedPackage" genModel="model-gen/model/java2class.genmodel" uri="http://www.mdelab.de/mltgg/java2class/1.0/generated"/>
+           
+    </extension>
+            
+    
+
+    
+
+    <extension point="de.mdelab.mltgg.mote2.eclipse.rules">
+        <rules configurationFileURI="model-gen/config.xmi" tggID="java2class"/>
+    </extension>
+</plugin>

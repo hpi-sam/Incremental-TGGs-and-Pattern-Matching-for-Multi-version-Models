@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="tggh" nsURI="http://www.mdelab.de/migmm/tggh/1.0" nsPrefix="tggh">
+  <eClassifiers xsi:type="ecore:EClass" name="History2History" eSuperTypes="#//TGGNodeWithHistory"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TGGNodeWithHistory" eSuperTypes="../../de.mdelab.mltgg.mote2/model/mote2.ecore#//TGGNode ../../de.mdelab.migmm.history/model/history.ecore#//ElementWithHistory"/>
+</ecore:EPackage>

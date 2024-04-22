@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_lj9zwEe7EeyX6OU9uovWhw" type="Mlstorypatterns" name="dangling_edge_source.mlsp_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_ojHFcEe7EeyX6OU9uovWhw" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ojI6oEe7EeyX6OU9uovWhw" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ojI6oUe7EeyX6OU9uovWhw" type="5002"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ojI6oke7EeyX6OU9uovWhw" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ojJhsEe7EeyX6OU9uovWhw" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ojJhsUe7EeyX6OU9uovWhw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ojJhske7EeyX6OU9uovWhw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ojJhs0e7EeyX6OU9uovWhw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ojJhtEe7EeyX6OU9uovWhw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ojJhtUe7EeyX6OU9uovWhw"/>
+    </children>
+    <element xmi:type="mlstorypatterns:StoryPatternObject" href="dangling_edge_source.mlsp#_oi_JoEe7EeyX6OU9uovWhw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ojHsgEe7EeyX6OU9uovWhw" x="120" y="216"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_vXPEoEe7EeyX6OU9uovWhw" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vXPrsEe7EeyX6OU9uovWhw" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vXPrsUe7EeyX6OU9uovWhw" type="5002"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vXPrske7EeyX6OU9uovWhw" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vXPrs0e7EeyX6OU9uovWhw" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vXPrtEe7EeyX6OU9uovWhw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vXPrtUe7EeyX6OU9uovWhw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vXPrtke7EeyX6OU9uovWhw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vXPrt0e7EeyX6OU9uovWhw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vXPruEe7EeyX6OU9uovWhw"/>
+    </children>
+    <element xmi:type="mlstorypatterns:StoryPatternObject" href="dangling_edge_source.mlsp#_vXOdkEe7EeyX6OU9uovWhw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vXPEoUe7EeyX6OU9uovWhw" x="348" y="216"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_lj9zwUe7EeyX6OU9uovWhw"/>
+  <element xmi:type="mlstorypatterns:StoryPattern" href="dangling_edge_source.mlsp#_lil6wEe7EeyX6OU9uovWhw"/>
+  <edges xmi:type="notation:Edge" xmi:id="_NZfFYEe-EeydEteezkqPoQ" type="4001" source="_vXPEoEe7EeyX6OU9uovWhw" target="_ojHFcEe7EeyX6OU9uovWhw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NZfsc0e-EeydEteezkqPoQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NZfsdEe-EeydEteezkqPoQ" x="-46" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_NZfsdUe-EeydEteezkqPoQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NZfsdke-EeydEteezkqPoQ" x="-10" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_NZfscEe-EeydEteezkqPoQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NZfscUe-EeydEteezkqPoQ" fontName="Segoe UI"/>
+    <element xmi:type="mlstorypatterns:StoryPatternLink" href="dangling_edge_source.mlsp#_NZeeUEe-EeydEteezkqPoQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NZfscke-EeydEteezkqPoQ" points="[-24, -5, 173, -10]$[-189, -32, 8, -37]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NZhhoEe-EeydEteezkqPoQ" id="(0.2222222222222222,0.43243243243243246)"/>
+  </edges>
+</notation:Diagram>

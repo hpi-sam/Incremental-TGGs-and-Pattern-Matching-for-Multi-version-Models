@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/de.mdelab.migmm.history.modisco.java.adapted/src"
+    modelPluginID="de.mdelab.migmm.history.modisco.java.adapted" modelName="Java_adapted"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="8.0" copyrightFields="false" usedGenPackages="../../de.mdelab.migmm.history/model/history.genmodel#//history ../../org.eclipse.modisco.java/model/java.genmodel#//java"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>java_adapted.ecore</foreignModel>
+  <genPackages prefix="Java_adapted" basePackage="de.mdelab.migmm.history.modisco.java.adapted"
+      disposableProviderFactory="true" loadInitialization="true" literalsInterface="false"
+      ecorePackage="java_adapted.ecore#/">
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//AbstractMethodDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted/body"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted/parameters"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted/thrownExceptions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted/typeParameters"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted/usagesInDocComments"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted/usages"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//AbstractMethodInvocation_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodInvocation_adapted/method"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodInvocation_adapted/arguments"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodInvocation_adapted/typeArguments"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//AbstractTypeDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeDeclaration_adapted/bodyDeclarations"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeDeclaration_adapted/commentsBeforeBody"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeDeclaration_adapted/commentsAfterBody"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeDeclaration_adapted/package"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeDeclaration_adapted/superInterfaces"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//AbstractTypeQualifiedExpression_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeQualifiedExpression_adapted/qualifier"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//AbstractVariablesContainer_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractVariablesContainer_adapted/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractVariablesContainer_adapted/fragments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Annotation_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Annotation_adapted/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Annotation_adapted/values"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Archive_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Archive_adapted/originalFilePath"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Archive_adapted/classFiles"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Archive_adapted/manifest"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AssertStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AssertStatement_adapted/message"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AssertStatement_adapted/expression"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//ASTNode_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ASTNode_adapted/comments"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ASTNode_adapted/originalCompilationUnit"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ASTNode_adapted/originalClassFile"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AnnotationMemberValuePair_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnnotationMemberValuePair_adapted/member"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnnotationMemberValuePair_adapted/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AnnotationTypeDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted/default"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted/usages"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AnonymousClassDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnonymousClassDeclaration_adapted/bodyDeclarations"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnonymousClassDeclaration_adapted/classInstanceCreation"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayAccess_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayAccess_adapted/array"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayAccess_adapted/index"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayCreation_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayCreation_adapted/dimensions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayCreation_adapted/initializer"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayCreation_adapted/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayInitializer_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayInitializer_adapted/expressions"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayLengthAccess_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayLengthAccess_adapted/array"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayType_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayType_adapted/dimensions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayType_adapted/elementType"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Assignment_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Assignment_adapted/leftHandSide"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Assignment_adapted/operator"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Assignment_adapted/rightHandSide"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//BodyDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BodyDeclaration_adapted/abstractTypeDeclaration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BodyDeclaration_adapted/annotations"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BodyDeclaration_adapted/anonymousClassDeclarationOwner"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BodyDeclaration_adapted/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//BooleanLiteral_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BooleanLiteral_adapted/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//BlockComment_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//Block_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Block_adapted/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//BreakStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BreakStatement_adapted/label"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CastExpression_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CastExpression_adapted/expression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CastExpression_adapted/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CatchClause_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CatchClause_adapted/exception"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CatchClause_adapted/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CharacterLiteral_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CharacterLiteral_adapted/escapedValue"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassFile_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassFile_adapted/originalFilePath"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassFile_adapted/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassFile_adapted/attachedSource"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassFile_adapted/package"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassInstanceCreation_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassInstanceCreation_adapted/anonymousClassDeclaration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassInstanceCreation_adapted/expression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassInstanceCreation_adapted/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ConstructorDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//ConditionalExpression_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ConditionalExpression_adapted/elseExpression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ConditionalExpression_adapted/expression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ConditionalExpression_adapted/thenExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ConstructorInvocation_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassDeclaration_adapted/superClass"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//Comment_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Comment_adapted/content"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Comment_adapted/enclosedByParent"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Comment_adapted/prefixOfParent"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CompilationUnit_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CompilationUnit_adapted/originalFilePath"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CompilationUnit_adapted/commentList"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CompilationUnit_adapted/imports"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CompilationUnit_adapted/package"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CompilationUnit_adapted/types"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ContinueStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ContinueStatement_adapted/label"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//DoStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//DoStatement_adapted/expression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//DoStatement_adapted/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//EmptyStatement_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//EnhancedForStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnhancedForStatement_adapted/body"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnhancedForStatement_adapted/expression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnhancedForStatement_adapted/parameter"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//EnumConstantDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnumConstantDeclaration_adapted/anonymousClassDeclaration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnumConstantDeclaration_adapted/arguments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//EnumDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnumDeclaration_adapted/enumConstants"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//Expression_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//ExpressionStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ExpressionStatement_adapted/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//FieldAccess_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//FieldAccess_adapted/field"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//FieldAccess_adapted/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//FieldDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//ForStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ForStatement_adapted/expression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ForStatement_adapted/updaters"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ForStatement_adapted/initializers"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ForStatement_adapted/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//IfStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//IfStatement_adapted/expression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//IfStatement_adapted/thenStatement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//IfStatement_adapted/elseStatement"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ImportDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ImportDeclaration_adapted/static"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ImportDeclaration_adapted/importedElement"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//InfixExpression_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InfixExpression_adapted/operator"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InfixExpression_adapted/rightOperand"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InfixExpression_adapted/leftOperand"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InfixExpression_adapted/extendedOperands"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Initializer_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Initializer_adapted/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//InstanceofExpression_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InstanceofExpression_adapted/rightOperand"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InstanceofExpression_adapted/leftOperand"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//InterfaceDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//Javadoc_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Javadoc_adapted/tags"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//LabeledStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//LabeledStatement_adapted/body"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//LabeledStatement_adapted/usagesInBreakStatements"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//LabeledStatement_adapted/usagesInContinueStatements"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//LineComment_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//Manifest_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Manifest_adapted/mainAttributes"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Manifest_adapted/entryAttributes"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ManifestAttribute_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ManifestAttribute_adapted/key"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ManifestAttribute_adapted/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ManifestEntry_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ManifestEntry_adapted/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ManifestEntry_adapted/attributes"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MemberRef_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MemberRef_adapted/member"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MemberRef_adapted/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodDeclaration_adapted/extraArrayDimensions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodDeclaration_adapted/returnType"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodDeclaration_adapted/redefinedMethodDeclaration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodDeclaration_adapted/redefinitions"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodInvocation_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodInvocation_adapted/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodRef_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodRef_adapted/method"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodRef_adapted/qualifier"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodRef_adapted/parameters"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodRefParameter_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodRefParameter_adapted/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodRefParameter_adapted/varargs"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodRefParameter_adapted/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Model_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted/ownedElements"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted/orphanTypes"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted/unresolvedItems"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted/compilationUnits"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted/classFiles"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted/archives"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/visibility"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/inheritance"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/static"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/transient"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/volatile"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/native"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/strictfp"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/synchronized"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/bodyDeclaration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/singleVariableDeclaration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/variableDeclarationStatement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted/variableDeclarationExpression"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//NamedElement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//NamedElement_adapted/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//NamedElement_adapted/proxy"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//NamedElement_adapted/usagesInImports"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//NamespaceAccess_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//NumberLiteral_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//NumberLiteral_adapted/tokenValue"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//NullLiteral_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//Package_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Package_adapted/ownedElements"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Package_adapted/model"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Package_adapted/ownedPackages"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Package_adapted/package"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Package_adapted/usagesInPackageAccess"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//PackageAccess_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//PackageAccess_adapted/package"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//PackageAccess_adapted/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ParameterizedType_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ParameterizedType_adapted/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ParameterizedType_adapted/typeArguments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ParenthesizedExpression_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ParenthesizedExpression_adapted/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//PostfixExpression_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//PostfixExpression_adapted/operator"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//PostfixExpression_adapted/operand"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//PrefixExpression_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//PrefixExpression_adapted/operator"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//PrefixExpression_adapted/operand"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//PrimitiveType_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//PrimitiveTypeBoolean_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//PrimitiveTypeByte_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//PrimitiveTypeChar_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//PrimitiveTypeDouble_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//PrimitiveTypeShort_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//PrimitiveTypeFloat_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//PrimitiveTypeInt_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//PrimitiveTypeLong_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//PrimitiveTypeVoid_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//ReturnStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ReturnStatement_adapted/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableAccess_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableAccess_adapted/variable"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableAccess_adapted/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted/modifier"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted/varargs"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted/annotations"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted/methodDeclaration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted/catchClause"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted/enhancedForStatement"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//Statement_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//StringLiteral_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//StringLiteral_adapted/escapedValue"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SuperConstructorInvocation_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SuperConstructorInvocation_adapted/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SuperFieldAccess_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SuperFieldAccess_adapted/field"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SuperMethodInvocation_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//SwitchCase_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SwitchCase_adapted/default"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SwitchCase_adapted/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SwitchStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SwitchStatement_adapted/expression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SwitchStatement_adapted/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SynchronizedStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SynchronizedStatement_adapted/body"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SynchronizedStatement_adapted/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TagElement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TagElement_adapted/tagName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TagElement_adapted/fragments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TextElement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TextElement_adapted/text"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ThisExpression_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//ThrowStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ThrowStatement_adapted/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TryStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TryStatement_adapted/body"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TryStatement_adapted/finally"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TryStatement_adapted/catchClauses"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//Type_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Type_adapted/usagesInTypeAccess"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TypeAccess_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeAccess_adapted/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeAccess_adapted/qualifier"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//TypeDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeDeclaration_adapted/typeParameters"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TypeDeclarationStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeDeclarationStatement_adapted/declaration"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TypeLiteral_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeLiteral_adapted/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TypeParameter_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeParameter_adapted/bounds"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedItem_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedItemAccess_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//UnresolvedItemAccess_adapted/element"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//UnresolvedItemAccess_adapted/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedAnnotationDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedAnnotationTypeMemberDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedClassDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedEnumDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedInterfaceDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedLabeledStatement_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedMethodDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedSingleVariableDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedType_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedTypeDeclaration_adapted"/>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedVariableDeclarationFragment_adapted"/>
+    <genClasses image="false" ecoreClass="java_adapted.ecore#//VariableDeclaration_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclaration_adapted/extraArrayDimensions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclaration_adapted/initializer"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclaration_adapted/usageInVariableAccess"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclarationExpression_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationExpression_adapted/modifier"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationExpression_adapted/annotations"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclarationFragment_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationFragment_adapted/variablesContainer"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclarationStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationStatement_adapted/extraArrayDimensions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationStatement_adapted/modifier"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationStatement_adapted/annotations"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//WildCardType_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//WildCardType_adapted/upperBound"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//WildCardType_adapted/bound"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//WhileStatement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//WhileStatement_adapted/expression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//WhileStatement_adapted/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractMethodDeclaration_adapted_bodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted_bodyItem/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractMethodDeclaration_adapted_parametersItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted_parametersItem/parameters"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractMethodDeclaration_adapted_thrownExceptionsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted_thrownExceptionsItem/thrownExceptions"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractMethodDeclaration_adapted_typeParametersItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted_typeParametersItem/typeParameters"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractMethodDeclaration_adapted_usagesInDocCommentsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted_usagesInDocCommentsItem/usagesInDocComments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractMethodDeclaration_adapted_usagesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodDeclaration_adapted_usagesItem/usages"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractMethodInvocation_adapted_methodItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodInvocation_adapted_methodItem/method"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractMethodInvocation_adapted_argumentsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodInvocation_adapted_argumentsItem/arguments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractMethodInvocation_adapted_typeArgumentsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractMethodInvocation_adapted_typeArgumentsItem/typeArguments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractTypeDeclaration_adapted_bodyDeclarationsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeDeclaration_adapted_bodyDeclarationsItem/bodyDeclarations"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractTypeDeclaration_adapted_commentsBeforeBodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeDeclaration_adapted_commentsBeforeBodyItem/commentsBeforeBody"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractTypeDeclaration_adapted_commentsAfterBodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeDeclaration_adapted_commentsAfterBodyItem/commentsAfterBody"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractTypeDeclaration_adapted_packageItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeDeclaration_adapted_packageItem/package"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractTypeDeclaration_adapted_superInterfacesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeDeclaration_adapted_superInterfacesItem/superInterfaces"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractTypeQualifiedExpression_adapted_qualifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractTypeQualifiedExpression_adapted_qualifierItem/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractVariablesContainer_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractVariablesContainer_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AbstractVariablesContainer_adapted_fragmentsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AbstractVariablesContainer_adapted_fragmentsItem/fragments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Annotation_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Annotation_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Annotation_adapted_valuesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Annotation_adapted_valuesItem/values"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Archive_adapted_originalFilePathValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Archive_adapted_originalFilePathValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Archive_adapted_classFilesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Archive_adapted_classFilesItem/classFiles"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Archive_adapted_manifestItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Archive_adapted_manifestItem/manifest"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AssertStatement_adapted_messageItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AssertStatement_adapted_messageItem/message"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AssertStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AssertStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ASTNode_adapted_commentsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ASTNode_adapted_commentsItem/comments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ASTNode_adapted_originalCompilationUnitItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ASTNode_adapted_originalCompilationUnitItem/originalCompilationUnit"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ASTNode_adapted_originalClassFileItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ASTNode_adapted_originalClassFileItem/originalClassFile"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AnnotationMemberValuePair_adapted_memberItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnnotationMemberValuePair_adapted_memberItem/member"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AnnotationMemberValuePair_adapted_valueItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnnotationMemberValuePair_adapted_valueItem/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_defaultItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_defaultItem/default"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_usagesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_usagesItem/usages"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AnonymousClassDeclaration_adapted_bodyDeclarationsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnonymousClassDeclaration_adapted_bodyDeclarationsItem/bodyDeclarations"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//AnonymousClassDeclaration_adapted_classInstanceCreationItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//AnonymousClassDeclaration_adapted_classInstanceCreationItem/classInstanceCreation"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayAccess_adapted_arrayItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayAccess_adapted_arrayItem/array"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayAccess_adapted_indexItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayAccess_adapted_indexItem/index"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayCreation_adapted_dimensionsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayCreation_adapted_dimensionsItem/dimensions"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayCreation_adapted_initializerItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayCreation_adapted_initializerItem/initializer"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayCreation_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayCreation_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayInitializer_adapted_expressionsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayInitializer_adapted_expressionsItem/expressions"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayLengthAccess_adapted_arrayItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayLengthAccess_adapted_arrayItem/array"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayType_adapted_dimensionsValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//ArrayType_adapted_dimensionsValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ArrayType_adapted_elementTypeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ArrayType_adapted_elementTypeItem/elementType"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Assignment_adapted_leftHandSideItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Assignment_adapted_leftHandSideItem/leftHandSide"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Assignment_adapted_operatorValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Assignment_adapted_operatorValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Assignment_adapted_rightHandSideItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Assignment_adapted_rightHandSideItem/rightHandSide"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//BodyDeclaration_adapted_abstractTypeDeclarationItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BodyDeclaration_adapted_abstractTypeDeclarationItem/abstractTypeDeclaration"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//BodyDeclaration_adapted_annotationsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BodyDeclaration_adapted_annotationsItem/annotations"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//BodyDeclaration_adapted_anonymousClassDeclarationOwnerItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BodyDeclaration_adapted_anonymousClassDeclarationOwnerItem/anonymousClassDeclarationOwner"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//BodyDeclaration_adapted_modifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BodyDeclaration_adapted_modifierItem/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//BooleanLiteral_adapted_valueValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//BooleanLiteral_adapted_valueValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Block_adapted_statementsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Block_adapted_statementsItem/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//BreakStatement_adapted_labelItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//BreakStatement_adapted_labelItem/label"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CastExpression_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CastExpression_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CastExpression_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CastExpression_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CatchClause_adapted_exceptionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CatchClause_adapted_exceptionItem/exception"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CatchClause_adapted_bodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CatchClause_adapted_bodyItem/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CharacterLiteral_adapted_escapedValueValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//CharacterLiteral_adapted_escapedValueValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassFile_adapted_originalFilePathValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//ClassFile_adapted_originalFilePathValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassFile_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassFile_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassFile_adapted_attachedSourceItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassFile_adapted_attachedSourceItem/attachedSource"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassFile_adapted_packageItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassFile_adapted_packageItem/package"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassInstanceCreation_adapted_anonymousClassDeclarationItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassInstanceCreation_adapted_anonymousClassDeclarationItem/anonymousClassDeclaration"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassInstanceCreation_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassInstanceCreation_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassInstanceCreation_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassInstanceCreation_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ConditionalExpression_adapted_elseExpressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ConditionalExpression_adapted_elseExpressionItem/elseExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ConditionalExpression_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ConditionalExpression_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ConditionalExpression_adapted_thenExpressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ConditionalExpression_adapted_thenExpressionItem/thenExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ClassDeclaration_adapted_superClassItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ClassDeclaration_adapted_superClassItem/superClass"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Comment_adapted_contentValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Comment_adapted_contentValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Comment_adapted_enclosedByParentValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Comment_adapted_enclosedByParentValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Comment_adapted_prefixOfParentValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Comment_adapted_prefixOfParentValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CompilationUnit_adapted_originalFilePathValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//CompilationUnit_adapted_originalFilePathValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CompilationUnit_adapted_commentListItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CompilationUnit_adapted_commentListItem/commentList"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CompilationUnit_adapted_importsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CompilationUnit_adapted_importsItem/imports"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CompilationUnit_adapted_packageItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CompilationUnit_adapted_packageItem/package"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//CompilationUnit_adapted_typesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//CompilationUnit_adapted_typesItem/types"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ContinueStatement_adapted_labelItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ContinueStatement_adapted_labelItem/label"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//DoStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//DoStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//DoStatement_adapted_bodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//DoStatement_adapted_bodyItem/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//EnhancedForStatement_adapted_bodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnhancedForStatement_adapted_bodyItem/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//EnhancedForStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnhancedForStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//EnhancedForStatement_adapted_parameterItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnhancedForStatement_adapted_parameterItem/parameter"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//EnumConstantDeclaration_adapted_anonymousClassDeclarationItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnumConstantDeclaration_adapted_anonymousClassDeclarationItem/anonymousClassDeclaration"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//EnumConstantDeclaration_adapted_argumentsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnumConstantDeclaration_adapted_argumentsItem/arguments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//EnumDeclaration_adapted_enumConstantsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//EnumDeclaration_adapted_enumConstantsItem/enumConstants"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ExpressionStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ExpressionStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//FieldAccess_adapted_fieldItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//FieldAccess_adapted_fieldItem/field"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//FieldAccess_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//FieldAccess_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ForStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ForStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ForStatement_adapted_updatersItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ForStatement_adapted_updatersItem/updaters"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ForStatement_adapted_initializersItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ForStatement_adapted_initializersItem/initializers"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ForStatement_adapted_bodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ForStatement_adapted_bodyItem/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//IfStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//IfStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//IfStatement_adapted_thenStatementItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//IfStatement_adapted_thenStatementItem/thenStatement"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//IfStatement_adapted_elseStatementItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//IfStatement_adapted_elseStatementItem/elseStatement"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ImportDeclaration_adapted_staticValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//ImportDeclaration_adapted_staticValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ImportDeclaration_adapted_importedElementItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ImportDeclaration_adapted_importedElementItem/importedElement"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//InfixExpression_adapted_operatorValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//InfixExpression_adapted_operatorValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//InfixExpression_adapted_rightOperandItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InfixExpression_adapted_rightOperandItem/rightOperand"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//InfixExpression_adapted_leftOperandItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InfixExpression_adapted_leftOperandItem/leftOperand"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//InfixExpression_adapted_extendedOperandsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InfixExpression_adapted_extendedOperandsItem/extendedOperands"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Initializer_adapted_bodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Initializer_adapted_bodyItem/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//InstanceofExpression_adapted_rightOperandItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InstanceofExpression_adapted_rightOperandItem/rightOperand"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//InstanceofExpression_adapted_leftOperandItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//InstanceofExpression_adapted_leftOperandItem/leftOperand"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Javadoc_adapted_tagsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Javadoc_adapted_tagsItem/tags"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//LabeledStatement_adapted_bodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//LabeledStatement_adapted_bodyItem/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//LabeledStatement_adapted_usagesInBreakStatementsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//LabeledStatement_adapted_usagesInBreakStatementsItem/usagesInBreakStatements"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//LabeledStatement_adapted_usagesInContinueStatementsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//LabeledStatement_adapted_usagesInContinueStatementsItem/usagesInContinueStatements"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Manifest_adapted_mainAttributesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Manifest_adapted_mainAttributesItem/mainAttributes"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Manifest_adapted_entryAttributesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Manifest_adapted_entryAttributesItem/entryAttributes"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ManifestAttribute_adapted_keyValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//ManifestAttribute_adapted_keyValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ManifestAttribute_adapted_valueValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//ManifestAttribute_adapted_valueValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ManifestEntry_adapted_nameValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//ManifestEntry_adapted_nameValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ManifestEntry_adapted_attributesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ManifestEntry_adapted_attributesItem/attributes"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MemberRef_adapted_memberItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MemberRef_adapted_memberItem/member"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MemberRef_adapted_qualifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MemberRef_adapted_qualifierItem/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodDeclaration_adapted_extraArrayDimensionsValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//MethodDeclaration_adapted_extraArrayDimensionsValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodDeclaration_adapted_returnTypeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodDeclaration_adapted_returnTypeItem/returnType"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodDeclaration_adapted_redefinedMethodDeclarationItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodDeclaration_adapted_redefinedMethodDeclarationItem/redefinedMethodDeclaration"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodDeclaration_adapted_redefinitionsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodDeclaration_adapted_redefinitionsItem/redefinitions"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodInvocation_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodInvocation_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodRef_adapted_methodItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodRef_adapted_methodItem/method"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodRef_adapted_qualifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodRef_adapted_qualifierItem/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodRef_adapted_parametersItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodRef_adapted_parametersItem/parameters"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodRefParameter_adapted_nameValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//MethodRefParameter_adapted_nameValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodRefParameter_adapted_varargsValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//MethodRefParameter_adapted_varargsValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//MethodRefParameter_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//MethodRefParameter_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Model_adapted_nameValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Model_adapted_nameValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Model_adapted_ownedElementsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted_ownedElementsItem/ownedElements"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Model_adapted_orphanTypesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted_orphanTypesItem/orphanTypes"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Model_adapted_unresolvedItemsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted_unresolvedItemsItem/unresolvedItems"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Model_adapted_compilationUnitsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted_compilationUnitsItem/compilationUnits"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Model_adapted_classFilesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted_classFilesItem/classFiles"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Model_adapted_archivesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Model_adapted_archivesItem/archives"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_visibilityValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Modifier_adapted_visibilityValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_inheritanceValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Modifier_adapted_inheritanceValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_staticValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Modifier_adapted_staticValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_transientValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Modifier_adapted_transientValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_volatileValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Modifier_adapted_volatileValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_nativeValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Modifier_adapted_nativeValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_strictfpValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Modifier_adapted_strictfpValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_synchronizedValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//Modifier_adapted_synchronizedValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_bodyDeclarationItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted_bodyDeclarationItem/bodyDeclaration"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_singleVariableDeclarationItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted_singleVariableDeclarationItem/singleVariableDeclaration"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_variableDeclarationStatementItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted_variableDeclarationStatementItem/variableDeclarationStatement"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Modifier_adapted_variableDeclarationExpressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Modifier_adapted_variableDeclarationExpressionItem/variableDeclarationExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//NamedElement_adapted_nameValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//NamedElement_adapted_nameValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//NamedElement_adapted_proxyValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//NamedElement_adapted_proxyValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//NamedElement_adapted_usagesInImportsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//NamedElement_adapted_usagesInImportsItem/usagesInImports"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//NumberLiteral_adapted_tokenValueValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//NumberLiteral_adapted_tokenValueValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Package_adapted_ownedElementsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Package_adapted_ownedElementsItem/ownedElements"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Package_adapted_modelItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Package_adapted_modelItem/model"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Package_adapted_ownedPackagesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Package_adapted_ownedPackagesItem/ownedPackages"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Package_adapted_packageItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Package_adapted_packageItem/package"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Package_adapted_usagesInPackageAccessItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Package_adapted_usagesInPackageAccessItem/usagesInPackageAccess"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//PackageAccess_adapted_packageItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//PackageAccess_adapted_packageItem/package"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//PackageAccess_adapted_qualifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//PackageAccess_adapted_qualifierItem/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ParameterizedType_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ParameterizedType_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ParameterizedType_adapted_typeArgumentsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ParameterizedType_adapted_typeArgumentsItem/typeArguments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ParenthesizedExpression_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ParenthesizedExpression_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//PostfixExpression_adapted_operatorValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//PostfixExpression_adapted_operatorValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//PostfixExpression_adapted_operandItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//PostfixExpression_adapted_operandItem/operand"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//PrefixExpression_adapted_operatorValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//PrefixExpression_adapted_operatorValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//PrefixExpression_adapted_operandItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//PrefixExpression_adapted_operandItem/operand"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ReturnStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ReturnStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableAccess_adapted_variableItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableAccess_adapted_variableItem/variable"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableAccess_adapted_qualifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableAccess_adapted_qualifierItem/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableDeclaration_adapted_modifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted_modifierItem/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableDeclaration_adapted_varargsValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//SingleVariableDeclaration_adapted_varargsValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableDeclaration_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableDeclaration_adapted_annotationsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted_annotationsItem/annotations"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableDeclaration_adapted_methodDeclarationItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted_methodDeclarationItem/methodDeclaration"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableDeclaration_adapted_catchClauseItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted_catchClauseItem/catchClause"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SingleVariableDeclaration_adapted_enhancedForStatementItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SingleVariableDeclaration_adapted_enhancedForStatementItem/enhancedForStatement"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//StringLiteral_adapted_escapedValueValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//StringLiteral_adapted_escapedValueValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SuperConstructorInvocation_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SuperConstructorInvocation_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SuperFieldAccess_adapted_fieldItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SuperFieldAccess_adapted_fieldItem/field"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SwitchCase_adapted_defaultValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//SwitchCase_adapted_defaultValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SwitchCase_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SwitchCase_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SwitchStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SwitchStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SwitchStatement_adapted_statementsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SwitchStatement_adapted_statementsItem/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SynchronizedStatement_adapted_bodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SynchronizedStatement_adapted_bodyItem/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//SynchronizedStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//SynchronizedStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TagElement_adapted_tagNameValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//TagElement_adapted_tagNameValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TagElement_adapted_fragmentsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TagElement_adapted_fragmentsItem/fragments"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TextElement_adapted_textValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//TextElement_adapted_textValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//ThrowStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//ThrowStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TryStatement_adapted_bodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TryStatement_adapted_bodyItem/body"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TryStatement_adapted_finallyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TryStatement_adapted_finallyItem/finally"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TryStatement_adapted_catchClausesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TryStatement_adapted_catchClausesItem/catchClauses"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//Type_adapted_usagesInTypeAccessItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//Type_adapted_usagesInTypeAccessItem/usagesInTypeAccess"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TypeAccess_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeAccess_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TypeAccess_adapted_qualifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeAccess_adapted_qualifierItem/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TypeDeclaration_adapted_typeParametersItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeDeclaration_adapted_typeParametersItem/typeParameters"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TypeDeclarationStatement_adapted_declarationItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeDeclarationStatement_adapted_declarationItem/declaration"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TypeLiteral_adapted_typeItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeLiteral_adapted_typeItem/type"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//TypeParameter_adapted_boundsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//TypeParameter_adapted_boundsItem/bounds"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedItemAccess_adapted_elementItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//UnresolvedItemAccess_adapted_elementItem/element"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//UnresolvedItemAccess_adapted_qualifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//UnresolvedItemAccess_adapted_qualifierItem/qualifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclaration_adapted_extraArrayDimensionsValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//VariableDeclaration_adapted_extraArrayDimensionsValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclaration_adapted_initializerItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclaration_adapted_initializerItem/initializer"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclaration_adapted_usageInVariableAccessItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclaration_adapted_usageInVariableAccessItem/usageInVariableAccess"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclarationExpression_adapted_modifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationExpression_adapted_modifierItem/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclarationExpression_adapted_annotationsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationExpression_adapted_annotationsItem/annotations"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclarationFragment_adapted_variablesContainerItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationFragment_adapted_variablesContainerItem/variablesContainer"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclarationStatement_adapted_extraArrayDimensionsValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//VariableDeclarationStatement_adapted_extraArrayDimensionsValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclarationStatement_adapted_modifierItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationStatement_adapted_modifierItem/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//VariableDeclarationStatement_adapted_annotationsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//VariableDeclarationStatement_adapted_annotationsItem/annotations"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//WildCardType_adapted_upperBoundValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute java_adapted.ecore#//WildCardType_adapted_upperBoundValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//WildCardType_adapted_boundItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//WildCardType_adapted_boundItem/bound"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//WhileStatement_adapted_expressionItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//WhileStatement_adapted_expressionItem/expression"/>
+    </genClasses>
+    <genClasses ecoreClass="java_adapted.ecore#//WhileStatement_adapted_bodyItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference java_adapted.ecore#//WhileStatement_adapted_bodyItem/body"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlsdm:Activity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlsdm="http://www.mdelab.de/mlsdm/1.0" uuid="_wsBSAEL0EeymDKUDinvg6Q" name="java2classPkg_pkg_repair_backward">
+  <edges uuid="_wsBSAUL0EeymDKUDinvg6Q" source="_wsBSAkL0EeymDKUDinvg6Q" target="_wsBSA0L0EeymDKUDinvg6Q"/>
+  <nodes xsi:type="mlsdm:InitialNode" uuid="_wsBSAkL0EeymDKUDinvg6Q" outgoingEdges="_wsBSAUL0EeymDKUDinvg6Q"/>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wsBSA0L0EeymDKUDinvg6Q" incomingEdges="_wsBSAUL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wsBSBEL0EeymDKUDinvg6Q" parameter="_wsBSB0L0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wsBSBUL0EeymDKUDinvg6Q" expressionString="mote2::operationalTGG::ErrorCodeEnum::CANNOT_REPAIR" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <parameters uuid="_wsBSBkL0EeymDKUDinvg6Q" name="__thisRule">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalRule"/>
+  </parameters>
+  <parameters uuid="_wsBSB0L0EeymDKUDinvg6Q" name="__errorCode" direction="OUT">
+    <type xsi:type="ecore:EEnum" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/ErrorCodeEnum"/>
+  </parameters>
+  <parameters uuid="_wsBSCEL0EeymDKUDinvg6Q" name="__inputTggNode">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode"/>
+  </parameters>
+  <parameters uuid="_wsBSCUL0EeymDKUDinvg6Q" name="__checkAttributeFormulae">
+    <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </parameters>
+</mlsdm:Activity>

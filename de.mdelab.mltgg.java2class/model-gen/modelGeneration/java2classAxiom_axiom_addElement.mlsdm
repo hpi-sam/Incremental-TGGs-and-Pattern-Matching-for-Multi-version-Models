@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlsdm:Activity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlsdm="http://www.mdelab.de/mlsdm/1.0" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" uuid="_wpgwkEL0EeymDKUDinvg6Q" name="java2classAxiom_axiom_addElement">
+  <edges uuid="_wpgwkUL0EeymDKUDinvg6Q" source="_wpgwmEL0EeymDKUDinvg6Q" target="_wpgws0L0EeymDKUDinvg6Q" guardType="FAILURE"/>
+  <edges uuid="_wpgwkkL0EeymDKUDinvg6Q" source="_wpgwo0L0EeymDKUDinvg6Q" target="_wpgwp0L0EeymDKUDinvg6Q" guardType="FAILURE"/>
+  <edges uuid="_wpgwk0L0EeymDKUDinvg6Q" source="_wpgwl0L0EeymDKUDinvg6Q" target="_wpgwmEL0EeymDKUDinvg6Q"/>
+  <edges uuid="_wpgwlEL0EeymDKUDinvg6Q" source="_wpgwmEL0EeymDKUDinvg6Q" target="_wpgwo0L0EeymDKUDinvg6Q" guardType="SUCCESS"/>
+  <edges uuid="_wpgwlUL0EeymDKUDinvg6Q" source="_wpgwp0L0EeymDKUDinvg6Q" target="_wpgws0L0EeymDKUDinvg6Q"/>
+  <edges uuid="_wpgwlkL0EeymDKUDinvg6Q" source="_wpgwo0L0EeymDKUDinvg6Q" target="_wpgwrEL0EeymDKUDinvg6Q" guardType="SUCCESS"/>
+  <nodes xsi:type="mlsdm:InitialNode" uuid="_wpgwl0L0EeymDKUDinvg6Q" outgoingEdges="_wpgwk0L0EeymDKUDinvg6Q"/>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wpgwmEL0EeymDKUDinvg6Q" outgoingEdges="_wpgwlEL0EeymDKUDinvg6Q _wpgwkUL0EeymDKUDinvg6Q" incomingEdges="_wpgwk0L0EeymDKUDinvg6Q" name="create elements">
+    <storyPattern uuid="_wpgwmUL0EeymDKUDinvg6Q" name="create elements">
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wpgwmkL0EeymDKUDinvg6Q" modifier="CREATE" source="_wpgwokL0EeymDKUDinvg6Q" target="_wpgwnEL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/leftNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wpgwm0L0EeymDKUDinvg6Q" modifier="CREATE" source="_wpgwokL0EeymDKUDinvg6Q" target="_wpgwn0L0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/rightNodes"/>
+      </storyPatternLinks>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wpgwnEL0EeymDKUDinvg6Q" modifier="CREATE" name="model" incomingLinks="_wpgwmkL0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model"/>
+        <attributeAssignments uuid="_wpgwnUL0EeymDKUDinvg6Q">
+          <assignmentExpression xsi:type="mlexpressions:MLStringExpression" uuid="_wpgwnkL0EeymDKUDinvg6Q" expressionString="name" expressionLanguageID="OCL"/>
+          <feature xsi:type="ecore:EAttribute" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/name"/>
+        </attributeAssignments>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wpgwn0L0EeymDKUDinvg6Q" modifier="CREATE" name="uMLClassDiagram" incomingLinks="_wpgwm0L0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+        <attributeAssignments uuid="_wpgwoEL0EeymDKUDinvg6Q">
+          <assignmentExpression xsi:type="mlexpressions:MLStringExpression" uuid="_wpgwoUL0EeymDKUDinvg6Q" expressionString="name" expressionLanguageID="OCL"/>
+          <feature xsi:type="ecore:EAttribute" href="http:///de/hpi/sam/classDiagram.ecore#//UMLElement/name"/>
+        </attributeAssignments>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wpgwokL0EeymDKUDinvg6Q" modifier="CREATE" name="corrAxiom" outgoingLinks="_wpgwm0L0EeymDKUDinvg6Q _wpgwmkL0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wpgwo0L0EeymDKUDinvg6Q" outgoingEdges="_wpgwlkL0EeymDKUDinvg6Q _wpgwkkL0EeymDKUDinvg6Q" incomingEdges="_wpgwlEL0EeymDKUDinvg6Q" name="check attribute formulae">
+    <storyPattern uuid="_wpgwpEL0EeymDKUDinvg6Q" name="check attribute formulae">
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wpgwpUL0EeymDKUDinvg6Q" name="model" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wpgwpkL0EeymDKUDinvg6Q" name="uMLClassDiagram" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wpgwp0L0EeymDKUDinvg6Q" outgoingEdges="_wpgwlUL0EeymDKUDinvg6Q" incomingEdges="_wpgwkkL0EeymDKUDinvg6Q" name="delete elements">
+    <storyPattern uuid="_wpgwqEL0EeymDKUDinvg6Q" name="delete elements">
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wpgwqUL0EeymDKUDinvg6Q" modifier="DESTROY" name="model" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wpgwqkL0EeymDKUDinvg6Q" modifier="DESTROY" name="uMLClassDiagram" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wpgwq0L0EeymDKUDinvg6Q" modifier="DESTROY" name="corrAxiom" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wpgwrEL0EeymDKUDinvg6Q" incomingEdges="_wpgwlkL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wpgwrUL0EeymDKUDinvg6Q" parameter="_wpgwukL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wpgwrkL0EeymDKUDinvg6Q" expressionString="corrAxiom" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_wpgwr0L0EeymDKUDinvg6Q" parameter="_wpgwvEL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wpgwsEL0EeymDKUDinvg6Q" expressionString="model" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_wpgwsUL0EeymDKUDinvg6Q" parameter="_wpgwvUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wpgwskL0EeymDKUDinvg6Q" expressionString="uMLClassDiagram" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wpgws0L0EeymDKUDinvg6Q" incomingEdges="_wpgwkUL0EeymDKUDinvg6Q _wpgwlUL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wpgwtEL0EeymDKUDinvg6Q" parameter="_wpgwukL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wpgwtUL0EeymDKUDinvg6Q" expressionString="null" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_wpgwtkL0EeymDKUDinvg6Q" parameter="_wpgwvEL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wpgwt0L0EeymDKUDinvg6Q" expressionString="null" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_wpgwuEL0EeymDKUDinvg6Q" parameter="_wpgwvUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wpgwuUL0EeymDKUDinvg6Q" expressionString="null" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <parameters uuid="_wpgwukL0EeymDKUDinvg6Q" name="corrAxiom" direction="OUT">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+  </parameters>
+  <parameters uuid="_wpgwu0L0EeymDKUDinvg6Q" name="name">
+    <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </parameters>
+  <parameters uuid="_wpgwvEL0EeymDKUDinvg6Q" name="model" direction="OUT">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model"/>
+  </parameters>
+  <parameters uuid="_wpgwvUL0EeymDKUDinvg6Q" name="uMLClassDiagram" direction="OUT">
+    <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+  </parameters>
+</mlsdm:Activity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mapping:MappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mapping="http://www.mdelab.de/migmm/mapping/1.0">
+  <mappings>
+    <source href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+    <target href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//CorrAxiom_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrPkg"/>
+    <target href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//CorrPkg_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrClass"/>
+    <target href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//CorrClass_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAssociation"/>
+    <target href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//CorrAssociation_adapted"/>
+  </mappings>
+  <pkg href="java2class_adapted.ecore#/"/>
+  <axiomClass href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//History2History"/>
+</mapping:MappingRoot>

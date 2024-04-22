@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/de.mdelab.migmm.history.tggh/src" modelPluginID="de.mdelab.migmm.history.tggh"
+    modelName="Tggh" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    usedGenPackages="../../de.mdelab.migmm.history/model/history.genmodel#//history ../../de.mdelab.mlcore/model/mlcore.genmodel#//mlcore ../../de.mdelab.mltgg.mote2/model/mote2.genmodel#//mote2"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>tggh.ecore</foreignModel>
+  <genPackages prefix="Tggh" disposableProviderFactory="true" ecorePackage="tggh.ecore#/">
+    <genClasses ecoreClass="tggh.ecore#//History2History"/>
+    <genClasses ecoreClass="tggh.ecore#//TGGNodeWithHistory"/>
+  </genPackages>
+</genmodel:GenModel>

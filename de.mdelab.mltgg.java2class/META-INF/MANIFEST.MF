@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: de.mdelab.mltgg.java2class;singleton:=true
+Automatic-Module-Name: de.mdelab.mltgg.java2class
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.emf.ecore;visibilit
+ y:=reexport,de.mdelab.mltgg.mote2;visibility:=reexport,de.mdelab.mlcore
+ ;visibility:=reexport,de.mdelab.mltgg.mote2.sdm;visibility:=reexport,de
+ .mdelab.mlsdm;visibility:=reexport,de.mdelab.mlexpressions;visibility:=
+ reexport,de.mdelab.mlstorypatterns;visibility:=reexport,de.mdelab.mlexp
+ ressions.mlcallactions;visibility:=reexport,de.mdelab.mlsdm.interpreter
+ .eclipse;bundle-version="1.0.0";visibility:=reexport,de.mdelab.mlsdm.in
+ terpreter;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: de.mdelab.mltgg.java2class.java2class,de.mdelab.mltgg.ja
+ va2class.java2class.generated,de.mdelab.mltgg.java2class.java2class.gen
+ erated.impl,de.mdelab.mltgg.java2class.java2class.generated.util,de.mde
+ lab.mltgg.java2class.java2class.impl,de.mdelab.mltgg.java2class.java2cl
+ ass.util
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+

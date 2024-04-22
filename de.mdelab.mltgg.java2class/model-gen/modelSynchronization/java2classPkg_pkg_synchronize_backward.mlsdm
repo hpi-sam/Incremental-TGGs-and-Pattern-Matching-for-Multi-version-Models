@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlsdm:Activity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlexpressions.mlcallactions="http://www.mdelab.de/mlexpressions/mlcallactions/1.0" xmlns:mlsdm="http://www.mdelab.de/mlsdm/1.0" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" uuid="_wr2S4EL0EeymDKUDinvg6Q" name="java2classPkg_pkg_synchronize_backward">
+  <edges uuid="_wr2S4UL0EeymDKUDinvg6Q" source="_wr2TNkL0EeymDKUDinvg6Q" target="_wr2TPEL0EeymDKUDinvg6Q" guardType="ELSE"/>
+  <edges uuid="_wr2S4kL0EeymDKUDinvg6Q" source="_wr2TPEL0EeymDKUDinvg6Q" target="_wr2TQEL0EeymDKUDinvg6Q"/>
+  <edges uuid="_wr2S40L0EeymDKUDinvg6Q" source="_wr2TQEL0EeymDKUDinvg6Q" target="_wr2TM0L0EeymDKUDinvg6Q" guardType="BOOLEAN">
+    <guardExpression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2S5EL0EeymDKUDinvg6Q" expressionString="__repairResult = mote2::operationalTGG::ErrorCodeEnum::OK or &#xA;__repairResult = mote2::operationalTGG::ErrorCodeEnum::REPAIR_POSTPONED" expressionLanguageID="OCL"/>
+  </edges>
+  <edges uuid="_wr2S5UL0EeymDKUDinvg6Q" source="_wr2TQEL0EeymDKUDinvg6Q" target="_wr2TQUL0EeymDKUDinvg6Q" guardType="ELSE"/>
+  <edges uuid="_wr2S5kL0EeymDKUDinvg6Q" source="_wr2TA0L0EeymDKUDinvg6Q" target="_wr2TBEL0EeymDKUDinvg6Q"/>
+  <edges uuid="_wr2S50L0EeymDKUDinvg6Q" source="_wr2TBEL0EeymDKUDinvg6Q" target="_wr2TDUL0EeymDKUDinvg6Q" guardType="SUCCESS"/>
+  <edges uuid="_wr2S6EL0EeymDKUDinvg6Q" source="_wr2TBEL0EeymDKUDinvg6Q" target="_wr2TW0L0EeymDKUDinvg6Q" guardType="FAILURE"/>
+  <edges uuid="_wr2S6UL0EeymDKUDinvg6Q" source="_wr2TDUL0EeymDKUDinvg6Q" target="_wr2TI0L0EeymDKUDinvg6Q" guardType="SUCCESS"/>
+  <edges uuid="_wr2S6kL0EeymDKUDinvg6Q" source="_wr2TDUL0EeymDKUDinvg6Q" target="_wr2TNkL0EeymDKUDinvg6Q" guardType="FAILURE"/>
+  <edges uuid="_wr2S60L0EeymDKUDinvg6Q" source="_wr2TI0L0EeymDKUDinvg6Q" target="_wr2TJkL0EeymDKUDinvg6Q"/>
+  <edges uuid="_wr2S7EL0EeymDKUDinvg6Q" source="_wr2TJkL0EeymDKUDinvg6Q" target="_wr2TXkL0EeymDKUDinvg6Q" guardType="SUCCESS"/>
+  <edges uuid="_wr2S7UL0EeymDKUDinvg6Q" source="_wr2TJkL0EeymDKUDinvg6Q" target="_wr2TKUL0EeymDKUDinvg6Q" guardType="FAILURE"/>
+  <edges uuid="_wr2S7kL0EeymDKUDinvg6Q" source="_wr2TKUL0EeymDKUDinvg6Q" target="_wr2TLEL0EeymDKUDinvg6Q" guardType="SUCCESS"/>
+  <edges uuid="_wr2S70L0EeymDKUDinvg6Q" source="_wr2TKUL0EeymDKUDinvg6Q" target="_wr2TYUL0EeymDKUDinvg6Q" guardType="FAILURE"/>
+  <edges uuid="_wr2S8EL0EeymDKUDinvg6Q" source="_wr2TLEL0EeymDKUDinvg6Q" target="_wr2TLUL0EeymDKUDinvg6Q" guardType="BOOLEAN">
+    <guardExpression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_wr2S8UL0EeymDKUDinvg6Q">
+      <callActions xsi:type="mlexpressions.mlcallactions:VariableReferenceAction" uuid="_wr2S8kL0EeymDKUDinvg6Q" name="__checkAttributeFormulae">
+        <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      </callActions>
+    </guardExpression>
+  </edges>
+  <edges uuid="_wr2S80L0EeymDKUDinvg6Q" source="_wr2TLEL0EeymDKUDinvg6Q" target="_wr2TM0L0EeymDKUDinvg6Q" guardType="ELSE"/>
+  <edges uuid="_wr2S9EL0EeymDKUDinvg6Q" source="_wr2TLUL0EeymDKUDinvg6Q" target="_wr2TMEL0EeymDKUDinvg6Q"/>
+  <edges uuid="_wr2S9UL0EeymDKUDinvg6Q" source="_wr2TMEL0EeymDKUDinvg6Q" target="_wr2TM0L0EeymDKUDinvg6Q" guardType="SUCCESS"/>
+  <edges uuid="_wr2S9kL0EeymDKUDinvg6Q" source="_wr2TMEL0EeymDKUDinvg6Q" target="_wr2TZEL0EeymDKUDinvg6Q" guardType="FAILURE"/>
+  <edges uuid="_wr2S90L0EeymDKUDinvg6Q" source="_wr2TM0L0EeymDKUDinvg6Q" target="_wr2TNEL0EeymDKUDinvg6Q"/>
+  <edges uuid="_wr2S-EL0EeymDKUDinvg6Q" source="_wr2TNEL0EeymDKUDinvg6Q" target="_wr2TZ0L0EeymDKUDinvg6Q"/>
+  <edges uuid="_wr2S-UL0EeymDKUDinvg6Q" source="_wr2TNkL0EeymDKUDinvg6Q" target="_wr2TN0L0EeymDKUDinvg6Q" guardType="BOOLEAN">
+    <guardExpression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2S-kL0EeymDKUDinvg6Q" expressionString="__inputTggNode.rightNodes->forAll(e|e.oclAsType(ecore::EObject).eContainer() = null)" expressionLanguageID="OCL"/>
+  </edges>
+  <edges uuid="_wr2S-0L0EeymDKUDinvg6Q" source="_wr2TN0L0EeymDKUDinvg6Q" target="_wr2TakL0EeymDKUDinvg6Q" guardType="SUCCESS"/>
+  <edges uuid="_wr2S_EL0EeymDKUDinvg6Q" source="_wr2TN0L0EeymDKUDinvg6Q" target="_wr2TbUL0EeymDKUDinvg6Q" guardType="FAILURE"/>
+  <edges uuid="_wr2S_UL0EeymDKUDinvg6Q" source="_wr2TQEL0EeymDKUDinvg6Q" target="_wr2TRUL0EeymDKUDinvg6Q" guardType="BOOLEAN">
+    <guardExpression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2S_kL0EeymDKUDinvg6Q" expressionString="__repairResult = mote2::operationalTGG::ErrorCodeEnum::CANNOT_REPAIR" expressionLanguageID="OCL"/>
+  </edges>
+  <edges uuid="_wr2S_0L0EeymDKUDinvg6Q" source="_wr2TRUL0EeymDKUDinvg6Q" target="_wr2TTkL0EeymDKUDinvg6Q" guardType="END"/>
+  <edges uuid="_wr2TAEL0EeymDKUDinvg6Q" source="_wr2TTkL0EeymDKUDinvg6Q" target="_wr2TVkL0EeymDKUDinvg6Q" guardType="END"/>
+  <edges uuid="_wr2TAUL0EeymDKUDinvg6Q" source="_wr2TVkL0EeymDKUDinvg6Q" target="_wr2TcEL0EeymDKUDinvg6Q" guardType="SUCCESS"/>
+  <edges uuid="_wr2TAkL0EeymDKUDinvg6Q" source="_wr2TVkL0EeymDKUDinvg6Q" target="_wr2Tc0L0EeymDKUDinvg6Q" guardType="FAILURE"/>
+  <nodes xsi:type="mlsdm:InitialNode" uuid="_wr2TA0L0EeymDKUDinvg6Q" outgoingEdges="_wr2S5kL0EeymDKUDinvg6Q"/>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wr2TBEL0EeymDKUDinvg6Q" outgoingEdges="_wr2S50L0EeymDKUDinvg6Q _wr2S6EL0EeymDKUDinvg6Q" incomingEdges="_wr2S5kL0EeymDKUDinvg6Q" name="match TGG engine">
+    <storyPattern uuid="_wr2TBUL0EeymDKUDinvg6Q" name="match TGG engine">
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TBkL0EeymDKUDinvg6Q" source="_wr2TCkL0EeymDKUDinvg6Q" target="_wr2TCUL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalRuleGroup/rules"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TB0L0EeymDKUDinvg6Q" source="_wr2TC0L0EeymDKUDinvg6Q" target="_wr2TCkL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalTGG/operationalRuleGroups"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TCEL0EeymDKUDinvg6Q" source="_wr2TDEL0EeymDKUDinvg6Q" target="_wr2TC0L0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/operationalTGG"/>
+      </storyPatternLinks>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TCUL0EeymDKUDinvg6Q" name="__thisRule" incomingLinks="_wr2TBkL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalRule"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TCkL0EeymDKUDinvg6Q" name="__ruleGroup" outgoingLinks="_wr2TBkL0EeymDKUDinvg6Q" incomingLinks="_wr2TB0L0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalRuleGroup"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TC0L0EeymDKUDinvg6Q" name="__opTgg" outgoingLinks="_wr2TB0L0EeymDKUDinvg6Q" incomingLinks="_wr2TCEL0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalTGG"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TDEL0EeymDKUDinvg6Q" name="__tggEngine" outgoingLinks="_wr2TCEL0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wr2TDUL0EeymDKUDinvg6Q" outgoingEdges="_wr2S6UL0EeymDKUDinvg6Q _wr2S6kL0EeymDKUDinvg6Q" incomingEdges="_wr2S50L0EeymDKUDinvg6Q" name="check pattern and constraints">
+    <storyPattern uuid="_wr2TDkL0EeymDKUDinvg6Q" name="check pattern and constraints">
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TD0L0EeymDKUDinvg6Q" source="_wr2THUL0EeymDKUDinvg6Q" target="_wr2THEL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/ownedElements"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TEEL0EeymDKUDinvg6Q" source="_wr2TIkL0EeymDKUDinvg6Q" target="_wr2THkL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/rightNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TEUL0EeymDKUDinvg6Q" source="_wr2TH0L0EeymDKUDinvg6Q" target="_wr2THEL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/leftNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TEkL0EeymDKUDinvg6Q" source="_wr2TIkL0EeymDKUDinvg6Q" target="_wr2THUL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/leftNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_wr2TE0L0EeymDKUDinvg6Q" source="_wr2TG0L0EeymDKUDinvg6Q" target="_wr2THEL0EeymDKUDinvg6Q" valueTarget="_wr2TH0L0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/coveredLeftElements"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_wr2TFEL0EeymDKUDinvg6Q" source="_wr2TG0L0EeymDKUDinvg6Q" target="_wr2THUL0EeymDKUDinvg6Q" valueTarget="_wr2TIkL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/coveredLeftElements"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_wr2TFUL0EeymDKUDinvg6Q" source="_wr2TG0L0EeymDKUDinvg6Q" target="_wr2THkL0EeymDKUDinvg6Q" valueTarget="_wr2TIkL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/coveredRightElements"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_wr2TFkL0EeymDKUDinvg6Q" source="_wr2TG0L0EeymDKUDinvg6Q" target="_wr2TH0L0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/tggNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_wr2TF0L0EeymDKUDinvg6Q" source="_wr2TGkL0EeymDKUDinvg6Q" target="_wr2TH0L0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalMapping/createdTGGNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TGEL0EeymDKUDinvg6Q" source="_wr2TH0L0EeymDKUDinvg6Q" target="_wr2TGkL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/createdBy"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TGUL0EeymDKUDinvg6Q" source="_wr2TIkL0EeymDKUDinvg6Q" target="_wr2TH0L0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/next"/>
+      </storyPatternLinks>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TGkL0EeymDKUDinvg6Q" name="__thisRule" outgoingLinks="_wr2TF0L0EeymDKUDinvg6Q" incomingLinks="_wr2TGEL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalRule"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TG0L0EeymDKUDinvg6Q" name="__tggEngine" outgoingLinks="_wr2TE0L0EeymDKUDinvg6Q _wr2TFEL0EeymDKUDinvg6Q _wr2TFUL0EeymDKUDinvg6Q _wr2TFkL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2THEL0EeymDKUDinvg6Q" name="pkg" incomingLinks="_wr2TD0L0EeymDKUDinvg6Q _wr2TEUL0EeymDKUDinvg6Q _wr2TE0L0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2THUL0EeymDKUDinvg6Q" name="model" outgoingLinks="_wr2TD0L0EeymDKUDinvg6Q" incomingLinks="_wr2TEkL0EeymDKUDinvg6Q _wr2TFEL0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2THkL0EeymDKUDinvg6Q" name="uMLClassDiagram" incomingLinks="_wr2TEEL0EeymDKUDinvg6Q _wr2TFUL0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TH0L0EeymDKUDinvg6Q" name="corrPkg" outgoingLinks="_wr2TEUL0EeymDKUDinvg6Q _wr2TGEL0EeymDKUDinvg6Q" incomingLinks="_wr2TFkL0EeymDKUDinvg6Q _wr2TF0L0EeymDKUDinvg6Q _wr2TGUL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrPkg"/>
+        <assignmentExpression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_wr2TIEL0EeymDKUDinvg6Q">
+          <callActions xsi:type="mlexpressions.mlcallactions:VariableReferenceAction" uuid="_wr2TIUL0EeymDKUDinvg6Q" name="__inputTggNode">
+            <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode"/>
+          </callActions>
+        </assignmentExpression>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TIkL0EeymDKUDinvg6Q" name="corrAxiom" outgoingLinks="_wr2TEkL0EeymDKUDinvg6Q _wr2TEEL0EeymDKUDinvg6Q _wr2TGUL0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:ExpressionActivityNode" uuid="_wr2TI0L0EeymDKUDinvg6Q" outgoingEdges="_wr2S60L0EeymDKUDinvg6Q" incomingEdges="_wr2S6UL0EeymDKUDinvg6Q" name="evaluate rule variables">
+    <expressions xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_wr2TJEL0EeymDKUDinvg6Q">
+      <callActions xsi:type="mlexpressions.mlcallactions:NullValueAction" uuid="_wr2TJUL0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+      </callActions>
+    </expressions>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wr2TJkL0EeymDKUDinvg6Q" outgoingEdges="_wr2S7EL0EeymDKUDinvg6Q _wr2S7UL0EeymDKUDinvg6Q" incomingEdges="_wr2S60L0EeymDKUDinvg6Q" name="check attribute values">
+    <storyPattern uuid="_wr2TJ0L0EeymDKUDinvg6Q" name="check attribute values">
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TKEL0EeymDKUDinvg6Q" name="__thisRule" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalRule"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wr2TKUL0EeymDKUDinvg6Q" outgoingEdges="_wr2S7kL0EeymDKUDinvg6Q _wr2S70L0EeymDKUDinvg6Q" incomingEdges="_wr2S7UL0EeymDKUDinvg6Q" name="synchronize attribute values">
+    <storyPattern uuid="_wr2TKkL0EeymDKUDinvg6Q" name="synchronize attribute values">
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TK0L0EeymDKUDinvg6Q" name="__thisRule" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalRule"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:DecisionMergeNode" uuid="_wr2TLEL0EeymDKUDinvg6Q" outgoingEdges="_wr2S8EL0EeymDKUDinvg6Q _wr2S80L0EeymDKUDinvg6Q" incomingEdges="_wr2S7kL0EeymDKUDinvg6Q"/>
+  <nodes xsi:type="mlsdm:ExpressionActivityNode" uuid="_wr2TLUL0EeymDKUDinvg6Q" outgoingEdges="_wr2S9EL0EeymDKUDinvg6Q" incomingEdges="_wr2S8EL0EeymDKUDinvg6Q" name="evaluate rule variables (opposite direction)">
+    <expressions xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_wr2TLkL0EeymDKUDinvg6Q">
+      <callActions xsi:type="mlexpressions.mlcallactions:NullValueAction" uuid="_wr2TL0L0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+      </callActions>
+    </expressions>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wr2TMEL0EeymDKUDinvg6Q" outgoingEdges="_wr2S9UL0EeymDKUDinvg6Q _wr2S9kL0EeymDKUDinvg6Q" incomingEdges="_wr2S9EL0EeymDKUDinvg6Q" name="check attribute formulae">
+    <storyPattern uuid="_wr2TMUL0EeymDKUDinvg6Q" name="check attribute formulae">
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TMkL0EeymDKUDinvg6Q" name="__tggEngine" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:DecisionMergeNode" uuid="_wr2TM0L0EeymDKUDinvg6Q" outgoingEdges="_wr2S90L0EeymDKUDinvg6Q" incomingEdges="_wr2S40L0EeymDKUDinvg6Q _wr2S80L0EeymDKUDinvg6Q _wr2S9UL0EeymDKUDinvg6Q"/>
+  <nodes xsi:type="mlsdm:ExpressionActivityNode" uuid="_wr2TNEL0EeymDKUDinvg6Q" outgoingEdges="_wr2S-EL0EeymDKUDinvg6Q" incomingEdges="_wr2S90L0EeymDKUDinvg6Q" name="add all next TGGNodes to synchronization queue">
+    <expressions xsi:type="mlexpressions:MLStringExpression" uuid="_wr2TNUL0EeymDKUDinvg6Q" expressionString="__tggEngine.backwardTransformationQueue.add(__inputTggNode.next, true)" expressionLanguageID="OCL"/>
+  </nodes>
+  <nodes xsi:type="mlsdm:DecisionMergeNode" uuid="_wr2TNkL0EeymDKUDinvg6Q" outgoingEdges="_wr2S4UL0EeymDKUDinvg6Q _wr2S-UL0EeymDKUDinvg6Q" incomingEdges="_wr2S6kL0EeymDKUDinvg6Q"/>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wr2TN0L0EeymDKUDinvg6Q" outgoingEdges="_wr2S-0L0EeymDKUDinvg6Q _wr2S_EL0EeymDKUDinvg6Q" incomingEdges="_wr2S-UL0EeymDKUDinvg6Q" name="mark __inputTggNode as deleted">
+    <storyPattern uuid="_wr2TOEL0EeymDKUDinvg6Q" name="mark __inputTggNode as deleted">
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TOUL0EeymDKUDinvg6Q" modifier="CREATE" source="_wr2TOkL0EeymDKUDinvg6Q" target="_wr2TO0L0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/deletedTGGNodes"/>
+      </storyPatternLinks>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TOkL0EeymDKUDinvg6Q" name="__tggEngine" outgoingLinks="_wr2TOUL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TO0L0EeymDKUDinvg6Q" name="__inputTggNode" incomingLinks="_wr2TOUL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:ExpressionActivityNode" uuid="_wr2TPEL0EeymDKUDinvg6Q" outgoingEdges="_wr2S4kL0EeymDKUDinvg6Q" incomingEdges="_wr2S4UL0EeymDKUDinvg6Q" name="try repair by rule pkg">
+    <expressions xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_wr2TPUL0EeymDKUDinvg6Q">
+      <callActions xsi:type="mlexpressions.mlcallactions:VariableDeclarationAction" uuid="_wr2TPkL0EeymDKUDinvg6Q" name="__repairResult">
+        <type xsi:type="ecore:EEnum" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/ErrorCodeEnum"/>
+        <valueExpression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2TP0L0EeymDKUDinvg6Q" expressionString="__thisRule.repairBackward(__inputTggNode, __checkAttributeFormulae)" expressionLanguageID="OCL"/>
+      </callActions>
+    </expressions>
+  </nodes>
+  <nodes xsi:type="mlsdm:DecisionMergeNode" uuid="_wr2TQEL0EeymDKUDinvg6Q" outgoingEdges="_wr2S40L0EeymDKUDinvg6Q _wr2S5UL0EeymDKUDinvg6Q _wr2S_UL0EeymDKUDinvg6Q" incomingEdges="_wr2S4kL0EeymDKUDinvg6Q"/>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wr2TQUL0EeymDKUDinvg6Q" incomingEdges="_wr2S5UL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wr2TQkL0EeymDKUDinvg6Q" parameter="_wr2TeUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_wr2TQ0L0EeymDKUDinvg6Q">
+        <callActions xsi:type="mlexpressions.mlcallactions:VariableReferenceAction" uuid="_wr2TREL0EeymDKUDinvg6Q" name="__repairResult">
+          <type xsi:type="ecore:EEnum" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/ErrorCodeEnum"/>
+        </callActions>
+      </expression>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wr2TRUL0EeymDKUDinvg6Q" outgoingEdges="_wr2S_0L0EeymDKUDinvg6Q" incomingEdges="_wr2S_UL0EeymDKUDinvg6Q" name="delete source correspondence links" semantics="FOR_EACH_FRESH_MATCH">
+    <storyPattern uuid="_wr2TRkL0EeymDKUDinvg6Q" name="delete source correspondence links">
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TR0L0EeymDKUDinvg6Q" modifier="DESTROY" source="_wr2TTEL0EeymDKUDinvg6Q" target="_wr2TTUL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/leftNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_wr2TSEL0EeymDKUDinvg6Q" modifier="DESTROY" source="_wr2TS0L0EeymDKUDinvg6Q" target="_wr2TTUL0EeymDKUDinvg6Q" valueTarget="_wr2TTEL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/coveredLeftElements"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_wr2TSUL0EeymDKUDinvg6Q" modifier="CREATE" source="_wr2TS0L0EeymDKUDinvg6Q" target="_wr2TTUL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/uncoveredLeftElements"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TSkL0EeymDKUDinvg6Q" modifier="CREATE" source="_wr2TS0L0EeymDKUDinvg6Q" target="_wr2TTUL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/deletedElements"/>
+      </storyPatternLinks>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TS0L0EeymDKUDinvg6Q" name="__tggEngine" outgoingLinks="_wr2TSEL0EeymDKUDinvg6Q _wr2TSUL0EeymDKUDinvg6Q _wr2TSkL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TTEL0EeymDKUDinvg6Q" name="__inputTggNode" outgoingLinks="_wr2TR0L0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TTUL0EeymDKUDinvg6Q" name="__object" incomingLinks="_wr2TR0L0EeymDKUDinvg6Q _wr2TSEL0EeymDKUDinvg6Q _wr2TSUL0EeymDKUDinvg6Q _wr2TSkL0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wr2TTkL0EeymDKUDinvg6Q" outgoingEdges="_wr2TAEL0EeymDKUDinvg6Q" incomingEdges="_wr2S_0L0EeymDKUDinvg6Q" name="delete target correspondence links" semantics="FOR_EACH_FRESH_MATCH">
+    <storyPattern uuid="_wr2TT0L0EeymDKUDinvg6Q" name="delete target correspondence links">
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TUEL0EeymDKUDinvg6Q" modifier="DESTROY" source="_wr2TVEL0EeymDKUDinvg6Q" target="_wr2TVUL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/rightNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_wr2TUUL0EeymDKUDinvg6Q" modifier="DESTROY" source="_wr2TU0L0EeymDKUDinvg6Q" target="_wr2TVUL0EeymDKUDinvg6Q" valueTarget="_wr2TVEL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/coveredRightElements"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_wr2TUkL0EeymDKUDinvg6Q" modifier="CREATE" source="_wr2TU0L0EeymDKUDinvg6Q" target="_wr2TVUL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/uncoveredRightElements"/>
+      </storyPatternLinks>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TU0L0EeymDKUDinvg6Q" name="__tggEngine" outgoingLinks="_wr2TUUL0EeymDKUDinvg6Q _wr2TUkL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TVEL0EeymDKUDinvg6Q" name="__inputTggNode" outgoingLinks="_wr2TUEL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TVUL0EeymDKUDinvg6Q" name="__object" incomingLinks="_wr2TUEL0EeymDKUDinvg6Q _wr2TUUL0EeymDKUDinvg6Q _wr2TUkL0EeymDKUDinvg6Q">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_wr2TVkL0EeymDKUDinvg6Q" outgoingEdges="_wr2TAUL0EeymDKUDinvg6Q _wr2TAkL0EeymDKUDinvg6Q" incomingEdges="_wr2TAEL0EeymDKUDinvg6Q" name="mark __inputTggNode as deleted">
+    <storyPattern uuid="_wr2TV0L0EeymDKUDinvg6Q" name="mark __inputTggNode as deleted">
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_wr2TWEL0EeymDKUDinvg6Q" modifier="CREATE" source="_wr2TWUL0EeymDKUDinvg6Q" target="_wr2TWkL0EeymDKUDinvg6Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/deletedTGGNodes"/>
+      </storyPatternLinks>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TWUL0EeymDKUDinvg6Q" name="__tggEngine" outgoingLinks="_wr2TWEL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wr2TWkL0EeymDKUDinvg6Q" name="__inputTggNode" incomingLinks="_wr2TWEL0EeymDKUDinvg6Q" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wr2TW0L0EeymDKUDinvg6Q" incomingEdges="_wr2S6EL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wr2TXEL0EeymDKUDinvg6Q" parameter="_wr2TeUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2TXUL0EeymDKUDinvg6Q" expressionString="mote2::operationalTGG::ErrorCodeEnum::INTERNAL_ERROR" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wr2TXkL0EeymDKUDinvg6Q" incomingEdges="_wr2S7EL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wr2TX0L0EeymDKUDinvg6Q" parameter="_wr2TeUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2TYEL0EeymDKUDinvg6Q" expressionString="mote2::operationalTGG::ErrorCodeEnum::OK" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wr2TYUL0EeymDKUDinvg6Q" incomingEdges="_wr2S70L0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wr2TYkL0EeymDKUDinvg6Q" parameter="_wr2TeUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2TY0L0EeymDKUDinvg6Q" expressionString="mote2::operationalTGG::ErrorCodeEnum::INTERNAL_ERROR" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wr2TZEL0EeymDKUDinvg6Q" incomingEdges="_wr2S9kL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wr2TZUL0EeymDKUDinvg6Q" parameter="_wr2TeUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2TZkL0EeymDKUDinvg6Q" expressionString="mote2::operationalTGG::ErrorCodeEnum::ATTRIBUTE_FORMULA_VIOLATED" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wr2TZ0L0EeymDKUDinvg6Q" incomingEdges="_wr2S-EL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wr2TaEL0EeymDKUDinvg6Q" parameter="_wr2TeUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2TaUL0EeymDKUDinvg6Q" expressionString="mote2::operationalTGG::ErrorCodeEnum::OK" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wr2TakL0EeymDKUDinvg6Q" incomingEdges="_wr2S-0L0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wr2Ta0L0EeymDKUDinvg6Q" parameter="_wr2TeUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2TbEL0EeymDKUDinvg6Q" expressionString="mote2::operationalTGG::ErrorCodeEnum::OK" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wr2TbUL0EeymDKUDinvg6Q" incomingEdges="_wr2S_EL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wr2TbkL0EeymDKUDinvg6Q" parameter="_wr2TeUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2Tb0L0EeymDKUDinvg6Q" expressionString="mote2::operationalTGG::ErrorCodeEnum::INTERNAL_ERROR" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wr2TcEL0EeymDKUDinvg6Q" incomingEdges="_wr2TAUL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wr2TcUL0EeymDKUDinvg6Q" parameter="_wr2TeUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2TckL0EeymDKUDinvg6Q" expressionString="mote2::operationalTGG::ErrorCodeEnum::OK" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_wr2Tc0L0EeymDKUDinvg6Q" incomingEdges="_wr2TAkL0EeymDKUDinvg6Q">
+    <outputParameterValues uuid="_wr2TdEL0EeymDKUDinvg6Q" parameter="_wr2TeUL0EeymDKUDinvg6Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_wr2TdUL0EeymDKUDinvg6Q" expressionString="mote2::operationalTGG::ErrorCodeEnum::INTERNAL_ERROR" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <parameters uuid="_wr2TdkL0EeymDKUDinvg6Q" name="__thisRule">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalRule"/>
+  </parameters>
+  <parameters uuid="_wr2Td0L0EeymDKUDinvg6Q" name="__inputTggNode">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode"/>
+  </parameters>
+  <parameters uuid="_wr2TeEL0EeymDKUDinvg6Q" name="__checkAttributeFormulae">
+    <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </parameters>
+  <parameters uuid="_wr2TeUL0EeymDKUDinvg6Q" name="__errorCode" direction="OUT">
+    <type xsi:type="ecore:EEnum" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/ErrorCodeEnum"/>
+  </parameters>
+</mlsdm:Activity>

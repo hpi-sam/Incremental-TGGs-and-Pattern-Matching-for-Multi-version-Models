@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated mote2history -->
+      <package
+            uri="http://www.mdelab.de/migmm/mote2history/1.0"
+            class="de.mdelab.migmm.history.tggh.mote2history.Mote2historyPackage"
+            genModel="model/mote2history.genmodel"/>
+   </extension>
+
+</plugin>

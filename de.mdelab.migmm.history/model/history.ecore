@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="history" nsURI="http://www.mdelab.de/migmm/history/1.0" nsPrefix="history">
+  <eClassifiers xsi:type="ecore:EClass" name="History" eSuperTypes="#//ElementWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedElements" upperBound="-1"
+        eType="#//ElementWithHistory" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedIntervals" upperBound="-1"
+        eType="#//Interval" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedTimingUnits" upperBound="-1"
+        eType="#//TimingUnit" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Interval" abstract="true" interface="true">
+    <eOperations name="intersect" lowerBound="1" eType="#//Interval">
+      <eParameters name="i" lowerBound="1" eType="#//Interval"/>
+    </eOperations>
+    <eOperations name="minus" lowerBound="1" eType="#//Interval">
+      <eParameters name="i" lowerBound="1" eType="#//Interval"/>
+    </eOperations>
+    <eOperations name="union" lowerBound="1" eType="#//Interval">
+      <eParameters name="i" lowerBound="1" eType="#//Interval"/>
+    </eOperations>
+    <eOperations name="complement" eType="#//Interval"/>
+    <eOperations name="contains" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean">
+      <eParameters name="t" lowerBound="1" eType="#//TimingUnit"/>
+    </eOperations>
+    <eOperations name="isEmpty" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eOperations name="getPresentTiming">
+      <eGenericType eClassifier="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList">
+        <eTypeArguments/>
+      </eGenericType>
+    </eOperations>
+    <eOperations name="getDeletedTiming">
+      <eGenericType eClassifier="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList">
+        <eTypeArguments/>
+      </eGenericType>
+    </eOperations>
+    <eOperations name="getAbsentTiming">
+      <eGenericType eClassifier="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList">
+        <eTypeArguments/>
+      </eGenericType>
+    </eOperations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TimingUnit" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ElementWithHistory" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="validIn" lowerBound="1"
+        eType="#//Interval" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="unhandled" eType="#//Interval"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="inProjection" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean" defaultValueLiteral="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GenericCompleteInterval" eSuperTypes="#//Interval"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EdgeWithHistory" eSuperTypes="#//ElementWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="edgeSource" eType="#//NodeWithHistory"
+        eOpposite="#//NodeWithHistory/outEdges"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="edgeTarget" eType="#//NodeWithHistory"
+        eOpposite="#//NodeWithHistory/inEdges"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isContainment" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean" defaultValueLiteral="false"
+        unsettable="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContainmentEdgeWithHistory" eSuperTypes="#//EdgeWithHistory"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeWithHistory" eSuperTypes="#//ElementWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="containingNode" eType="#//NodeWithHistory"
+        eOpposite="#//NodeWithHistory/nodeAttributes"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attributeValue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NodeWithHistory" eSuperTypes="#//ElementWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inEdges" upperBound="-1"
+        eType="#//EdgeWithHistory" eOpposite="#//EdgeWithHistory/edgeTarget"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outEdges" upperBound="-1"
+        eType="#//EdgeWithHistory" eOpposite="#//EdgeWithHistory/edgeSource"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nodeAttributes" upperBound="-1"
+        eType="#//AttributeWithHistory" eOpposite="#//AttributeWithHistory/containingNode"/>
+  </eClassifiers>
+</ecore:EPackage>

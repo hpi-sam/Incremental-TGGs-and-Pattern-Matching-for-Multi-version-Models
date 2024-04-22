@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlsdm:Activity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlcore.mlannotations="http://www.mdelab.de/mlcore/mlannotations/1.0" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlexpressions.mlcallactions="http://www.mdelab.de/mlexpressions/mlcallactions/1.0" xmlns:mlsdm="http://www.mdelab.de/mlsdm/1.0" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" uuid="_G-eloOxXEe6ulILGSrAL_A" name="History2History2_History2History_transform_backward">
+  <edges uuid="_G-eloexXEe6ulILGSrAL_A" source="_G-elsuxXEe6ulILGSrAL_A" target="_G-els-xXEe6ulILGSrAL_A"/>
+  <edges uuid="_G-elouxXEe6ulILGSrAL_A" source="_G-els-xXEe6ulILGSrAL_A" target="_G-el_uxXEe6ulILGSrAL_A" guardType="FAILURE"/>
+  <edges uuid="_G-elo-xXEe6ulILGSrAL_A" source="_G-els-xXEe6ulILGSrAL_A" target="_G-elwexXEe6ulILGSrAL_A" guardType="SUCCESS"/>
+  <edges uuid="_G-elpOxXEe6ulILGSrAL_A" source="_G-elwexXEe6ulILGSrAL_A" target="_G-elyOxXEe6ulILGSrAL_A" guardType="SUCCESS"/>
+  <edges uuid="_G-elpexXEe6ulILGSrAL_A" source="_G-elyOxXEe6ulILGSrAL_A" target="_G-ely-xXEe6ulILGSrAL_A"/>
+  <edges uuid="_G-elpuxXEe6ulILGSrAL_A" source="_G-ely-xXEe6ulILGSrAL_A" target="_G-emBOxXEe6ulILGSrAL_A" guardType="FAILURE"/>
+  <edges uuid="_G-elp-xXEe6ulILGSrAL_A" source="_G-ely-xXEe6ulILGSrAL_A" target="_G-el4-xXEe6ulILGSrAL_A" guardType="SUCCESS"/>
+  <edges uuid="_G-elqOxXEe6ulILGSrAL_A" source="_G-el4-xXEe6ulILGSrAL_A" target="_G-el7uxXEe6ulILGSrAL_A"/>
+  <edges uuid="_G-elqexXEe6ulILGSrAL_A" source="_G-el7uxXEe6ulILGSrAL_A" target="_G-el7-xXEe6ulILGSrAL_A" guardType="BOOLEAN">
+    <guardExpression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-elquxXEe6ulILGSrAL_A">
+      <callActions xsi:type="mlexpressions.mlcallactions:VariableReferenceAction" uuid="_G-elq-xXEe6ulILGSrAL_A" name="__checkAttributeFormulae">
+        <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      </callActions>
+    </guardExpression>
+  </edges>
+  <edges uuid="_G-elrOxXEe6ulILGSrAL_A" source="_G-el7uxXEe6ulILGSrAL_A" target="_G-el9exXEe6ulILGSrAL_A" guardType="ELSE"/>
+  <edges uuid="_G-elrexXEe6ulILGSrAL_A" source="_G-el7-xXEe6ulILGSrAL_A" target="_G-el8uxXEe6ulILGSrAL_A"/>
+  <edges uuid="_G-elruxXEe6ulILGSrAL_A" source="_G-el8uxXEe6ulILGSrAL_A" target="_G-emCuxXEe6ulILGSrAL_A" guardType="FAILURE"/>
+  <edges uuid="_G-elr-xXEe6ulILGSrAL_A" source="_G-el8uxXEe6ulILGSrAL_A" target="_G-el9exXEe6ulILGSrAL_A" guardType="SUCCESS"/>
+  <edges uuid="_G-elsOxXEe6ulILGSrAL_A" source="_G-el9exXEe6ulILGSrAL_A" target="_G-el9uxXEe6ulILGSrAL_A"/>
+  <edges uuid="_G-elsexXEe6ulILGSrAL_A" source="_G-el9uxXEe6ulILGSrAL_A" target="_G-el-OxXEe6ulILGSrAL_A"/>
+  <nodes xsi:type="mlsdm:InitialNode" uuid="_G-elsuxXEe6ulILGSrAL_A" outgoingEdges="_G-eloexXEe6ulILGSrAL_A"/>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_G-els-xXEe6ulILGSrAL_A" outgoingEdges="_G-elouxXEe6ulILGSrAL_A _G-elo-xXEe6ulILGSrAL_A" incomingEdges="_G-eloexXEe6ulILGSrAL_A" name="match LHS">
+    <storyPattern uuid="_G-eltOxXEe6ulILGSrAL_A" name="match LHS">
+      <annotations uuid="_G-eltexXEe6ulILGSrAL_A">
+        <annotationDetails xsi:type="mlcore.mlannotations:MLStringAnnotationDetails" uuid="_G-eltuxXEe6ulILGSrAL_A" stringAnnotation="versioned"/>
+      </annotations>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_G-elt-xXEe6ulILGSrAL_A" source="_G-elu-xXEe6ulILGSrAL_A" target="_G-eluuxXEe6ulILGSrAL_A">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalAxiomGroup/axioms"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_G-eluOxXEe6ulILGSrAL_A" source="_G-elvOxXEe6ulILGSrAL_A" target="_G-elu-xXEe6ulILGSrAL_A">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalTGG/operationalAxiomGroup"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_G-eluexXEe6ulILGSrAL_A" source="_G-elvexXEe6ulILGSrAL_A" target="_G-elvOxXEe6ulILGSrAL_A">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/operationalTGG"/>
+      </storyPatternLinks>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-eluuxXEe6ulILGSrAL_A" name="__thisRule" incomingLinks="_G-elt-xXEe6ulILGSrAL_A" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalAxiom"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-elu-xXEe6ulILGSrAL_A" name="__ruleGroup" outgoingLinks="_G-elt-xXEe6ulILGSrAL_A" incomingLinks="_G-eluOxXEe6ulILGSrAL_A">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalAxiomGroup"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-elvOxXEe6ulILGSrAL_A" name="__opTgg" outgoingLinks="_G-eluOxXEe6ulILGSrAL_A" incomingLinks="_G-eluexXEe6ulILGSrAL_A">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalTGG"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-elvexXEe6ulILGSrAL_A" name="__tggEngine" outgoingLinks="_G-eluexXEe6ulILGSrAL_A">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-elvuxXEe6ulILGSrAL_A" name="right" bindingType="BOUND">
+        <annotations uuid="_G-elv-xXEe6ulILGSrAL_A">
+          <annotationDetails xsi:type="mlcore.mlannotations:MLStringAnnotationDetails" uuid="_G-elwOxXEe6ulILGSrAL_A" stringAnnotation="translated"/>
+        </annotations>
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:ExpressionActivityNode" uuid="_G-elwexXEe6ulILGSrAL_A" outgoingEdges="_G-elpOxXEe6ulILGSrAL_A" incomingEdges="_G-elo-xXEe6ulILGSrAL_A" name="compute validity interval">
+    <expressions xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-elwuxXEe6ulILGSrAL_A">
+      <callActions xsi:type="mlexpressions.mlcallactions:VariableDeclarationAction" uuid="_G-elw-xXEe6ulILGSrAL_A" name="validity">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//Interval"/>
+        <valueExpression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-elxOxXEe6ulILGSrAL_A">
+          <callActions xsi:type="mlexpressions.mlcallactions:CloneAction" uuid="_G-elxexXEe6ulILGSrAL_A">
+            <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//Interval"/>
+            <valueExpression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-elxuxXEe6ulILGSrAL_A">
+              <callActions xsi:type="mlexpressions.mlcallactions:VariableReferenceAction" uuid="_G-elx-xXEe6ulILGSrAL_A" name="_matchingInterval">
+                <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//Interval"/>
+              </callActions>
+            </valueExpression>
+          </callActions>
+        </valueExpression>
+      </callActions>
+    </expressions>
+  </nodes>
+  <nodes xsi:type="mlsdm:ExpressionActivityNode" uuid="_G-elyOxXEe6ulILGSrAL_A" outgoingEdges="_G-elpexXEe6ulILGSrAL_A" incomingEdges="_G-elpOxXEe6ulILGSrAL_A" name="evaluate rule variables">
+    <expressions xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-elyexXEe6ulILGSrAL_A">
+      <callActions xsi:type="mlexpressions.mlcallactions:NullValueAction" uuid="_G-elyuxXEe6ulILGSrAL_A">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+      </callActions>
+    </expressions>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_G-ely-xXEe6ulILGSrAL_A" outgoingEdges="_G-elpuxXEe6ulILGSrAL_A _G-elp-xXEe6ulILGSrAL_A" incomingEdges="_G-elpexXEe6ulILGSrAL_A" name="transform elements">
+    <storyPattern uuid="_G-elzOxXEe6ulILGSrAL_A" name="transform elements">
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_G-elzexXEe6ulILGSrAL_A" modifier="CREATE" source="_G-el3uxXEe6ulILGSrAL_A" target="_G-el1OxXEe6ulILGSrAL_A">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/leftNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_G-elzuxXEe6ulILGSrAL_A" modifier="CREATE" source="_G-el3uxXEe6ulILGSrAL_A" target="_G-el2exXEe6ulILGSrAL_A">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/rightNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_G-elz-xXEe6ulILGSrAL_A" modifier="CREATE" source="_G-el0-xXEe6ulILGSrAL_A" target="_G-el3uxXEe6ulILGSrAL_A">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine/tggNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:MapEntryLink" uuid="_G-el0OxXEe6ulILGSrAL_A" modifier="CREATE" source="_G-el0uxXEe6ulILGSrAL_A" target="_G-el3uxXEe6ulILGSrAL_A">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalMapping/createdTGGNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_G-el0exXEe6ulILGSrAL_A" modifier="CREATE" source="_G-el3uxXEe6ulILGSrAL_A" target="_G-el0uxXEe6ulILGSrAL_A">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/createdBy"/>
+      </storyPatternLinks>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-el0uxXEe6ulILGSrAL_A" name="__thisRule" outgoingLinks="_G-el0OxXEe6ulILGSrAL_A" incomingLinks="_G-el0exXEe6ulILGSrAL_A" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalAxiom"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-el0-xXEe6ulILGSrAL_A" name="__tggEngine" outgoingLinks="_G-elz-xXEe6ulILGSrAL_A" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-el1OxXEe6ulILGSrAL_A" modifier="CREATE" name="left" incomingLinks="_G-elzexXEe6ulILGSrAL_A">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+        <attributeAssignments uuid="_G-el1exXEe6ulILGSrAL_A">
+          <assignmentExpression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-el1uxXEe6ulILGSrAL_A">
+            <callActions xsi:type="mlexpressions.mlcallactions:CloneAction" uuid="_G-el1-xXEe6ulILGSrAL_A">
+              <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//Interval"/>
+              <valueExpression xsi:type="mlexpressions:MLStringExpression" uuid="_G-el2OxXEe6ulILGSrAL_A" expressionString="validity" expressionLanguageID="OCL"/>
+            </callActions>
+          </assignmentExpression>
+          <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/migmm/history/1.0#//ElementWithHistory/validIn"/>
+        </attributeAssignments>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-el2exXEe6ulILGSrAL_A" name="right" incomingLinks="_G-elzuxXEe6ulILGSrAL_A" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+        <attributeAssignments uuid="_G-el2uxXEe6ulILGSrAL_A">
+          <assignmentExpression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-el2-xXEe6ulILGSrAL_A">
+            <callActions xsi:type="mlexpressions.mlcallactions:CloneAction" uuid="_G-el3OxXEe6ulILGSrAL_A">
+              <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//Interval"/>
+              <valueExpression xsi:type="mlexpressions:MLStringExpression" uuid="_G-el3exXEe6ulILGSrAL_A" expressionString="self.unhandled.minus(validity)" expressionLanguageID="OCL"/>
+            </callActions>
+          </assignmentExpression>
+          <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/migmm/history/1.0#//ElementWithHistory/unhandled"/>
+        </attributeAssignments>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-el3uxXEe6ulILGSrAL_A" modifier="CREATE" name="corr" outgoingLinks="_G-elzexXEe6ulILGSrAL_A _G-elzuxXEe6ulILGSrAL_A _G-el0exXEe6ulILGSrAL_A" incomingLinks="_G-elz-xXEe6ulILGSrAL_A _G-el0OxXEe6ulILGSrAL_A">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//History2History"/>
+        <attributeAssignments uuid="_G-el3-xXEe6ulILGSrAL_A">
+          <assignmentExpression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-el4OxXEe6ulILGSrAL_A">
+            <callActions xsi:type="mlexpressions.mlcallactions:CloneAction" uuid="_G-el4exXEe6ulILGSrAL_A">
+              <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//Interval"/>
+              <valueExpression xsi:type="mlexpressions:MLStringExpression" uuid="_G-el4uxXEe6ulILGSrAL_A" expressionString="validity" expressionLanguageID="OCL"/>
+            </callActions>
+          </assignmentExpression>
+          <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/migmm/history/1.0#//ElementWithHistory/validIn"/>
+        </attributeAssignments>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:ExpressionActivityNode" uuid="_G-el4-xXEe6ulILGSrAL_A" outgoingEdges="_G-elqOxXEe6ulILGSrAL_A" incomingEdges="_G-elp-xXEe6ulILGSrAL_A" name="register covering correspondence node">
+    <expressions xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-el5OxXEe6ulILGSrAL_A">
+      <callActions xsi:type="mlexpressions.mlcallactions:EOperationCallAction" uuid="_G-el5exXEe6ulILGSrAL_A">
+        <parameters uuid="_G-el5uxXEe6ulILGSrAL_A">
+          <valueExpression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-el5-xXEe6ulILGSrAL_A">
+            <callActions xsi:type="mlexpressions.mlcallactions:VariableReferenceAction" uuid="_G-el6OxXEe6ulILGSrAL_A" name="right">
+              <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+            </callActions>
+          </valueExpression>
+        </parameters>
+        <parameters uuid="_G-el6exXEe6ulILGSrAL_A">
+          <valueExpression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-el6uxXEe6ulILGSrAL_A">
+            <callActions xsi:type="mlexpressions.mlcallactions:VariableReferenceAction" uuid="_G-el6-xXEe6ulILGSrAL_A" name="corr">
+              <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode"/>
+            </callActions>
+          </valueExpression>
+        </parameters>
+        <thisParameterValue xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-el7OxXEe6ulILGSrAL_A">
+          <callActions xsi:type="mlexpressions.mlcallactions:VariableReferenceAction" uuid="_G-el7exXEe6ulILGSrAL_A" name="__tggEngine">
+            <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/mote2history/1.0#//TGGHEngine"/>
+          </callActions>
+        </thisParameterValue>
+        <eOperation href="http://www.mdelab.de/migmm/mote2history/1.0#//TGGHEngine/registerCoveringCorrNode"/>
+      </callActions>
+    </expressions>
+  </nodes>
+  <nodes xsi:type="mlsdm:DecisionMergeNode" uuid="_G-el7uxXEe6ulILGSrAL_A" outgoingEdges="_G-elqexXEe6ulILGSrAL_A _G-elrOxXEe6ulILGSrAL_A" incomingEdges="_G-elqOxXEe6ulILGSrAL_A"/>
+  <nodes xsi:type="mlsdm:ExpressionActivityNode" uuid="_G-el7-xXEe6ulILGSrAL_A" outgoingEdges="_G-elrexXEe6ulILGSrAL_A" incomingEdges="_G-elqexXEe6ulILGSrAL_A" name="evaluate rule variables (opposite direction)">
+    <expressions xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-el8OxXEe6ulILGSrAL_A">
+      <callActions xsi:type="mlexpressions.mlcallactions:NullValueAction" uuid="_G-el8exXEe6ulILGSrAL_A">
+        <type xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+      </callActions>
+    </expressions>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_G-el8uxXEe6ulILGSrAL_A" outgoingEdges="_G-elruxXEe6ulILGSrAL_A _G-elr-xXEe6ulILGSrAL_A" incomingEdges="_G-elrexXEe6ulILGSrAL_A" name="check attribute formulae">
+    <storyPattern uuid="_G-el8-xXEe6ulILGSrAL_A" name="check attribute formulae">
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_G-el9OxXEe6ulILGSrAL_A" name="__tggEngine" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGEngine"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:DecisionMergeNode" uuid="_G-el9exXEe6ulILGSrAL_A" outgoingEdges="_G-elsOxXEe6ulILGSrAL_A" incomingEdges="_G-elrOxXEe6ulILGSrAL_A _G-elr-xXEe6ulILGSrAL_A"/>
+  <nodes xsi:type="mlsdm:ExpressionActivityNode" uuid="_G-el9uxXEe6ulILGSrAL_A" outgoingEdges="_G-elsexXEe6ulILGSrAL_A" incomingEdges="_G-elsOxXEe6ulILGSrAL_A" name="add TGGNode to transformation queue">
+    <expressions xsi:type="mlexpressions:MLStringExpression" uuid="_G-el9-xXEe6ulILGSrAL_A" expressionString="__tggEngine.backwardTransformationQueue.add(corr, false)" expressionLanguageID="OCL"/>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_G-el-OxXEe6ulILGSrAL_A" incomingEdges="_G-elsexXEe6ulILGSrAL_A">
+    <outputParameterValues uuid="_G-el-exXEe6ulILGSrAL_A" parameter="_G-emEexXEe6ulILGSrAL_A">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_G-el-uxXEe6ulILGSrAL_A" expressionString="mote2::operationalTGG::ErrorCodeEnum::OK" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_G-el--xXEe6ulILGSrAL_A" parameter="_G-emE-xXEe6ulILGSrAL_A">
+      <expression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-el_OxXEe6ulILGSrAL_A">
+        <callActions xsi:type="mlexpressions.mlcallactions:VariableReferenceAction" uuid="_G-el_exXEe6ulILGSrAL_A" name="left">
+          <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+        </callActions>
+      </expression>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_G-el_uxXEe6ulILGSrAL_A" incomingEdges="_G-elouxXEe6ulILGSrAL_A">
+    <outputParameterValues uuid="_G-el_-xXEe6ulILGSrAL_A" parameter="_G-emEexXEe6ulILGSrAL_A">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_G-emAOxXEe6ulILGSrAL_A" expressionString="mote2::operationalTGG::ErrorCodeEnum::AXIOM_NOT_APPLICABLE" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_G-emAexXEe6ulILGSrAL_A" parameter="_G-emE-xXEe6ulILGSrAL_A">
+      <expression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-emAuxXEe6ulILGSrAL_A">
+        <callActions xsi:type="mlexpressions.mlcallactions:NullValueAction" uuid="_G-emA-xXEe6ulILGSrAL_A">
+          <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+        </callActions>
+      </expression>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_G-emBOxXEe6ulILGSrAL_A" incomingEdges="_G-elpuxXEe6ulILGSrAL_A">
+    <outputParameterValues uuid="_G-emBexXEe6ulILGSrAL_A" parameter="_G-emEexXEe6ulILGSrAL_A">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_G-emBuxXEe6ulILGSrAL_A" expressionString="mote2::operationalTGG::ErrorCodeEnum::INTERNAL_ERROR" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_G-emB-xXEe6ulILGSrAL_A" parameter="_G-emE-xXEe6ulILGSrAL_A">
+      <expression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-emCOxXEe6ulILGSrAL_A">
+        <callActions xsi:type="mlexpressions.mlcallactions:NullValueAction" uuid="_G-emCexXEe6ulILGSrAL_A">
+          <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+        </callActions>
+      </expression>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_G-emCuxXEe6ulILGSrAL_A" incomingEdges="_G-elruxXEe6ulILGSrAL_A">
+    <outputParameterValues uuid="_G-emC-xXEe6ulILGSrAL_A" parameter="_G-emEexXEe6ulILGSrAL_A">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_G-emDOxXEe6ulILGSrAL_A" expressionString="mote2::operationalTGG::ErrorCodeEnum::ATTRIBUTE_FORMULA_VIOLATED" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_G-emDexXEe6ulILGSrAL_A" parameter="_G-emE-xXEe6ulILGSrAL_A">
+      <expression xsi:type="mlexpressions.mlcallactions:CallActionExpression" uuid="_G-emDuxXEe6ulILGSrAL_A">
+        <callActions xsi:type="mlexpressions.mlcallactions:NullValueAction" uuid="_G-emD-xXEe6ulILGSrAL_A">
+          <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+        </callActions>
+      </expression>
+    </outputParameterValues>
+  </nodes>
+  <parameters uuid="_G-emEOxXEe6ulILGSrAL_A" name="__thisRule">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/OperationalAxiom"/>
+  </parameters>
+  <parameters uuid="_G-emEexXEe6ulILGSrAL_A" name="__errorCode" direction="OUT">
+    <type xsi:type="ecore:EEnum" href="http://www.mdelab.de/mltgg/mote2/1.0#//operationalTGG/ErrorCodeEnum"/>
+  </parameters>
+  <parameters uuid="_G-emEuxXEe6ulILGSrAL_A" name="__checkAttributeFormulae">
+    <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </parameters>
+  <parameters uuid="_G-emE-xXEe6ulILGSrAL_A" name="left" direction="OUT">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+  </parameters>
+  <parameters uuid="_G-emFOxXEe6ulILGSrAL_A" name="right">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+  </parameters>
+</mlsdm:Activity>

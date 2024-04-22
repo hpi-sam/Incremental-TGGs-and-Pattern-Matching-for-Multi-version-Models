@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mapping:MappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mapping="http://www.mdelab.de/migmm/mapping/1.0">
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodDeclaration"/>
+    <target href="java_adapted.ecore#//AbstractMethodDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodDeclaration/body"/>
+    <target href="java_adapted.ecore#//AbstractMethodDeclaration_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodDeclaration/parameters"/>
+    <target href="java_adapted.ecore#//AbstractMethodDeclaration_adapted_parametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodDeclaration/thrownExceptions"/>
+    <target href="java_adapted.ecore#//AbstractMethodDeclaration_adapted_thrownExceptionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodDeclaration/typeParameters"/>
+    <target href="java_adapted.ecore#//AbstractMethodDeclaration_adapted_typeParametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodDeclaration/usagesInDocComments"/>
+    <target href="java_adapted.ecore#//AbstractMethodDeclaration_adapted_usagesInDocCommentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodDeclaration/usages"/>
+    <target href="java_adapted.ecore#//AbstractMethodDeclaration_adapted_usagesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodInvocation"/>
+    <target href="java_adapted.ecore#//AbstractMethodInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodInvocation/method"/>
+    <target href="java_adapted.ecore#//AbstractMethodInvocation_adapted_methodItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodInvocation/arguments"/>
+    <target href="java_adapted.ecore#//AbstractMethodInvocation_adapted_argumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractMethodInvocation/typeArguments"/>
+    <target href="java_adapted.ecore#//AbstractMethodInvocation_adapted_typeArgumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractTypeDeclaration"/>
+    <target href="java_adapted.ecore#//AbstractTypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractTypeDeclaration/bodyDeclarations"/>
+    <target href="java_adapted.ecore#//AbstractTypeDeclaration_adapted_bodyDeclarationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractTypeDeclaration/commentsBeforeBody"/>
+    <target href="java_adapted.ecore#//AbstractTypeDeclaration_adapted_commentsBeforeBodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractTypeDeclaration/commentsAfterBody"/>
+    <target href="java_adapted.ecore#//AbstractTypeDeclaration_adapted_commentsAfterBodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractTypeDeclaration/package"/>
+    <target href="java_adapted.ecore#//AbstractTypeDeclaration_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractTypeDeclaration/superInterfaces"/>
+    <target href="java_adapted.ecore#//AbstractTypeDeclaration_adapted_superInterfacesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractTypeQualifiedExpression"/>
+    <target href="java_adapted.ecore#//AbstractTypeQualifiedExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractTypeQualifiedExpression/qualifier"/>
+    <target href="java_adapted.ecore#//AbstractTypeQualifiedExpression_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractVariablesContainer"/>
+    <target href="java_adapted.ecore#//AbstractVariablesContainer_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractVariablesContainer/type"/>
+    <target href="java_adapted.ecore#//AbstractVariablesContainer_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AbstractVariablesContainer/fragments"/>
+    <target href="java_adapted.ecore#//AbstractVariablesContainer_adapted_fragmentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Annotation"/>
+    <target href="java_adapted.ecore#//Annotation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Annotation/type"/>
+    <target href="java_adapted.ecore#//Annotation_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Annotation/values"/>
+    <target href="java_adapted.ecore#//Annotation_adapted_valuesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Archive"/>
+    <target href="java_adapted.ecore#//Archive_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Archive/originalFilePath"/>
+    <target href="java_adapted.ecore#//Archive_adapted_originalFilePathValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Archive/classFiles"/>
+    <target href="java_adapted.ecore#//Archive_adapted_classFilesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Archive/manifest"/>
+    <target href="java_adapted.ecore#//Archive_adapted_manifestItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AssertStatement"/>
+    <target href="java_adapted.ecore#//AssertStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AssertStatement/message"/>
+    <target href="java_adapted.ecore#//AssertStatement_adapted_messageItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AssertStatement/expression"/>
+    <target href="java_adapted.ecore#//AssertStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ASTNode"/>
+    <target href="java_adapted.ecore#//ASTNode_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ASTNode/comments"/>
+    <target href="java_adapted.ecore#//ASTNode_adapted_commentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ASTNode/originalCompilationUnit"/>
+    <target href="java_adapted.ecore#//ASTNode_adapted_originalCompilationUnitItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ASTNode/originalClassFile"/>
+    <target href="java_adapted.ecore#//ASTNode_adapted_originalClassFileItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnnotationMemberValuePair"/>
+    <target href="java_adapted.ecore#//AnnotationMemberValuePair_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnnotationMemberValuePair/member"/>
+    <target href="java_adapted.ecore#//AnnotationMemberValuePair_adapted_memberItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnnotationMemberValuePair/value"/>
+    <target href="java_adapted.ecore#//AnnotationMemberValuePair_adapted_valueItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnnotationTypeDeclaration"/>
+    <target href="java_adapted.ecore#//AnnotationTypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnnotationTypeMemberDeclaration"/>
+    <target href="java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnnotationTypeMemberDeclaration/default"/>
+    <target href="java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_defaultItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnnotationTypeMemberDeclaration/type"/>
+    <target href="java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnnotationTypeMemberDeclaration/usages"/>
+    <target href="java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_usagesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnonymousClassDeclaration"/>
+    <target href="java_adapted.ecore#//AnonymousClassDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnonymousClassDeclaration/bodyDeclarations"/>
+    <target href="java_adapted.ecore#//AnonymousClassDeclaration_adapted_bodyDeclarationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//AnonymousClassDeclaration/classInstanceCreation"/>
+    <target href="java_adapted.ecore#//AnonymousClassDeclaration_adapted_classInstanceCreationItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayAccess"/>
+    <target href="java_adapted.ecore#//ArrayAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayAccess/array"/>
+    <target href="java_adapted.ecore#//ArrayAccess_adapted_arrayItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayAccess/index"/>
+    <target href="java_adapted.ecore#//ArrayAccess_adapted_indexItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayCreation"/>
+    <target href="java_adapted.ecore#//ArrayCreation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayCreation/dimensions"/>
+    <target href="java_adapted.ecore#//ArrayCreation_adapted_dimensionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayCreation/initializer"/>
+    <target href="java_adapted.ecore#//ArrayCreation_adapted_initializerItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayCreation/type"/>
+    <target href="java_adapted.ecore#//ArrayCreation_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayInitializer"/>
+    <target href="java_adapted.ecore#//ArrayInitializer_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayInitializer/expressions"/>
+    <target href="java_adapted.ecore#//ArrayInitializer_adapted_expressionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayLengthAccess"/>
+    <target href="java_adapted.ecore#//ArrayLengthAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayLengthAccess/array"/>
+    <target href="java_adapted.ecore#//ArrayLengthAccess_adapted_arrayItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayType"/>
+    <target href="java_adapted.ecore#//ArrayType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayType/dimensions"/>
+    <target href="java_adapted.ecore#//ArrayType_adapted_dimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ArrayType/elementType"/>
+    <target href="java_adapted.ecore#//ArrayType_adapted_elementTypeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Assignment"/>
+    <target href="java_adapted.ecore#//Assignment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Assignment/leftHandSide"/>
+    <target href="java_adapted.ecore#//Assignment_adapted_leftHandSideItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Assignment/operator"/>
+    <target href="java_adapted.ecore#//Assignment_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Assignment/rightHandSide"/>
+    <target href="java_adapted.ecore#//Assignment_adapted_rightHandSideItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//BodyDeclaration"/>
+    <target href="java_adapted.ecore#//BodyDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//BodyDeclaration/abstractTypeDeclaration"/>
+    <target href="java_adapted.ecore#//BodyDeclaration_adapted_abstractTypeDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//BodyDeclaration/annotations"/>
+    <target href="java_adapted.ecore#//BodyDeclaration_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//BodyDeclaration/anonymousClassDeclarationOwner"/>
+    <target href="java_adapted.ecore#//BodyDeclaration_adapted_anonymousClassDeclarationOwnerItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//BodyDeclaration/modifier"/>
+    <target href="java_adapted.ecore#//BodyDeclaration_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//BooleanLiteral"/>
+    <target href="java_adapted.ecore#//BooleanLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//BooleanLiteral/value"/>
+    <target href="java_adapted.ecore#//BooleanLiteral_adapted_valueValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//BlockComment"/>
+    <target href="java_adapted.ecore#//BlockComment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Block"/>
+    <target href="java_adapted.ecore#//Block_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Block/statements"/>
+    <target href="java_adapted.ecore#//Block_adapted_statementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//BreakStatement"/>
+    <target href="java_adapted.ecore#//BreakStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//BreakStatement/label"/>
+    <target href="java_adapted.ecore#//BreakStatement_adapted_labelItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CastExpression"/>
+    <target href="java_adapted.ecore#//CastExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CastExpression/expression"/>
+    <target href="java_adapted.ecore#//CastExpression_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CastExpression/type"/>
+    <target href="java_adapted.ecore#//CastExpression_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CatchClause"/>
+    <target href="java_adapted.ecore#//CatchClause_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CatchClause/exception"/>
+    <target href="java_adapted.ecore#//CatchClause_adapted_exceptionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CatchClause/body"/>
+    <target href="java_adapted.ecore#//CatchClause_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CharacterLiteral"/>
+    <target href="java_adapted.ecore#//CharacterLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CharacterLiteral/escapedValue"/>
+    <target href="java_adapted.ecore#//CharacterLiteral_adapted_escapedValueValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassFile"/>
+    <target href="java_adapted.ecore#//ClassFile_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassFile/originalFilePath"/>
+    <target href="java_adapted.ecore#//ClassFile_adapted_originalFilePathValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassFile/type"/>
+    <target href="java_adapted.ecore#//ClassFile_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassFile/attachedSource"/>
+    <target href="java_adapted.ecore#//ClassFile_adapted_attachedSourceItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassFile/package"/>
+    <target href="java_adapted.ecore#//ClassFile_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassInstanceCreation"/>
+    <target href="java_adapted.ecore#//ClassInstanceCreation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassInstanceCreation/anonymousClassDeclaration"/>
+    <target href="java_adapted.ecore#//ClassInstanceCreation_adapted_anonymousClassDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassInstanceCreation/expression"/>
+    <target href="java_adapted.ecore#//ClassInstanceCreation_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassInstanceCreation/type"/>
+    <target href="java_adapted.ecore#//ClassInstanceCreation_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ConstructorDeclaration"/>
+    <target href="java_adapted.ecore#//ConstructorDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ConditionalExpression"/>
+    <target href="java_adapted.ecore#//ConditionalExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ConditionalExpression/elseExpression"/>
+    <target href="java_adapted.ecore#//ConditionalExpression_adapted_elseExpressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ConditionalExpression/expression"/>
+    <target href="java_adapted.ecore#//ConditionalExpression_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ConditionalExpression/thenExpression"/>
+    <target href="java_adapted.ecore#//ConditionalExpression_adapted_thenExpressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ConstructorInvocation"/>
+    <target href="java_adapted.ecore#//ConstructorInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassDeclaration"/>
+    <target href="java_adapted.ecore#//ClassDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ClassDeclaration/superClass"/>
+    <target href="java_adapted.ecore#//ClassDeclaration_adapted_superClassItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Comment"/>
+    <target href="java_adapted.ecore#//Comment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Comment/content"/>
+    <target href="java_adapted.ecore#//Comment_adapted_contentValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Comment/enclosedByParent"/>
+    <target href="java_adapted.ecore#//Comment_adapted_enclosedByParentValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Comment/prefixOfParent"/>
+    <target href="java_adapted.ecore#//Comment_adapted_prefixOfParentValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CompilationUnit"/>
+    <target href="java_adapted.ecore#//CompilationUnit_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CompilationUnit/originalFilePath"/>
+    <target href="java_adapted.ecore#//CompilationUnit_adapted_originalFilePathValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CompilationUnit/commentList"/>
+    <target href="java_adapted.ecore#//CompilationUnit_adapted_commentListItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CompilationUnit/imports"/>
+    <target href="java_adapted.ecore#//CompilationUnit_adapted_importsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CompilationUnit/package"/>
+    <target href="java_adapted.ecore#//CompilationUnit_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//CompilationUnit/types"/>
+    <target href="java_adapted.ecore#//CompilationUnit_adapted_typesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ContinueStatement"/>
+    <target href="java_adapted.ecore#//ContinueStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ContinueStatement/label"/>
+    <target href="java_adapted.ecore#//ContinueStatement_adapted_labelItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//DoStatement"/>
+    <target href="java_adapted.ecore#//DoStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//DoStatement/expression"/>
+    <target href="java_adapted.ecore#//DoStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//DoStatement/body"/>
+    <target href="java_adapted.ecore#//DoStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//EmptyStatement"/>
+    <target href="java_adapted.ecore#//EmptyStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//EnhancedForStatement"/>
+    <target href="java_adapted.ecore#//EnhancedForStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//EnhancedForStatement/body"/>
+    <target href="java_adapted.ecore#//EnhancedForStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//EnhancedForStatement/expression"/>
+    <target href="java_adapted.ecore#//EnhancedForStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//EnhancedForStatement/parameter"/>
+    <target href="java_adapted.ecore#//EnhancedForStatement_adapted_parameterItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//EnumConstantDeclaration"/>
+    <target href="java_adapted.ecore#//EnumConstantDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//EnumConstantDeclaration/anonymousClassDeclaration"/>
+    <target href="java_adapted.ecore#//EnumConstantDeclaration_adapted_anonymousClassDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//EnumConstantDeclaration/arguments"/>
+    <target href="java_adapted.ecore#//EnumConstantDeclaration_adapted_argumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//EnumDeclaration"/>
+    <target href="java_adapted.ecore#//EnumDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//EnumDeclaration/enumConstants"/>
+    <target href="java_adapted.ecore#//EnumDeclaration_adapted_enumConstantsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Expression"/>
+    <target href="java_adapted.ecore#//Expression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ExpressionStatement"/>
+    <target href="java_adapted.ecore#//ExpressionStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ExpressionStatement/expression"/>
+    <target href="java_adapted.ecore#//ExpressionStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//FieldAccess"/>
+    <target href="java_adapted.ecore#//FieldAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//FieldAccess/field"/>
+    <target href="java_adapted.ecore#//FieldAccess_adapted_fieldItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//FieldAccess/expression"/>
+    <target href="java_adapted.ecore#//FieldAccess_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//FieldDeclaration"/>
+    <target href="java_adapted.ecore#//FieldDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ForStatement"/>
+    <target href="java_adapted.ecore#//ForStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ForStatement/expression"/>
+    <target href="java_adapted.ecore#//ForStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ForStatement/updaters"/>
+    <target href="java_adapted.ecore#//ForStatement_adapted_updatersItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ForStatement/initializers"/>
+    <target href="java_adapted.ecore#//ForStatement_adapted_initializersItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ForStatement/body"/>
+    <target href="java_adapted.ecore#//ForStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//IfStatement"/>
+    <target href="java_adapted.ecore#//IfStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//IfStatement/expression"/>
+    <target href="java_adapted.ecore#//IfStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//IfStatement/thenStatement"/>
+    <target href="java_adapted.ecore#//IfStatement_adapted_thenStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//IfStatement/elseStatement"/>
+    <target href="java_adapted.ecore#//IfStatement_adapted_elseStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ImportDeclaration"/>
+    <target href="java_adapted.ecore#//ImportDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ImportDeclaration/static"/>
+    <target href="java_adapted.ecore#//ImportDeclaration_adapted_staticValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ImportDeclaration/importedElement"/>
+    <target href="java_adapted.ecore#//ImportDeclaration_adapted_importedElementItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//InfixExpression"/>
+    <target href="java_adapted.ecore#//InfixExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//InfixExpression/operator"/>
+    <target href="java_adapted.ecore#//InfixExpression_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//InfixExpression/rightOperand"/>
+    <target href="java_adapted.ecore#//InfixExpression_adapted_rightOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//InfixExpression/leftOperand"/>
+    <target href="java_adapted.ecore#//InfixExpression_adapted_leftOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//InfixExpression/extendedOperands"/>
+    <target href="java_adapted.ecore#//InfixExpression_adapted_extendedOperandsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Initializer"/>
+    <target href="java_adapted.ecore#//Initializer_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Initializer/body"/>
+    <target href="java_adapted.ecore#//Initializer_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//InstanceofExpression"/>
+    <target href="java_adapted.ecore#//InstanceofExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//InstanceofExpression/rightOperand"/>
+    <target href="java_adapted.ecore#//InstanceofExpression_adapted_rightOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//InstanceofExpression/leftOperand"/>
+    <target href="java_adapted.ecore#//InstanceofExpression_adapted_leftOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//InterfaceDeclaration"/>
+    <target href="java_adapted.ecore#//InterfaceDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Javadoc"/>
+    <target href="java_adapted.ecore#//Javadoc_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Javadoc/tags"/>
+    <target href="java_adapted.ecore#//Javadoc_adapted_tagsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//LabeledStatement"/>
+    <target href="java_adapted.ecore#//LabeledStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//LabeledStatement/body"/>
+    <target href="java_adapted.ecore#//LabeledStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//LabeledStatement/usagesInBreakStatements"/>
+    <target href="java_adapted.ecore#//LabeledStatement_adapted_usagesInBreakStatementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//LabeledStatement/usagesInContinueStatements"/>
+    <target href="java_adapted.ecore#//LabeledStatement_adapted_usagesInContinueStatementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//LineComment"/>
+    <target href="java_adapted.ecore#//LineComment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Manifest"/>
+    <target href="java_adapted.ecore#//Manifest_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Manifest/mainAttributes"/>
+    <target href="java_adapted.ecore#//Manifest_adapted_mainAttributesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Manifest/entryAttributes"/>
+    <target href="java_adapted.ecore#//Manifest_adapted_entryAttributesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ManifestAttribute"/>
+    <target href="java_adapted.ecore#//ManifestAttribute_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ManifestAttribute/key"/>
+    <target href="java_adapted.ecore#//ManifestAttribute_adapted_keyValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ManifestAttribute/value"/>
+    <target href="java_adapted.ecore#//ManifestAttribute_adapted_valueValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ManifestEntry"/>
+    <target href="java_adapted.ecore#//ManifestEntry_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ManifestEntry/name"/>
+    <target href="java_adapted.ecore#//ManifestEntry_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ManifestEntry/attributes"/>
+    <target href="java_adapted.ecore#//ManifestEntry_adapted_attributesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MemberRef"/>
+    <target href="java_adapted.ecore#//MemberRef_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MemberRef/member"/>
+    <target href="java_adapted.ecore#//MemberRef_adapted_memberItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MemberRef/qualifier"/>
+    <target href="java_adapted.ecore#//MemberRef_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodDeclaration"/>
+    <target href="java_adapted.ecore#//MethodDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodDeclaration/extraArrayDimensions"/>
+    <target href="java_adapted.ecore#//MethodDeclaration_adapted_extraArrayDimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodDeclaration/returnType"/>
+    <target href="java_adapted.ecore#//MethodDeclaration_adapted_returnTypeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodDeclaration/redefinedMethodDeclaration"/>
+    <target href="java_adapted.ecore#//MethodDeclaration_adapted_redefinedMethodDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodDeclaration/redefinitions"/>
+    <target href="java_adapted.ecore#//MethodDeclaration_adapted_redefinitionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodInvocation"/>
+    <target href="java_adapted.ecore#//MethodInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodInvocation/expression"/>
+    <target href="java_adapted.ecore#//MethodInvocation_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodRef"/>
+    <target href="java_adapted.ecore#//MethodRef_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodRef/method"/>
+    <target href="java_adapted.ecore#//MethodRef_adapted_methodItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodRef/qualifier"/>
+    <target href="java_adapted.ecore#//MethodRef_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodRef/parameters"/>
+    <target href="java_adapted.ecore#//MethodRef_adapted_parametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodRefParameter"/>
+    <target href="java_adapted.ecore#//MethodRefParameter_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodRefParameter/name"/>
+    <target href="java_adapted.ecore#//MethodRefParameter_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodRefParameter/varargs"/>
+    <target href="java_adapted.ecore#//MethodRefParameter_adapted_varargsValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//MethodRefParameter/type"/>
+    <target href="java_adapted.ecore#//MethodRefParameter_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Model"/>
+    <target href="java_adapted.ecore#//Model_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Model/name"/>
+    <target href="java_adapted.ecore#//Model_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Model/ownedElements"/>
+    <target href="java_adapted.ecore#//Model_adapted_ownedElementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Model/orphanTypes"/>
+    <target href="java_adapted.ecore#//Model_adapted_orphanTypesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Model/unresolvedItems"/>
+    <target href="java_adapted.ecore#//Model_adapted_unresolvedItemsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Model/compilationUnits"/>
+    <target href="java_adapted.ecore#//Model_adapted_compilationUnitsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Model/classFiles"/>
+    <target href="java_adapted.ecore#//Model_adapted_classFilesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Model/archives"/>
+    <target href="java_adapted.ecore#//Model_adapted_archivesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier"/>
+    <target href="java_adapted.ecore#//Modifier_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/visibility"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_visibilityValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/inheritance"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_inheritanceValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/static"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_staticValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/transient"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_transientValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/volatile"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_volatileValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/native"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_nativeValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/strictfp"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_strictfpValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/synchronized"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_synchronizedValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/bodyDeclaration"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_bodyDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/singleVariableDeclaration"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_singleVariableDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/variableDeclarationStatement"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_variableDeclarationStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Modifier/variableDeclarationExpression"/>
+    <target href="java_adapted.ecore#//Modifier_adapted_variableDeclarationExpressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//NamedElement"/>
+    <target href="java_adapted.ecore#//NamedElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//NamedElement/name"/>
+    <target href="java_adapted.ecore#//NamedElement_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//NamedElement/proxy"/>
+    <target href="java_adapted.ecore#//NamedElement_adapted_proxyValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//NamedElement/usagesInImports"/>
+    <target href="java_adapted.ecore#//NamedElement_adapted_usagesInImportsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//NamespaceAccess"/>
+    <target href="java_adapted.ecore#//NamespaceAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//NumberLiteral"/>
+    <target href="java_adapted.ecore#//NumberLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//NumberLiteral/tokenValue"/>
+    <target href="java_adapted.ecore#//NumberLiteral_adapted_tokenValueValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//NullLiteral"/>
+    <target href="java_adapted.ecore#//NullLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Package"/>
+    <target href="java_adapted.ecore#//Package_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Package/ownedElements"/>
+    <target href="java_adapted.ecore#//Package_adapted_ownedElementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Package/model"/>
+    <target href="java_adapted.ecore#//Package_adapted_modelItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Package/ownedPackages"/>
+    <target href="java_adapted.ecore#//Package_adapted_ownedPackagesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Package/package"/>
+    <target href="java_adapted.ecore#//Package_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Package/usagesInPackageAccess"/>
+    <target href="java_adapted.ecore#//Package_adapted_usagesInPackageAccessItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PackageAccess"/>
+    <target href="java_adapted.ecore#//PackageAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PackageAccess/package"/>
+    <target href="java_adapted.ecore#//PackageAccess_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PackageAccess/qualifier"/>
+    <target href="java_adapted.ecore#//PackageAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ParameterizedType"/>
+    <target href="java_adapted.ecore#//ParameterizedType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ParameterizedType/type"/>
+    <target href="java_adapted.ecore#//ParameterizedType_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ParameterizedType/typeArguments"/>
+    <target href="java_adapted.ecore#//ParameterizedType_adapted_typeArgumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ParenthesizedExpression"/>
+    <target href="java_adapted.ecore#//ParenthesizedExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ParenthesizedExpression/expression"/>
+    <target href="java_adapted.ecore#//ParenthesizedExpression_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PostfixExpression"/>
+    <target href="java_adapted.ecore#//PostfixExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PostfixExpression/operator"/>
+    <target href="java_adapted.ecore#//PostfixExpression_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PostfixExpression/operand"/>
+    <target href="java_adapted.ecore#//PostfixExpression_adapted_operandItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrefixExpression"/>
+    <target href="java_adapted.ecore#//PrefixExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrefixExpression/operator"/>
+    <target href="java_adapted.ecore#//PrefixExpression_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrefixExpression/operand"/>
+    <target href="java_adapted.ecore#//PrefixExpression_adapted_operandItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrimitiveType"/>
+    <target href="java_adapted.ecore#//PrimitiveType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrimitiveTypeBoolean"/>
+    <target href="java_adapted.ecore#//PrimitiveTypeBoolean_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrimitiveTypeByte"/>
+    <target href="java_adapted.ecore#//PrimitiveTypeByte_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrimitiveTypeChar"/>
+    <target href="java_adapted.ecore#//PrimitiveTypeChar_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrimitiveTypeDouble"/>
+    <target href="java_adapted.ecore#//PrimitiveTypeDouble_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrimitiveTypeShort"/>
+    <target href="java_adapted.ecore#//PrimitiveTypeShort_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrimitiveTypeFloat"/>
+    <target href="java_adapted.ecore#//PrimitiveTypeFloat_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrimitiveTypeInt"/>
+    <target href="java_adapted.ecore#//PrimitiveTypeInt_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrimitiveTypeLong"/>
+    <target href="java_adapted.ecore#//PrimitiveTypeLong_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//PrimitiveTypeVoid"/>
+    <target href="java_adapted.ecore#//PrimitiveTypeVoid_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ReturnStatement"/>
+    <target href="java_adapted.ecore#//ReturnStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ReturnStatement/expression"/>
+    <target href="java_adapted.ecore#//ReturnStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableAccess"/>
+    <target href="java_adapted.ecore#//SingleVariableAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableAccess/variable"/>
+    <target href="java_adapted.ecore#//SingleVariableAccess_adapted_variableItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableAccess/qualifier"/>
+    <target href="java_adapted.ecore#//SingleVariableAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableDeclaration"/>
+    <target href="java_adapted.ecore#//SingleVariableDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableDeclaration/modifier"/>
+    <target href="java_adapted.ecore#//SingleVariableDeclaration_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableDeclaration/varargs"/>
+    <target href="java_adapted.ecore#//SingleVariableDeclaration_adapted_varargsValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableDeclaration/type"/>
+    <target href="java_adapted.ecore#//SingleVariableDeclaration_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableDeclaration/annotations"/>
+    <target href="java_adapted.ecore#//SingleVariableDeclaration_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableDeclaration/methodDeclaration"/>
+    <target href="java_adapted.ecore#//SingleVariableDeclaration_adapted_methodDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableDeclaration/catchClause"/>
+    <target href="java_adapted.ecore#//SingleVariableDeclaration_adapted_catchClauseItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SingleVariableDeclaration/enhancedForStatement"/>
+    <target href="java_adapted.ecore#//SingleVariableDeclaration_adapted_enhancedForStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Statement"/>
+    <target href="java_adapted.ecore#//Statement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//StringLiteral"/>
+    <target href="java_adapted.ecore#//StringLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//StringLiteral/escapedValue"/>
+    <target href="java_adapted.ecore#//StringLiteral_adapted_escapedValueValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SuperConstructorInvocation"/>
+    <target href="java_adapted.ecore#//SuperConstructorInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SuperConstructorInvocation/expression"/>
+    <target href="java_adapted.ecore#//SuperConstructorInvocation_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SuperFieldAccess"/>
+    <target href="java_adapted.ecore#//SuperFieldAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SuperFieldAccess/field"/>
+    <target href="java_adapted.ecore#//SuperFieldAccess_adapted_fieldItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SuperMethodInvocation"/>
+    <target href="java_adapted.ecore#//SuperMethodInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SwitchCase"/>
+    <target href="java_adapted.ecore#//SwitchCase_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SwitchCase/default"/>
+    <target href="java_adapted.ecore#//SwitchCase_adapted_defaultValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SwitchCase/expression"/>
+    <target href="java_adapted.ecore#//SwitchCase_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SwitchStatement"/>
+    <target href="java_adapted.ecore#//SwitchStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SwitchStatement/expression"/>
+    <target href="java_adapted.ecore#//SwitchStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SwitchStatement/statements"/>
+    <target href="java_adapted.ecore#//SwitchStatement_adapted_statementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SynchronizedStatement"/>
+    <target href="java_adapted.ecore#//SynchronizedStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SynchronizedStatement/body"/>
+    <target href="java_adapted.ecore#//SynchronizedStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//SynchronizedStatement/expression"/>
+    <target href="java_adapted.ecore#//SynchronizedStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TagElement"/>
+    <target href="java_adapted.ecore#//TagElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TagElement/tagName"/>
+    <target href="java_adapted.ecore#//TagElement_adapted_tagNameValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TagElement/fragments"/>
+    <target href="java_adapted.ecore#//TagElement_adapted_fragmentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TextElement"/>
+    <target href="java_adapted.ecore#//TextElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TextElement/text"/>
+    <target href="java_adapted.ecore#//TextElement_adapted_textValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ThisExpression"/>
+    <target href="java_adapted.ecore#//ThisExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ThrowStatement"/>
+    <target href="java_adapted.ecore#//ThrowStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//ThrowStatement/expression"/>
+    <target href="java_adapted.ecore#//ThrowStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TryStatement"/>
+    <target href="java_adapted.ecore#//TryStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TryStatement/body"/>
+    <target href="java_adapted.ecore#//TryStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TryStatement/finally"/>
+    <target href="java_adapted.ecore#//TryStatement_adapted_finallyItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TryStatement/catchClauses"/>
+    <target href="java_adapted.ecore#//TryStatement_adapted_catchClausesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Type"/>
+    <target href="java_adapted.ecore#//Type_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//Type/usagesInTypeAccess"/>
+    <target href="java_adapted.ecore#//Type_adapted_usagesInTypeAccessItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeAccess"/>
+    <target href="java_adapted.ecore#//TypeAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeAccess/type"/>
+    <target href="java_adapted.ecore#//TypeAccess_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeAccess/qualifier"/>
+    <target href="java_adapted.ecore#//TypeAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeDeclaration"/>
+    <target href="java_adapted.ecore#//TypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeDeclaration/typeParameters"/>
+    <target href="java_adapted.ecore#//TypeDeclaration_adapted_typeParametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeDeclarationStatement"/>
+    <target href="java_adapted.ecore#//TypeDeclarationStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeDeclarationStatement/declaration"/>
+    <target href="java_adapted.ecore#//TypeDeclarationStatement_adapted_declarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeLiteral"/>
+    <target href="java_adapted.ecore#//TypeLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeLiteral/type"/>
+    <target href="java_adapted.ecore#//TypeLiteral_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeParameter"/>
+    <target href="java_adapted.ecore#//TypeParameter_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//TypeParameter/bounds"/>
+    <target href="java_adapted.ecore#//TypeParameter_adapted_boundsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedItem"/>
+    <target href="java_adapted.ecore#//UnresolvedItem_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedItemAccess"/>
+    <target href="java_adapted.ecore#//UnresolvedItemAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedItemAccess/element"/>
+    <target href="java_adapted.ecore#//UnresolvedItemAccess_adapted_elementItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedItemAccess/qualifier"/>
+    <target href="java_adapted.ecore#//UnresolvedItemAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedAnnotationDeclaration"/>
+    <target href="java_adapted.ecore#//UnresolvedAnnotationDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedAnnotationTypeMemberDeclaration"/>
+    <target href="java_adapted.ecore#//UnresolvedAnnotationTypeMemberDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedClassDeclaration"/>
+    <target href="java_adapted.ecore#//UnresolvedClassDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedEnumDeclaration"/>
+    <target href="java_adapted.ecore#//UnresolvedEnumDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedInterfaceDeclaration"/>
+    <target href="java_adapted.ecore#//UnresolvedInterfaceDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedLabeledStatement"/>
+    <target href="java_adapted.ecore#//UnresolvedLabeledStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedMethodDeclaration"/>
+    <target href="java_adapted.ecore#//UnresolvedMethodDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedSingleVariableDeclaration"/>
+    <target href="java_adapted.ecore#//UnresolvedSingleVariableDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedType"/>
+    <target href="java_adapted.ecore#//UnresolvedType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedTypeDeclaration"/>
+    <target href="java_adapted.ecore#//UnresolvedTypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//UnresolvedVariableDeclarationFragment"/>
+    <target href="java_adapted.ecore#//UnresolvedVariableDeclarationFragment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclaration"/>
+    <target href="java_adapted.ecore#//VariableDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclaration/extraArrayDimensions"/>
+    <target href="java_adapted.ecore#//VariableDeclaration_adapted_extraArrayDimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclaration/initializer"/>
+    <target href="java_adapted.ecore#//VariableDeclaration_adapted_initializerItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclaration/usageInVariableAccess"/>
+    <target href="java_adapted.ecore#//VariableDeclaration_adapted_usageInVariableAccessItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclarationExpression"/>
+    <target href="java_adapted.ecore#//VariableDeclarationExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclarationExpression/modifier"/>
+    <target href="java_adapted.ecore#//VariableDeclarationExpression_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclarationExpression/annotations"/>
+    <target href="java_adapted.ecore#//VariableDeclarationExpression_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclarationFragment"/>
+    <target href="java_adapted.ecore#//VariableDeclarationFragment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclarationFragment/variablesContainer"/>
+    <target href="java_adapted.ecore#//VariableDeclarationFragment_adapted_variablesContainerItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclarationStatement"/>
+    <target href="java_adapted.ecore#//VariableDeclarationStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclarationStatement/extraArrayDimensions"/>
+    <target href="java_adapted.ecore#//VariableDeclarationStatement_adapted_extraArrayDimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclarationStatement/modifier"/>
+    <target href="java_adapted.ecore#//VariableDeclarationStatement_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//VariableDeclarationStatement/annotations"/>
+    <target href="java_adapted.ecore#//VariableDeclarationStatement_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//WildCardType"/>
+    <target href="java_adapted.ecore#//WildCardType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//WildCardType/upperBound"/>
+    <target href="java_adapted.ecore#//WildCardType_adapted_upperBoundValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//WildCardType/bound"/>
+    <target href="java_adapted.ecore#//WildCardType_adapted_boundItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//WhileStatement"/>
+    <target href="java_adapted.ecore#//WhileStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//WhileStatement/expression"/>
+    <target href="java_adapted.ecore#//WhileStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication/org.eclipse.modisco.java/model/java.ecore#//WhileStatement/body"/>
+    <target href="java_adapted.ecore#//WhileStatement_adapted_bodyItem"/>
+  </mappings>
+  <pkg href="java_adapted.ecore#/"/>
+</mapping:MappingRoot>

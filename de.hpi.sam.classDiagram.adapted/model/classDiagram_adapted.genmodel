@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/de.hpi.sam.classDiagram.adapted/src" modelPluginID="de.hpi.sam.classDiagram.adapted"
+    modelName="ClassDiagram_adapted" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    usedGenPackages="../../de.mdelab.migmm.history/model/history.genmodel#//history"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>classDiagram_adapted.ecore</foreignModel>
+  <genPackages prefix="ClassDiagram_adapted" basePackage="de.hpi.sam" disposableProviderFactory="true"
+      ecorePackage="classDiagram_adapted.ecore#/">
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLAssoc_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLAssoc_adapted/leftRole"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLAssoc_adapted/rightRole"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLCardinality_adapted">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLCardinality_adapted/cardString"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLCardinality_adapted/revCard"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLClassDiagram_adapted">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLClassDiagram_adapted/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLClass_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLClass_adapted/roles"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="classDiagram_adapted.ecore#//UMLDiagramItem_adapted"/>
+    <genClasses image="false" ecoreClass="classDiagram_adapted.ecore#//UMLElement_adapted">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLElement_adapted/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLElement_adapted/diagram"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="classDiagram_adapted.ecore#//UMLIncrement_adapted">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLIncrement_adapted/stereotypes"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLRole_adapted">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLRole_adapted/adornment"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLRole_adapted/card"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLRole_adapted/revLeftRole"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLRole_adapted/revRightRole"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLRole_adapted/target"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLStereotype_adapted">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLStereotype_adapted/text"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLStereotype_adapted/increment"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLAssoc_adapted_leftRoleItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLAssoc_adapted_leftRoleItem/leftRole"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLAssoc_adapted_rightRoleItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLAssoc_adapted_rightRoleItem/rightRole"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLCardinality_adapted_cardStringValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute classDiagram_adapted.ecore#//UMLCardinality_adapted_cardStringValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLCardinality_adapted_revCardItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLCardinality_adapted_revCardItem/revCard"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLClassDiagram_adapted_elementsItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLClassDiagram_adapted_elementsItem/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLClass_adapted_rolesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLClass_adapted_rolesItem/roles"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLElement_adapted_nameValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute classDiagram_adapted.ecore#//UMLElement_adapted_nameValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLElement_adapted_diagramItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLElement_adapted_diagramItem/diagram"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLIncrement_adapted_stereotypesItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLIncrement_adapted_stereotypesItem/stereotypes"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLRole_adapted_adornmentValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute classDiagram_adapted.ecore#//UMLRole_adapted_adornmentValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLRole_adapted_cardItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLRole_adapted_cardItem/card"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLRole_adapted_revLeftRoleItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLRole_adapted_revLeftRoleItem/revLeftRole"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLRole_adapted_revRightRoleItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLRole_adapted_revRightRoleItem/revRightRole"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLRole_adapted_targetItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLRole_adapted_targetItem/target"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLStereotype_adapted_textValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute classDiagram_adapted.ecore#//UMLStereotype_adapted_textValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="classDiagram_adapted.ecore#//UMLStereotype_adapted_incrementItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference classDiagram_adapted.ecore#//UMLStereotype_adapted_incrementItem/increment"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

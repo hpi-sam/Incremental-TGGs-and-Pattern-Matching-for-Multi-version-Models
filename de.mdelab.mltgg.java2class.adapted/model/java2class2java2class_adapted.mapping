@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mapping:MappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mapping="http://www.mdelab.de/migmm/mapping/1.0">
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication-level-2/de.mdelab.mltgg.java2class/model/java2class.ecore#//CorrAxiom"/>
+    <target href="java2class_adapted.ecore#//CorrAxiom_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication-level-2/de.mdelab.mltgg.java2class/model/java2class.ecore#//CorrPkg"/>
+    <target href="java2class_adapted.ecore#//CorrPkg_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication-level-2/de.mdelab.mltgg.java2class/model/java2class.ecore#//CorrClass"/>
+    <target href="java2class_adapted.ecore#//CorrClass_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/Y:/Giese/miGMM/runtime-EclipseApplication-level-2/de.mdelab.mltgg.java2class/model/java2class.ecore#//CorrAssociation"/>
+    <target href="java2class_adapted.ecore#//CorrAssociation_adapted"/>
+  </mappings>
+  <pkg href="java2class_adapted.ecore#/"/>
+  <axiomClass href="java2class_adapted.ecore#//History2History"/>
+</mapping:MappingRoot>

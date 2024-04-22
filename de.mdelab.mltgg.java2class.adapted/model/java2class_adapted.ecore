@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="java2class_adapted" nsURI="http://www.mdelab.de/mltgg/java2class/adapted/1.0" nsPrefix="java2class_adapted">
+  <eClassifiers xsi:type="ecore:EClass" name="CorrAxiom_adapted">
+    <eSuperTypes href="http://www.mdelab.de/migmm/tggh/1.0#//TGGNodeWithHistory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CorrPkg_adapted">
+    <eSuperTypes href="http://www.mdelab.de/migmm/tggh/1.0#//TGGNodeWithHistory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CorrClass_adapted">
+    <eSuperTypes href="http://www.mdelab.de/migmm/tggh/1.0#//TGGNodeWithHistory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CorrAssociation_adapted">
+    <eSuperTypes href="http://www.mdelab.de/migmm/tggh/1.0#//TGGNodeWithHistory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="History2History">
+    <eSuperTypes href="http://www.mdelab.de/migmm/tggh/1.0#//TGGNodeWithHistory"/>
+  </eClassifiers>
+</ecore:EPackage>

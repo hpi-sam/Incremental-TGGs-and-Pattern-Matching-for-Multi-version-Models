@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="java_adapted" nsURI="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted"
+    nsPrefix="java_adapted">
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodDeclaration_adapted" abstract="true"
+      eSuperTypes="#//BodyDeclaration_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false" upperBound="-1"
+        eType="#//AbstractMethodDeclaration_adapted_bodyItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
+        eType="#//AbstractMethodDeclaration_adapted_parametersItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="thrownExceptions" upperBound="-1"
+        eType="#//AbstractMethodDeclaration_adapted_thrownExceptionsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeParameters" upperBound="-1"
+        eType="#//AbstractMethodDeclaration_adapted_typeParametersItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInDocComments" ordered="false"
+        upperBound="-1" eType="#//AbstractMethodDeclaration_adapted_usagesInDocCommentsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usages" ordered="false"
+        upperBound="-1" eType="#//AbstractMethodDeclaration_adapted_usagesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodInvocation_adapted" abstract="true"
+      eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="method" ordered="false"
+        upperBound="-1" eType="#//AbstractMethodInvocation_adapted_methodItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="arguments" upperBound="-1"
+        eType="#//AbstractMethodInvocation_adapted_argumentsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeArguments" upperBound="-1"
+        eType="#//AbstractMethodInvocation_adapted_typeArgumentsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractTypeDeclaration_adapted" abstract="true"
+      eSuperTypes="#//BodyDeclaration_adapted #//Type_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bodyDeclarations" upperBound="-1"
+        eType="#//AbstractTypeDeclaration_adapted_bodyDeclarationsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="commentsBeforeBody" upperBound="-1"
+        eType="#//AbstractTypeDeclaration_adapted_commentsBeforeBodyItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="commentsAfterBody" upperBound="-1"
+        eType="#//AbstractTypeDeclaration_adapted_commentsAfterBodyItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="package" ordered="false"
+        upperBound="-1" eType="#//AbstractTypeDeclaration_adapted_packageItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="superInterfaces" upperBound="-1"
+        eType="#//AbstractTypeDeclaration_adapted_superInterfacesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractTypeQualifiedExpression_adapted"
+      abstract="true" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" ordered="false"
+        upperBound="-1" eType="#//AbstractTypeQualifiedExpression_adapted_qualifierItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractVariablesContainer_adapted"
+      abstract="true" eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//AbstractVariablesContainer_adapted_typeItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fragments" upperBound="-1"
+        eType="#//AbstractVariablesContainer_adapted_fragmentsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Annotation_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//Annotation_adapted_typeItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="values" upperBound="-1"
+        eType="#//Annotation_adapted_valuesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Archive_adapted" eSuperTypes="#//NamedElement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="originalFilePath" ordered="false"
+        unique="false" upperBound="-1" eType="#//Archive_adapted_originalFilePathValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classFiles" ordered="false"
+        upperBound="-1" eType="#//Archive_adapted_classFilesItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="manifest" ordered="false"
+        upperBound="-1" eType="#//Archive_adapted_manifestItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AssertStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="message" ordered="false"
+        upperBound="-1" eType="#//AssertStatement_adapted_messageItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//AssertStatement_adapted_expressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTNode_adapted" abstract="true" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//NodeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="comments" upperBound="-1"
+        eType="#//ASTNode_adapted_commentsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="originalCompilationUnit"
+        ordered="false" upperBound="-1" eType="#//ASTNode_adapted_originalCompilationUnitItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="originalClassFile" ordered="false"
+        upperBound="-1" eType="#//ASTNode_adapted_originalClassFileItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotationMemberValuePair_adapted" eSuperTypes="#//NamedElement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="member" ordered="false"
+        upperBound="-1" eType="#//AnnotationMemberValuePair_adapted_memberItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" ordered="false"
+        upperBound="-1" eType="#//AnnotationMemberValuePair_adapted_valueItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotationTypeDeclaration_adapted" eSuperTypes="#//AbstractTypeDeclaration_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotationTypeMemberDeclaration_adapted"
+      eSuperTypes="#//BodyDeclaration_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="default" ordered="false"
+        upperBound="-1" eType="#//AnnotationTypeMemberDeclaration_adapted_defaultItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//AnnotationTypeMemberDeclaration_adapted_typeItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usages" ordered="false"
+        upperBound="-1" eType="#//AnnotationTypeMemberDeclaration_adapted_usagesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnonymousClassDeclaration_adapted" eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bodyDeclarations" upperBound="-1"
+        eType="#//AnonymousClassDeclaration_adapted_bodyDeclarationsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classInstanceCreation"
+        ordered="false" upperBound="-1" eType="#//AnonymousClassDeclaration_adapted_classInstanceCreationItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayAccess_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="array" ordered="false"
+        upperBound="-1" eType="#//ArrayAccess_adapted_arrayItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="index" ordered="false"
+        upperBound="-1" eType="#//ArrayAccess_adapted_indexItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayCreation_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dimensions" upperBound="-1"
+        eType="#//ArrayCreation_adapted_dimensionsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initializer" ordered="false"
+        upperBound="-1" eType="#//ArrayCreation_adapted_initializerItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//ArrayCreation_adapted_typeItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayInitializer_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expressions" upperBound="-1"
+        eType="#//ArrayInitializer_adapted_expressionsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayLengthAccess_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="array" ordered="false"
+        upperBound="-1" eType="#//ArrayLengthAccess_adapted_arrayItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayType_adapted" eSuperTypes="#//Type_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dimensions" ordered="false"
+        unique="false" upperBound="-1" eType="#//ArrayType_adapted_dimensionsValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elementType" ordered="false"
+        upperBound="-1" eType="#//ArrayType_adapted_elementTypeItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Assignment_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftHandSide" ordered="false"
+        upperBound="-1" eType="#//Assignment_adapted_leftHandSideItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operator" ordered="false"
+        unique="false" upperBound="-1" eType="#//Assignment_adapted_operatorValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightHandSide" ordered="false"
+        upperBound="-1" eType="#//Assignment_adapted_rightHandSideItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BodyDeclaration_adapted" abstract="true"
+      eSuperTypes="#//NamedElement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="abstractTypeDeclaration"
+        ordered="false" upperBound="-1" eType="#//BodyDeclaration_adapted_abstractTypeDeclarationItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotations" upperBound="-1"
+        eType="#//BodyDeclaration_adapted_annotationsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="anonymousClassDeclarationOwner"
+        ordered="false" upperBound="-1" eType="#//BodyDeclaration_adapted_anonymousClassDeclarationOwnerItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modifier" ordered="false"
+        upperBound="-1" eType="#//BodyDeclaration_adapted_modifierItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BooleanLiteral_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" ordered="false"
+        unique="false" upperBound="-1" eType="#//BooleanLiteral_adapted_valueValue"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BlockComment_adapted" eSuperTypes="#//Comment_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Block_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statements" upperBound="-1"
+        eType="#//Block_adapted_statementsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BreakStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="label" ordered="false"
+        upperBound="-1" eType="#//BreakStatement_adapted_labelItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CastExpression_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//CastExpression_adapted_expressionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//CastExpression_adapted_typeItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CatchClause_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="exception" ordered="false"
+        upperBound="-1" eType="#//CatchClause_adapted_exceptionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false" upperBound="-1"
+        eType="#//CatchClause_adapted_bodyItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CharacterLiteral_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="escapedValue" ordered="false"
+        unique="false" upperBound="-1" eType="#//CharacterLiteral_adapted_escapedValueValue"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassFile_adapted" eSuperTypes="#//NamedElement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="originalFilePath" ordered="false"
+        unique="false" upperBound="-1" eType="#//ClassFile_adapted_originalFilePathValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//ClassFile_adapted_typeItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attachedSource" ordered="false"
+        upperBound="-1" eType="#//ClassFile_adapted_attachedSourceItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="package" ordered="false"
+        upperBound="-1" eType="#//ClassFile_adapted_packageItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassInstanceCreation_adapted" eSuperTypes="#//Expression_adapted #//AbstractMethodInvocation_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="anonymousClassDeclaration"
+        ordered="false" upperBound="-1" eType="#//ClassInstanceCreation_adapted_anonymousClassDeclarationItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//ClassInstanceCreation_adapted_expressionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//ClassInstanceCreation_adapted_typeItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConstructorDeclaration_adapted" eSuperTypes="#//AbstractMethodDeclaration_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ConditionalExpression_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elseExpression" ordered="false"
+        upperBound="-1" eType="#//ConditionalExpression_adapted_elseExpressionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//ConditionalExpression_adapted_expressionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="thenExpression" ordered="false"
+        upperBound="-1" eType="#//ConditionalExpression_adapted_thenExpressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConstructorInvocation_adapted" eSuperTypes="#//Statement_adapted #//AbstractMethodInvocation_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassDeclaration_adapted" eSuperTypes="#//TypeDeclaration_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="superClass" ordered="false"
+        upperBound="-1" eType="#//ClassDeclaration_adapted_superClassItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Comment_adapted" abstract="true" eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="content" ordered="false"
+        unique="false" upperBound="-1" eType="#//Comment_adapted_contentValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosedByParent" ordered="false"
+        unique="false" upperBound="-1" eType="#//Comment_adapted_enclosedByParentValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="prefixOfParent" ordered="false"
+        unique="false" upperBound="-1" eType="#//Comment_adapted_prefixOfParentValue"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CompilationUnit_adapted" eSuperTypes="#//NamedElement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="originalFilePath" ordered="false"
+        unique="false" upperBound="-1" eType="#//CompilationUnit_adapted_originalFilePathValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="commentList" upperBound="-1"
+        eType="#//CompilationUnit_adapted_commentListItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imports" upperBound="-1"
+        eType="#//CompilationUnit_adapted_importsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="package" ordered="false"
+        upperBound="-1" eType="#//CompilationUnit_adapted_packageItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="types" upperBound="-1"
+        eType="#//CompilationUnit_adapted_typesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContinueStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="label" ordered="false"
+        upperBound="-1" eType="#//ContinueStatement_adapted_labelItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DoStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//DoStatement_adapted_expressionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false" upperBound="-1"
+        eType="#//DoStatement_adapted_bodyItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EmptyStatement_adapted" eSuperTypes="#//Statement_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EnhancedForStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false" upperBound="-1"
+        eType="#//EnhancedForStatement_adapted_bodyItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//EnhancedForStatement_adapted_expressionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameter" ordered="false"
+        upperBound="-1" eType="#//EnhancedForStatement_adapted_parameterItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnumConstantDeclaration_adapted" eSuperTypes="#//BodyDeclaration_adapted #//VariableDeclaration_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="anonymousClassDeclaration"
+        ordered="false" upperBound="-1" eType="#//EnumConstantDeclaration_adapted_anonymousClassDeclarationItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="arguments" upperBound="-1"
+        eType="#//EnumConstantDeclaration_adapted_argumentsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnumDeclaration_adapted" eSuperTypes="#//AbstractTypeDeclaration_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enumConstants" upperBound="-1"
+        eType="#//EnumDeclaration_adapted_enumConstantsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression_adapted" abstract="true"
+      eSuperTypes="#//ASTNode_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ExpressionStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//ExpressionStatement_adapted_expressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FieldAccess_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="field" ordered="false"
+        upperBound="-1" eType="#//FieldAccess_adapted_fieldItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//FieldAccess_adapted_expressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FieldDeclaration_adapted" eSuperTypes="#//BodyDeclaration_adapted #//AbstractVariablesContainer_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ForStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//ForStatement_adapted_expressionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updaters" upperBound="-1"
+        eType="#//ForStatement_adapted_updatersItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initializers" upperBound="-1"
+        eType="#//ForStatement_adapted_initializersItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false" upperBound="-1"
+        eType="#//ForStatement_adapted_bodyItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IfStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//IfStatement_adapted_expressionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="thenStatement" ordered="false"
+        upperBound="-1" eType="#//IfStatement_adapted_thenStatementItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elseStatement" ordered="false"
+        upperBound="-1" eType="#//IfStatement_adapted_elseStatementItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImportDeclaration_adapted" eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="static" ordered="false"
+        unique="false" upperBound="-1" eType="#//ImportDeclaration_adapted_staticValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="importedElement" ordered="false"
+        upperBound="-1" eType="#//ImportDeclaration_adapted_importedElementItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InfixExpression_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operator" ordered="false"
+        unique="false" upperBound="-1" eType="#//InfixExpression_adapted_operatorValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightOperand" ordered="false"
+        upperBound="-1" eType="#//InfixExpression_adapted_rightOperandItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftOperand" ordered="false"
+        upperBound="-1" eType="#//InfixExpression_adapted_leftOperandItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="extendedOperands" upperBound="-1"
+        eType="#//InfixExpression_adapted_extendedOperandsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Initializer_adapted" eSuperTypes="#//BodyDeclaration_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false" upperBound="-1"
+        eType="#//Initializer_adapted_bodyItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InstanceofExpression_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightOperand" ordered="false"
+        upperBound="-1" eType="#//InstanceofExpression_adapted_rightOperandItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftOperand" ordered="false"
+        upperBound="-1" eType="#//InstanceofExpression_adapted_leftOperandItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InterfaceDeclaration_adapted" eSuperTypes="#//TypeDeclaration_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Javadoc_adapted" eSuperTypes="#//Comment_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tags" upperBound="-1" eType="#//Javadoc_adapted_tagsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LabeledStatement_adapted" eSuperTypes="#//NamedElement_adapted #//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false" upperBound="-1"
+        eType="#//LabeledStatement_adapted_bodyItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInBreakStatements"
+        ordered="false" upperBound="-1" eType="#//LabeledStatement_adapted_usagesInBreakStatementsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInContinueStatements"
+        ordered="false" upperBound="-1" eType="#//LabeledStatement_adapted_usagesInContinueStatementsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LineComment_adapted" eSuperTypes="#//Comment_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Manifest_adapted" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//NodeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mainAttributes" ordered="false"
+        upperBound="-1" eType="#//Manifest_adapted_mainAttributesItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entryAttributes" ordered="false"
+        upperBound="-1" eType="#//Manifest_adapted_entryAttributesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ManifestAttribute_adapted" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//NodeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="key" ordered="false" unique="false"
+        upperBound="-1" eType="#//ManifestAttribute_adapted_keyValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" ordered="false"
+        unique="false" upperBound="-1" eType="#//ManifestAttribute_adapted_valueValue"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ManifestEntry_adapted" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//NodeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" ordered="false" unique="false"
+        upperBound="-1" eType="#//ManifestEntry_adapted_nameValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attributes" ordered="false"
+        upperBound="-1" eType="#//ManifestEntry_adapted_attributesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberRef_adapted" eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="member" ordered="false"
+        upperBound="-1" eType="#//MemberRef_adapted_memberItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" ordered="false"
+        upperBound="-1" eType="#//MemberRef_adapted_qualifierItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodDeclaration_adapted" eSuperTypes="#//AbstractMethodDeclaration_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="extraArrayDimensions" ordered="false"
+        unique="false" upperBound="-1" eType="#//MethodDeclaration_adapted_extraArrayDimensionsValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="returnType" ordered="false"
+        upperBound="-1" eType="#//MethodDeclaration_adapted_returnTypeItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="redefinedMethodDeclaration"
+        ordered="false" upperBound="-1" eType="#//MethodDeclaration_adapted_redefinedMethodDeclarationItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="redefinitions" ordered="false"
+        upperBound="-1" eType="#//MethodDeclaration_adapted_redefinitionsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodInvocation_adapted" eSuperTypes="#//Expression_adapted #//AbstractMethodInvocation_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//MethodInvocation_adapted_expressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodRef_adapted" eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="method" ordered="false"
+        upperBound="-1" eType="#//MethodRef_adapted_methodItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" ordered="false"
+        upperBound="-1" eType="#//MethodRef_adapted_qualifierItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
+        eType="#//MethodRef_adapted_parametersItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodRefParameter_adapted" eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" ordered="false" unique="false"
+        upperBound="-1" eType="#//MethodRefParameter_adapted_nameValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="varargs" ordered="false"
+        unique="false" upperBound="-1" eType="#//MethodRefParameter_adapted_varargsValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//MethodRefParameter_adapted_typeItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model_adapted" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//NodeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" ordered="false" unique="false"
+        upperBound="-1" eType="#//Model_adapted_nameValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedElements" ordered="false"
+        upperBound="-1" eType="#//Model_adapted_ownedElementsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="orphanTypes" ordered="false"
+        upperBound="-1" eType="#//Model_adapted_orphanTypesItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="unresolvedItems" ordered="false"
+        upperBound="-1" eType="#//Model_adapted_unresolvedItemsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="compilationUnits" ordered="false"
+        upperBound="-1" eType="#//Model_adapted_compilationUnitsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classFiles" ordered="false"
+        upperBound="-1" eType="#//Model_adapted_classFilesItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="archives" ordered="false"
+        upperBound="-1" eType="#//Model_adapted_archivesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted" eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="visibility" ordered="false"
+        unique="false" upperBound="-1" eType="#//Modifier_adapted_visibilityValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inheritance" ordered="false"
+        unique="false" upperBound="-1" eType="#//Modifier_adapted_inheritanceValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="static" ordered="false"
+        unique="false" upperBound="-1" eType="#//Modifier_adapted_staticValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="transient" ordered="false"
+        unique="false" upperBound="-1" eType="#//Modifier_adapted_transientValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="volatile" ordered="false"
+        unique="false" upperBound="-1" eType="#//Modifier_adapted_volatileValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="native" ordered="false"
+        unique="false" upperBound="-1" eType="#//Modifier_adapted_nativeValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="strictfp" ordered="false"
+        unique="false" upperBound="-1" eType="#//Modifier_adapted_strictfpValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="synchronized" ordered="false"
+        unique="false" upperBound="-1" eType="#//Modifier_adapted_synchronizedValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bodyDeclaration" ordered="false"
+        upperBound="-1" eType="#//Modifier_adapted_bodyDeclarationItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="singleVariableDeclaration"
+        ordered="false" upperBound="-1" eType="#//Modifier_adapted_singleVariableDeclarationItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="variableDeclarationStatement"
+        ordered="false" upperBound="-1" eType="#//Modifier_adapted_variableDeclarationStatementItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="variableDeclarationExpression"
+        ordered="false" upperBound="-1" eType="#//Modifier_adapted_variableDeclarationExpressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NamedElement_adapted" abstract="true"
+      eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" ordered="false" unique="false"
+        upperBound="-1" eType="#//NamedElement_adapted_nameValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="proxy" ordered="false"
+        unique="false" upperBound="-1" eType="#//NamedElement_adapted_proxyValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInImports" ordered="false"
+        upperBound="-1" eType="#//NamedElement_adapted_usagesInImportsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NamespaceAccess_adapted" abstract="true"
+      eSuperTypes="#//ASTNode_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="NumberLiteral_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tokenValue" ordered="false"
+        unique="false" upperBound="-1" eType="#//NumberLiteral_adapted_tokenValueValue"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NullLiteral_adapted" eSuperTypes="#//Expression_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Package_adapted" eSuperTypes="#//NamedElement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedElements" ordered="false"
+        upperBound="-1" eType="#//Package_adapted_ownedElementsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="model" ordered="false"
+        upperBound="-1" eType="#//Package_adapted_modelItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedPackages" ordered="false"
+        upperBound="-1" eType="#//Package_adapted_ownedPackagesItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="package" ordered="false"
+        upperBound="-1" eType="#//Package_adapted_packageItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInPackageAccess"
+        ordered="false" upperBound="-1" eType="#//Package_adapted_usagesInPackageAccessItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PackageAccess_adapted" eSuperTypes="#//NamespaceAccess_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="package" ordered="false"
+        upperBound="-1" eType="#//PackageAccess_adapted_packageItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" ordered="false"
+        upperBound="-1" eType="#//PackageAccess_adapted_qualifierItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParameterizedType_adapted" eSuperTypes="#//Type_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//ParameterizedType_adapted_typeItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeArguments" upperBound="-1"
+        eType="#//ParameterizedType_adapted_typeArgumentsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParenthesizedExpression_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//ParenthesizedExpression_adapted_expressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PostfixExpression_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operator" ordered="false"
+        unique="false" upperBound="-1" eType="#//PostfixExpression_adapted_operatorValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand" ordered="false"
+        upperBound="-1" eType="#//PostfixExpression_adapted_operandItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PrefixExpression_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operator" ordered="false"
+        unique="false" upperBound="-1" eType="#//PrefixExpression_adapted_operatorValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand" ordered="false"
+        upperBound="-1" eType="#//PrefixExpression_adapted_operandItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveType_adapted" eSuperTypes="#//Type_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveTypeBoolean_adapted" eSuperTypes="#//PrimitiveType_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveTypeByte_adapted" eSuperTypes="#//PrimitiveType_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveTypeChar_adapted" eSuperTypes="#//PrimitiveType_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveTypeDouble_adapted" eSuperTypes="#//PrimitiveType_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveTypeShort_adapted" eSuperTypes="#//PrimitiveType_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveTypeFloat_adapted" eSuperTypes="#//PrimitiveType_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveTypeInt_adapted" eSuperTypes="#//PrimitiveType_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveTypeLong_adapted" eSuperTypes="#//PrimitiveType_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveTypeVoid_adapted" eSuperTypes="#//PrimitiveType_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ReturnStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//ReturnStatement_adapted_expressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableAccess_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="variable" ordered="false"
+        upperBound="-1" eType="#//SingleVariableAccess_adapted_variableItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" ordered="false"
+        upperBound="-1" eType="#//SingleVariableAccess_adapted_qualifierItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableDeclaration_adapted" eSuperTypes="#//VariableDeclaration_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modifier" ordered="false"
+        upperBound="-1" eType="#//SingleVariableDeclaration_adapted_modifierItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="varargs" ordered="false"
+        unique="false" upperBound="-1" eType="#//SingleVariableDeclaration_adapted_varargsValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//SingleVariableDeclaration_adapted_typeItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotations" upperBound="-1"
+        eType="#//SingleVariableDeclaration_adapted_annotationsItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methodDeclaration" ordered="false"
+        upperBound="-1" eType="#//SingleVariableDeclaration_adapted_methodDeclarationItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="catchClause" ordered="false"
+        upperBound="-1" eType="#//SingleVariableDeclaration_adapted_catchClauseItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enhancedForStatement" ordered="false"
+        upperBound="-1" eType="#//SingleVariableDeclaration_adapted_enhancedForStatementItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Statement_adapted" abstract="true" eSuperTypes="#//ASTNode_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="StringLiteral_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="escapedValue" ordered="false"
+        unique="false" upperBound="-1" eType="#//StringLiteral_adapted_escapedValueValue"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SuperConstructorInvocation_adapted"
+      eSuperTypes="#//Statement_adapted #//AbstractMethodInvocation_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//SuperConstructorInvocation_adapted_expressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SuperFieldAccess_adapted" eSuperTypes="#//AbstractTypeQualifiedExpression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="field" ordered="false"
+        upperBound="-1" eType="#//SuperFieldAccess_adapted_fieldItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SuperMethodInvocation_adapted" eSuperTypes="#//AbstractTypeQualifiedExpression_adapted #//AbstractMethodInvocation_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SwitchCase_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="default" ordered="false"
+        unique="false" upperBound="-1" eType="#//SwitchCase_adapted_defaultValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//SwitchCase_adapted_expressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SwitchStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//SwitchStatement_adapted_expressionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statements" upperBound="-1"
+        eType="#//SwitchStatement_adapted_statementsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SynchronizedStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false" upperBound="-1"
+        eType="#//SynchronizedStatement_adapted_bodyItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//SynchronizedStatement_adapted_expressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TagElement_adapted" eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tagName" ordered="false"
+        unique="false" upperBound="-1" eType="#//TagElement_adapted_tagNameValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fragments" upperBound="-1"
+        eType="#//TagElement_adapted_fragmentsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TextElement_adapted" eSuperTypes="#//ASTNode_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="text" ordered="false" unique="false"
+        upperBound="-1" eType="#//TextElement_adapted_textValue"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ThisExpression_adapted" eSuperTypes="#//AbstractTypeQualifiedExpression_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ThrowStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//ThrowStatement_adapted_expressionItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TryStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false" upperBound="-1"
+        eType="#//TryStatement_adapted_bodyItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="finally" ordered="false"
+        upperBound="-1" eType="#//TryStatement_adapted_finallyItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="catchClauses" upperBound="-1"
+        eType="#//TryStatement_adapted_catchClausesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Type_adapted" abstract="true" eSuperTypes="#//NamedElement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInTypeAccess" ordered="false"
+        upperBound="-1" eType="#//Type_adapted_usagesInTypeAccessItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeAccess_adapted" eSuperTypes="#//Expression_adapted #//NamespaceAccess_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//TypeAccess_adapted_typeItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" ordered="false"
+        upperBound="-1" eType="#//TypeAccess_adapted_qualifierItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeDeclaration_adapted" abstract="true"
+      eSuperTypes="#//AbstractTypeDeclaration_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeParameters" upperBound="-1"
+        eType="#//TypeDeclaration_adapted_typeParametersItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeDeclarationStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declaration" ordered="false"
+        upperBound="-1" eType="#//TypeDeclarationStatement_adapted_declarationItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeLiteral_adapted" eSuperTypes="#//Expression_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" upperBound="-1"
+        eType="#//TypeLiteral_adapted_typeItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeParameter_adapted" eSuperTypes="#//Type_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bounds" upperBound="-1"
+        eType="#//TypeParameter_adapted_boundsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedItem_adapted" eSuperTypes="#//NamedElement_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedItemAccess_adapted" eSuperTypes="#//Expression_adapted #//NamespaceAccess_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="element" ordered="false"
+        upperBound="-1" eType="#//UnresolvedItemAccess_adapted_elementItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" ordered="false"
+        upperBound="-1" eType="#//UnresolvedItemAccess_adapted_qualifierItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedAnnotationDeclaration_adapted"
+      eSuperTypes="#//AnnotationTypeDeclaration_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedAnnotationTypeMemberDeclaration_adapted"
+      eSuperTypes="#//AnnotationTypeMemberDeclaration_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedClassDeclaration_adapted"
+      eSuperTypes="#//ClassDeclaration_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedEnumDeclaration_adapted" eSuperTypes="#//EnumDeclaration_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedInterfaceDeclaration_adapted"
+      eSuperTypes="#//InterfaceDeclaration_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedLabeledStatement_adapted"
+      eSuperTypes="#//LabeledStatement_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedMethodDeclaration_adapted"
+      eSuperTypes="#//MethodDeclaration_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedSingleVariableDeclaration_adapted"
+      eSuperTypes="#//SingleVariableDeclaration_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedType_adapted" eSuperTypes="#//Type_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedTypeDeclaration_adapted" eSuperTypes="#//AbstractTypeDeclaration_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedVariableDeclarationFragment_adapted"
+      eSuperTypes="#//VariableDeclarationFragment_adapted #//UnresolvedItem_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclaration_adapted" abstract="true"
+      eSuperTypes="#//NamedElement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="extraArrayDimensions" ordered="false"
+        unique="false" upperBound="-1" eType="#//VariableDeclaration_adapted_extraArrayDimensionsValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initializer" ordered="false"
+        upperBound="-1" eType="#//VariableDeclaration_adapted_initializerItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usageInVariableAccess"
+        ordered="false" upperBound="-1" eType="#//VariableDeclaration_adapted_usageInVariableAccessItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclarationExpression_adapted"
+      eSuperTypes="#//Expression_adapted #//AbstractVariablesContainer_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modifier" ordered="false"
+        upperBound="-1" eType="#//VariableDeclarationExpression_adapted_modifierItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotations" upperBound="-1"
+        eType="#//VariableDeclarationExpression_adapted_annotationsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclarationFragment_adapted"
+      eSuperTypes="#//VariableDeclaration_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="variablesContainer" ordered="false"
+        upperBound="-1" eType="#//VariableDeclarationFragment_adapted_variablesContainerItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclarationStatement_adapted"
+      eSuperTypes="#//Statement_adapted #//AbstractVariablesContainer_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="extraArrayDimensions" ordered="false"
+        unique="false" upperBound="-1" eType="#//VariableDeclarationStatement_adapted_extraArrayDimensionsValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modifier" ordered="false"
+        upperBound="-1" eType="#//VariableDeclarationStatement_adapted_modifierItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotations" upperBound="-1"
+        eType="#//VariableDeclarationStatement_adapted_annotationsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WildCardType_adapted" eSuperTypes="#//Type_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="upperBound" ordered="false"
+        unique="false" upperBound="-1" eType="#//WildCardType_adapted_upperBoundValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bound" ordered="false"
+        upperBound="-1" eType="#//WildCardType_adapted_boundItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WhileStatement_adapted" eSuperTypes="#//Statement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" ordered="false"
+        upperBound="-1" eType="#//WhileStatement_adapted_expressionItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" ordered="false" upperBound="-1"
+        eType="#//WhileStatement_adapted_bodyItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodDeclaration_adapted_bodyItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Block_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodDeclaration_adapted_parametersItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" lowerBound="1"
+        eType="#//SingleVariableDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodDeclaration_adapted_thrownExceptionsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="thrownExceptions" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodDeclaration_adapted_typeParametersItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeParameters" lowerBound="1"
+        eType="#//TypeParameter_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodDeclaration_adapted_usagesInDocCommentsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInDocComments" lowerBound="1"
+        eType="#//MethodRef_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodDeclaration_adapted_usagesItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usages" lowerBound="1"
+        eType="#//AbstractMethodInvocation_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodInvocation_adapted_methodItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="method" lowerBound="1"
+        eType="#//AbstractMethodDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodInvocation_adapted_argumentsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="arguments" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractMethodInvocation_adapted_typeArgumentsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeArguments" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractTypeDeclaration_adapted_bodyDeclarationsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bodyDeclarations" lowerBound="1"
+        eType="#//BodyDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractTypeDeclaration_adapted_commentsBeforeBodyItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="commentsBeforeBody" lowerBound="1"
+        eType="#//Comment_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractTypeDeclaration_adapted_commentsAfterBodyItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="commentsAfterBody" lowerBound="1"
+        eType="#//Comment_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractTypeDeclaration_adapted_packageItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="package" lowerBound="1"
+        eType="#//Package_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractTypeDeclaration_adapted_superInterfacesItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="superInterfaces" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractTypeQualifiedExpression_adapted_qualifierItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractVariablesContainer_adapted_typeItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractVariablesContainer_adapted_fragmentsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fragments" lowerBound="1"
+        eType="#//VariableDeclarationFragment_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Annotation_adapted_typeItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Annotation_adapted_valuesItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="values" lowerBound="1"
+        eType="#//AnnotationMemberValuePair_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Archive_adapted_originalFilePathValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Archive_adapted_classFilesItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classFiles" lowerBound="1"
+        eType="#//ClassFile_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Archive_adapted_manifestItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="manifest" lowerBound="1"
+        eType="#//Manifest_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AssertStatement_adapted_messageItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="message" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AssertStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTNode_adapted_commentsItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="comments" lowerBound="1"
+        eType="#//Comment_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTNode_adapted_originalCompilationUnitItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="originalCompilationUnit"
+        lowerBound="1" eType="#//CompilationUnit_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTNode_adapted_originalClassFileItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="originalClassFile" lowerBound="1"
+        eType="#//ClassFile_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotationMemberValuePair_adapted_memberItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="member" lowerBound="1"
+        eType="#//AnnotationTypeMemberDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotationMemberValuePair_adapted_valueItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" lowerBound="1" eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotationTypeMemberDeclaration_adapted_defaultItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="default" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotationTypeMemberDeclaration_adapted_typeItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotationTypeMemberDeclaration_adapted_usagesItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usages" lowerBound="1"
+        eType="#//AnnotationMemberValuePair_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnonymousClassDeclaration_adapted_bodyDeclarationsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bodyDeclarations" lowerBound="1"
+        eType="#//BodyDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnonymousClassDeclaration_adapted_classInstanceCreationItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classInstanceCreation"
+        lowerBound="1" eType="#//ClassInstanceCreation_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayAccess_adapted_arrayItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="array" lowerBound="1" eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayAccess_adapted_indexItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="index" lowerBound="1" eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayCreation_adapted_dimensionsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dimensions" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayCreation_adapted_initializerItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initializer" lowerBound="1"
+        eType="#//ArrayInitializer_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayCreation_adapted_typeItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayInitializer_adapted_expressionsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expressions" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayLengthAccess_adapted_arrayItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="array" lowerBound="1" eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayType_adapted_dimensionsValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArrayType_adapted_elementTypeItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elementType" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Assignment_adapted_leftHandSideItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftHandSide" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Assignment_adapted_operatorValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EEnum http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AssignmentKind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Assignment_adapted_rightHandSideItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightHandSide" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BodyDeclaration_adapted_abstractTypeDeclarationItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="abstractTypeDeclaration"
+        lowerBound="1" eType="#//AbstractTypeDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BodyDeclaration_adapted_annotationsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotations" lowerBound="1"
+        eType="#//Annotation_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BodyDeclaration_adapted_anonymousClassDeclarationOwnerItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="anonymousClassDeclarationOwner"
+        lowerBound="1" eType="#//AnonymousClassDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BodyDeclaration_adapted_modifierItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modifier" lowerBound="1"
+        eType="#//Modifier_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BooleanLiteral_adapted_valueValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Block_adapted_statementsItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statements" lowerBound="1"
+        eType="#//Statement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BreakStatement_adapted_labelItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="label" lowerBound="1" eType="#//LabeledStatement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CastExpression_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CastExpression_adapted_typeItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CatchClause_adapted_exceptionItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="exception" lowerBound="1"
+        eType="#//SingleVariableDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CatchClause_adapted_bodyItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Block_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CharacterLiteral_adapted_escapedValueValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassFile_adapted_originalFilePathValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassFile_adapted_typeItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//AbstractTypeDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassFile_adapted_attachedSourceItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attachedSource" lowerBound="1"
+        eType="#//CompilationUnit_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassFile_adapted_packageItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="package" lowerBound="1"
+        eType="#//Package_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassInstanceCreation_adapted_anonymousClassDeclarationItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="anonymousClassDeclaration"
+        lowerBound="1" eType="#//AnonymousClassDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassInstanceCreation_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassInstanceCreation_adapted_typeItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConditionalExpression_adapted_elseExpressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elseExpression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConditionalExpression_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConditionalExpression_adapted_thenExpressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="thenExpression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassDeclaration_adapted_superClassItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="superClass" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Comment_adapted_contentValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Comment_adapted_enclosedByParentValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Comment_adapted_prefixOfParentValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CompilationUnit_adapted_originalFilePathValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CompilationUnit_adapted_commentListItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="commentList" lowerBound="1"
+        eType="#//Comment_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CompilationUnit_adapted_importsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imports" lowerBound="1"
+        eType="#//ImportDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CompilationUnit_adapted_packageItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="package" lowerBound="1"
+        eType="#//Package_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CompilationUnit_adapted_typesItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="types" lowerBound="1" eType="#//AbstractTypeDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContinueStatement_adapted_labelItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="label" lowerBound="1" eType="#//LabeledStatement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DoStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DoStatement_adapted_bodyItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Statement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnhancedForStatement_adapted_bodyItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Statement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnhancedForStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnhancedForStatement_adapted_parameterItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameter" lowerBound="1"
+        eType="#//SingleVariableDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnumConstantDeclaration_adapted_anonymousClassDeclarationItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="anonymousClassDeclaration"
+        lowerBound="1" eType="#//AnonymousClassDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnumConstantDeclaration_adapted_argumentsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="arguments" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnumDeclaration_adapted_enumConstantsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enumConstants" lowerBound="1"
+        eType="#//EnumConstantDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ExpressionStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FieldAccess_adapted_fieldItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="field" lowerBound="1" eType="#//SingleVariableAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FieldAccess_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ForStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ForStatement_adapted_updatersItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updaters" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ForStatement_adapted_initializersItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initializers" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ForStatement_adapted_bodyItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Statement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IfStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IfStatement_adapted_thenStatementItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="thenStatement" lowerBound="1"
+        eType="#//Statement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IfStatement_adapted_elseStatementItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elseStatement" lowerBound="1"
+        eType="#//Statement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImportDeclaration_adapted_staticValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImportDeclaration_adapted_importedElementItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="importedElement" lowerBound="1"
+        eType="#//NamedElement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InfixExpression_adapted_operatorValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EEnum http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InfixExpressionKind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InfixExpression_adapted_rightOperandItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightOperand" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InfixExpression_adapted_leftOperandItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftOperand" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InfixExpression_adapted_extendedOperandsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="extendedOperands" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Initializer_adapted_bodyItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Block_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InstanceofExpression_adapted_rightOperandItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightOperand" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InstanceofExpression_adapted_leftOperandItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftOperand" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Javadoc_adapted_tagsItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tags" lowerBound="1" eType="#//TagElement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LabeledStatement_adapted_bodyItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Statement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LabeledStatement_adapted_usagesInBreakStatementsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInBreakStatements"
+        lowerBound="1" eType="#//BreakStatement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LabeledStatement_adapted_usagesInContinueStatementsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInContinueStatements"
+        lowerBound="1" eType="#//ContinueStatement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Manifest_adapted_mainAttributesItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mainAttributes" lowerBound="1"
+        eType="#//ManifestAttribute_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Manifest_adapted_entryAttributesItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entryAttributes" lowerBound="1"
+        eType="#//ManifestEntry_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ManifestAttribute_adapted_keyValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ManifestAttribute_adapted_valueValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ManifestEntry_adapted_nameValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ManifestEntry_adapted_attributesItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attributes" lowerBound="1"
+        eType="#//ManifestAttribute_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberRef_adapted_memberItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="member" lowerBound="1"
+        eType="#//NamedElement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberRef_adapted_qualifierItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodDeclaration_adapted_extraArrayDimensionsValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodDeclaration_adapted_returnTypeItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="returnType" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodDeclaration_adapted_redefinedMethodDeclarationItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="redefinedMethodDeclaration"
+        lowerBound="1" eType="#//MethodDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodDeclaration_adapted_redefinitionsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="redefinitions" lowerBound="1"
+        eType="#//MethodDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodInvocation_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodRef_adapted_methodItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="method" lowerBound="1"
+        eType="#//AbstractMethodDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodRef_adapted_qualifierItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodRef_adapted_parametersItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" lowerBound="1"
+        eType="#//MethodRefParameter_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodRefParameter_adapted_nameValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodRefParameter_adapted_varargsValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodRefParameter_adapted_typeItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model_adapted_nameValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model_adapted_ownedElementsItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedElements" lowerBound="1"
+        eType="#//Package_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model_adapted_orphanTypesItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="orphanTypes" lowerBound="1"
+        eType="#//Type_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model_adapted_unresolvedItemsItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="unresolvedItems" lowerBound="1"
+        eType="#//UnresolvedItem_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model_adapted_compilationUnitsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="compilationUnits" lowerBound="1"
+        eType="#//CompilationUnit_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model_adapted_classFilesItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classFiles" lowerBound="1"
+        eType="#//ClassFile_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model_adapted_archivesItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="archives" lowerBound="1"
+        eType="#//Archive_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_visibilityValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EEnum http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VisibilityKind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_inheritanceValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EEnum http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InheritanceKind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_staticValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_transientValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_volatileValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_nativeValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_strictfpValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_synchronizedValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_bodyDeclarationItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bodyDeclaration" lowerBound="1"
+        eType="#//BodyDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_singleVariableDeclarationItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="singleVariableDeclaration"
+        lowerBound="1" eType="#//SingleVariableDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_variableDeclarationStatementItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="variableDeclarationStatement"
+        lowerBound="1" eType="#//VariableDeclarationStatement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Modifier_adapted_variableDeclarationExpressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="variableDeclarationExpression"
+        lowerBound="1" eType="#//VariableDeclarationExpression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NamedElement_adapted_nameValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NamedElement_adapted_proxyValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NamedElement_adapted_usagesInImportsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInImports" lowerBound="1"
+        eType="#//ImportDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NumberLiteral_adapted_tokenValueValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Package_adapted_ownedElementsItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedElements" lowerBound="1"
+        eType="#//AbstractTypeDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Package_adapted_modelItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="model" lowerBound="1" eType="#//Model_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Package_adapted_ownedPackagesItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedPackages" lowerBound="1"
+        eType="#//Package_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Package_adapted_packageItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="package" lowerBound="1"
+        eType="#//Package_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Package_adapted_usagesInPackageAccessItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInPackageAccess"
+        lowerBound="1" eType="#//PackageAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PackageAccess_adapted_packageItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="package" lowerBound="1"
+        eType="#//Package_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PackageAccess_adapted_qualifierItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" lowerBound="1"
+        eType="#//PackageAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParameterizedType_adapted_typeItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParameterizedType_adapted_typeArgumentsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeArguments" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParenthesizedExpression_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PostfixExpression_adapted_operatorValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EEnum http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PostfixExpressionKind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PostfixExpression_adapted_operandItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PrefixExpression_adapted_operatorValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EEnum http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrefixExpressionKind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PrefixExpression_adapted_operandItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ReturnStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableAccess_adapted_variableItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="variable" lowerBound="1"
+        eType="#//VariableDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableAccess_adapted_qualifierItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableDeclaration_adapted_modifierItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modifier" lowerBound="1"
+        eType="#//Modifier_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableDeclaration_adapted_varargsValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableDeclaration_adapted_typeItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableDeclaration_adapted_annotationsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotations" lowerBound="1"
+        eType="#//Annotation_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableDeclaration_adapted_methodDeclarationItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methodDeclaration" lowerBound="1"
+        eType="#//AbstractMethodDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableDeclaration_adapted_catchClauseItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="catchClause" lowerBound="1"
+        eType="#//CatchClause_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleVariableDeclaration_adapted_enhancedForStatementItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enhancedForStatement" lowerBound="1"
+        eType="#//EnhancedForStatement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="StringLiteral_adapted_escapedValueValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SuperConstructorInvocation_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SuperFieldAccess_adapted_fieldItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="field" lowerBound="1" eType="#//SingleVariableAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SwitchCase_adapted_defaultValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SwitchCase_adapted_expressionItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SwitchStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SwitchStatement_adapted_statementsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statements" lowerBound="1"
+        eType="#//Statement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SynchronizedStatement_adapted_bodyItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Block_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SynchronizedStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TagElement_adapted_tagNameValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TagElement_adapted_fragmentsItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fragments" lowerBound="1"
+        eType="#//ASTNode_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TextElement_adapted_textValue" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ThrowStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TryStatement_adapted_bodyItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Block_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TryStatement_adapted_finallyItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="finally" lowerBound="1"
+        eType="#//Block_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TryStatement_adapted_catchClausesItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="catchClauses" lowerBound="1"
+        eType="#//CatchClause_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Type_adapted_usagesInTypeAccessItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagesInTypeAccess" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeAccess_adapted_typeItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//Type_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeAccess_adapted_qualifierItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" lowerBound="1"
+        eType="#//NamespaceAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeDeclaration_adapted_typeParametersItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeParameters" lowerBound="1"
+        eType="#//TypeParameter_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeDeclarationStatement_adapted_declarationItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declaration" lowerBound="1"
+        eType="#//AbstractTypeDeclaration_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeLiteral_adapted_typeItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeParameter_adapted_boundsItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bounds" lowerBound="1"
+        eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedItemAccess_adapted_elementItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="element" lowerBound="1"
+        eType="#//UnresolvedItem_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UnresolvedItemAccess_adapted_qualifierItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualifier" lowerBound="1"
+        eType="#//ASTNode_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclaration_adapted_extraArrayDimensionsValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclaration_adapted_initializerItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initializer" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclaration_adapted_usageInVariableAccessItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usageInVariableAccess"
+        lowerBound="1" eType="#//SingleVariableAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclarationExpression_adapted_modifierItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modifier" lowerBound="1"
+        eType="#//Modifier_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclarationExpression_adapted_annotationsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotations" lowerBound="1"
+        eType="#//Annotation_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclarationFragment_adapted_variablesContainerItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="variablesContainer" lowerBound="1"
+        eType="#//AbstractVariablesContainer_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclarationStatement_adapted_extraArrayDimensionsValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclarationStatement_adapted_modifierItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modifier" lowerBound="1"
+        eType="#//Modifier_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariableDeclarationStatement_adapted_annotationsItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotations" lowerBound="1"
+        eType="#//Annotation_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WildCardType_adapted_upperBoundValue"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//AttributeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WildCardType_adapted_boundItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bound" lowerBound="1" eType="#//TypeAccess_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WhileStatement_adapted_expressionItem"
+      eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" lowerBound="1"
+        eType="#//Expression_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WhileStatement_adapted_bodyItem" eSuperTypes="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Statement_adapted"/>
+  </eClassifiers>
+</ecore:EPackage>

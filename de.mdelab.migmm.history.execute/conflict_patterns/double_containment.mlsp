@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mlstorypatterns:StoryPattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" uuid="_7XVl4EkuEeyoJNdPKPu-4A" name="double_containment">
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_RPb6kEkvEeyoJNdPKPu-4A" source="_FismoEkvEeyoJNdPKPu-4A" target="_NqE9cEkvEeyoJNdPKPu-4A">
+    <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory/edgeTarget"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_SAx38EkvEeyoJNdPKPu-4A" source="_LwOf4EkvEeyoJNdPKPu-4A" target="_NqE9cEkvEeyoJNdPKPu-4A">
+    <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory/edgeTarget"/>
+  </storyPatternLinks>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_FismoEkvEeyoJNdPKPu-4A" name="containment1" outgoingLinks="_RPb6kEkvEeyoJNdPKPu-4A" bindingType="CAN_BE_BOUND">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_LwOf4EkvEeyoJNdPKPu-4A" name="containment2" outgoingLinks="_SAx38EkvEeyoJNdPKPu-4A" bindingType="CAN_BE_BOUND">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//ContainmentEdgeWithHistory"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_NqE9cEkvEeyoJNdPKPu-4A" name="node" incomingLinks="_RPb6kEkvEeyoJNdPKPu-4A _SAx38EkvEeyoJNdPKPu-4A" bindingType="CAN_BE_BOUND">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//NodeWithHistory"/>
+  </storyPatternObjects>
+  <constraints xsi:type="mlexpressions:MLStringExpression" uuid="_Zqe0R0kvEeyoJNdPKPu-4A" expressionString="(not containment1.validIn.getPresentTiming()->oclAsSet()->flatten()->intersection(containment2.validIn.getAbsentTiming()->oclAsSet()->flatten())->isEmpty()) and (not containment2.validIn.getPresentTiming()->oclAsSet()->flatten()->intersection(containment1.validIn.getAbsentTiming()->oclAsSet()->flatten())->isEmpty())" expressionLanguageID="OCL"/>
+</mlstorypatterns:StoryPattern>

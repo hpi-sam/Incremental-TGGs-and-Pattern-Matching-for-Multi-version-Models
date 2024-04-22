@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?><!--
+--><plugin>
+                                                                                                                           
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <extension point="org.eclipse.emf.ecore.generated_package">
+              
+        <!-- @generated java2class_adapted -->
+              
+        <package class="de.mdelab.migmm.java2class_adapted.Java2class_adaptedPackage" genModel="model-gen/model/java2class_adapted.genmodel" uri="http://www.mdelab.de/mltgg/java2class/adapted/1.0"/>
+           
+    </extension>
+                                                                                                                           
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <extension point="org.eclipse.emf.ecore.generated_package">
+              
+        <!-- @generated java2class_adapted -->
+              
+        <package class="de.mdelab.migmm.java2class_adapted.generated.GeneratedPackage" genModel="model-gen/model/java2class_adapted.genmodel" uri="http://www.mdelab.de/mltgg/java2class/adapted/1.0/generated"/>
+           
+    </extension>
+                                                                                                                        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <extension point="de.mdelab.mltgg.mote2.eclipse.rules">
+        <rules configurationFileURI="model-gen/config.xmi" tggID="java2class_adapted"/>
+    </extension>
+</plugin>

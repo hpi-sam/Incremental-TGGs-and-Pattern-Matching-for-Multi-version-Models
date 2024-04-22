@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mapping:MappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mapping="http://www.mdelab.de/migmm/mapping/1.0">
+  <mappings>
+    <source href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+    <target href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//CorrAxiom_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrPkg"/>
+    <target href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//CorrPkg_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrClass"/>
+    <target href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//CorrClass_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAssociation"/>
+    <target href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//CorrAssociation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLAssoc"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLAssoc_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLAssoc/leftRole"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLAssoc_adapted_leftRoleItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLAssoc/rightRole"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLAssoc_adapted_rightRoleItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLCardinality"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLCardinality_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLCardinality/cardString"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLCardinality_adapted_cardStringValue"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLCardinality/revCard"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLCardinality_adapted_revCardItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLClassDiagram_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram/elements"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLClassDiagram_adapted_elementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLClass"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLClass_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLClass/roles"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLClass_adapted_rolesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLDiagramItem"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLDiagramItem_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLElement"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLElement/name"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLElement_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLElement/diagram"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLElement_adapted_diagramItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLIncrement"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLIncrement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLIncrement/stereotypes"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLIncrement_adapted_stereotypesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLRole"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLRole_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLRole/adornment"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLRole_adapted_adornmentValue"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLRole/card"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLRole_adapted_cardItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLRole/revLeftRole"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLRole_adapted_revLeftRoleItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLRole/revRightRole"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLRole_adapted_revRightRoleItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLRole/target"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLRole_adapted_targetItem"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLStereotype"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLStereotype_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLStereotype/text"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLStereotype_adapted_textValue"/>
+  </mappings>
+  <mappings>
+    <source href="http:///de/hpi/sam/classDiagram.ecore#//UMLStereotype/increment"/>
+    <target href="http:///de/hpi/sam/classDiagram.ecore_adapted#//UMLStereotype_adapted_incrementItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodDeclaration/body"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodDeclaration_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodDeclaration/parameters"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodDeclaration_adapted_parametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodDeclaration/thrownExceptions"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodDeclaration_adapted_thrownExceptionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodDeclaration/typeParameters"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodDeclaration_adapted_typeParametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodDeclaration/usagesInDocComments"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodDeclaration_adapted_usagesInDocCommentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodDeclaration/usages"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodDeclaration_adapted_usagesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodInvocation"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodInvocation/method"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodInvocation_adapted_methodItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodInvocation/arguments"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodInvocation_adapted_argumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractMethodInvocation/typeArguments"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractMethodInvocation_adapted_typeArgumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractTypeDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractTypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractTypeDeclaration/bodyDeclarations"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractTypeDeclaration_adapted_bodyDeclarationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractTypeDeclaration/commentsBeforeBody"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractTypeDeclaration_adapted_commentsBeforeBodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractTypeDeclaration/commentsAfterBody"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractTypeDeclaration_adapted_commentsAfterBodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractTypeDeclaration/package"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractTypeDeclaration_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractTypeDeclaration/superInterfaces"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractTypeDeclaration_adapted_superInterfacesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractTypeQualifiedExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractTypeQualifiedExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractTypeQualifiedExpression/qualifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractTypeQualifiedExpression_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractVariablesContainer"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractVariablesContainer_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractVariablesContainer/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractVariablesContainer_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractVariablesContainer/fragments"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AbstractVariablesContainer_adapted_fragmentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Annotation"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Annotation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Annotation/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Annotation_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Annotation/values"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Annotation_adapted_valuesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Archive"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Archive_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Archive/originalFilePath"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Archive_adapted_originalFilePathValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Archive/classFiles"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Archive_adapted_classFilesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Archive/manifest"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Archive_adapted_manifestItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AssertStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AssertStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AssertStatement/message"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AssertStatement_adapted_messageItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AssertStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AssertStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ASTNode"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ASTNode_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ASTNode/comments"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ASTNode_adapted_commentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ASTNode/originalCompilationUnit"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ASTNode_adapted_originalCompilationUnitItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ASTNode/originalClassFile"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ASTNode_adapted_originalClassFileItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnnotationMemberValuePair"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnnotationMemberValuePair_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnnotationMemberValuePair/member"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnnotationMemberValuePair_adapted_memberItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnnotationMemberValuePair/value"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnnotationMemberValuePair_adapted_valueItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnnotationTypeDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnnotationTypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnnotationTypeMemberDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnnotationTypeMemberDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnnotationTypeMemberDeclaration/default"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnnotationTypeMemberDeclaration_adapted_defaultItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnnotationTypeMemberDeclaration/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnnotationTypeMemberDeclaration_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnnotationTypeMemberDeclaration/usages"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnnotationTypeMemberDeclaration_adapted_usagesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnonymousClassDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnonymousClassDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnonymousClassDeclaration/bodyDeclarations"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnonymousClassDeclaration_adapted_bodyDeclarationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AnonymousClassDeclaration/classInstanceCreation"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//AnonymousClassDeclaration_adapted_classInstanceCreationItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayAccess/array"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayAccess_adapted_arrayItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayAccess/index"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayAccess_adapted_indexItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayCreation"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayCreation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayCreation/dimensions"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayCreation_adapted_dimensionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayCreation/initializer"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayCreation_adapted_initializerItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayCreation/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayCreation_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayInitializer"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayInitializer_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayInitializer/expressions"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayInitializer_adapted_expressionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayLengthAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayLengthAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayLengthAccess/array"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayLengthAccess_adapted_arrayItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayType"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayType/dimensions"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayType_adapted_dimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ArrayType/elementType"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ArrayType_adapted_elementTypeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Assignment"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Assignment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Assignment/leftHandSide"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Assignment_adapted_leftHandSideItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Assignment/operator"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Assignment_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Assignment/rightHandSide"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Assignment_adapted_rightHandSideItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//BodyDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//BodyDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//BodyDeclaration/abstractTypeDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//BodyDeclaration_adapted_abstractTypeDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//BodyDeclaration/annotations"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//BodyDeclaration_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//BodyDeclaration/anonymousClassDeclarationOwner"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//BodyDeclaration_adapted_anonymousClassDeclarationOwnerItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//BodyDeclaration/modifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//BodyDeclaration_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//BooleanLiteral"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//BooleanLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//BooleanLiteral/value"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//BooleanLiteral_adapted_valueValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//BlockComment"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//BlockComment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Block"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Block_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Block/statements"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Block_adapted_statementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//BreakStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//BreakStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//BreakStatement/label"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//BreakStatement_adapted_labelItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CastExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CastExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CastExpression/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CastExpression_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CastExpression/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CastExpression_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CatchClause"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CatchClause_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CatchClause/exception"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CatchClause_adapted_exceptionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CatchClause/body"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CatchClause_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CharacterLiteral"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CharacterLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CharacterLiteral/escapedValue"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CharacterLiteral_adapted_escapedValueValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassFile"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassFile_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassFile/originalFilePath"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassFile_adapted_originalFilePathValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassFile/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassFile_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassFile/attachedSource"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassFile_adapted_attachedSourceItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassFile/package"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassFile_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassInstanceCreation"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassInstanceCreation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassInstanceCreation/anonymousClassDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassInstanceCreation_adapted_anonymousClassDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassInstanceCreation/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassInstanceCreation_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassInstanceCreation/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassInstanceCreation_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ConstructorDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ConstructorDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ConditionalExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ConditionalExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ConditionalExpression/elseExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ConditionalExpression_adapted_elseExpressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ConditionalExpression/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ConditionalExpression_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ConditionalExpression/thenExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ConditionalExpression_adapted_thenExpressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ConstructorInvocation"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ConstructorInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassDeclaration/superClass"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ClassDeclaration_adapted_superClassItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Comment"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Comment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Comment/content"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Comment_adapted_contentValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Comment/enclosedByParent"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Comment_adapted_enclosedByParentValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Comment/prefixOfParent"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Comment_adapted_prefixOfParentValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CompilationUnit"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CompilationUnit_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CompilationUnit/originalFilePath"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CompilationUnit_adapted_originalFilePathValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CompilationUnit/commentList"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CompilationUnit_adapted_commentListItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CompilationUnit/imports"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CompilationUnit_adapted_importsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CompilationUnit/package"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CompilationUnit_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//CompilationUnit/types"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//CompilationUnit_adapted_typesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ContinueStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ContinueStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ContinueStatement/label"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ContinueStatement_adapted_labelItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//DoStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//DoStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//DoStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//DoStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//DoStatement/body"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//DoStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//EmptyStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//EmptyStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//EnhancedForStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//EnhancedForStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//EnhancedForStatement/body"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//EnhancedForStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//EnhancedForStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//EnhancedForStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//EnhancedForStatement/parameter"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//EnhancedForStatement_adapted_parameterItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//EnumConstantDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//EnumConstantDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//EnumConstantDeclaration/anonymousClassDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//EnumConstantDeclaration_adapted_anonymousClassDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//EnumConstantDeclaration/arguments"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//EnumConstantDeclaration_adapted_argumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//EnumDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//EnumDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//EnumDeclaration/enumConstants"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//EnumDeclaration_adapted_enumConstantsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Expression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ExpressionStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ExpressionStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ExpressionStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ExpressionStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//FieldAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//FieldAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//FieldAccess/field"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//FieldAccess_adapted_fieldItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//FieldAccess/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//FieldAccess_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//FieldDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//FieldDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ForStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ForStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ForStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ForStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ForStatement/updaters"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ForStatement_adapted_updatersItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ForStatement/initializers"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ForStatement_adapted_initializersItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ForStatement/body"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ForStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//IfStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//IfStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//IfStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//IfStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//IfStatement/thenStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//IfStatement_adapted_thenStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//IfStatement/elseStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//IfStatement_adapted_elseStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ImportDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ImportDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ImportDeclaration/static"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ImportDeclaration_adapted_staticValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ImportDeclaration/importedElement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ImportDeclaration_adapted_importedElementItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InfixExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//InfixExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InfixExpression/operator"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//InfixExpression_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InfixExpression/rightOperand"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//InfixExpression_adapted_rightOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InfixExpression/leftOperand"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//InfixExpression_adapted_leftOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InfixExpression/extendedOperands"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//InfixExpression_adapted_extendedOperandsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Initializer"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Initializer_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Initializer/body"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Initializer_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InstanceofExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//InstanceofExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InstanceofExpression/rightOperand"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//InstanceofExpression_adapted_rightOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InstanceofExpression/leftOperand"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//InstanceofExpression_adapted_leftOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//InterfaceDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//InterfaceDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Javadoc"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Javadoc_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Javadoc/tags"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Javadoc_adapted_tagsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//LabeledStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//LabeledStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//LabeledStatement/body"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//LabeledStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//LabeledStatement/usagesInBreakStatements"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//LabeledStatement_adapted_usagesInBreakStatementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//LabeledStatement/usagesInContinueStatements"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//LabeledStatement_adapted_usagesInContinueStatementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//LineComment"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//LineComment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Manifest"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Manifest_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Manifest/mainAttributes"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Manifest_adapted_mainAttributesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Manifest/entryAttributes"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Manifest_adapted_entryAttributesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ManifestAttribute"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ManifestAttribute_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ManifestAttribute/key"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ManifestAttribute_adapted_keyValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ManifestAttribute/value"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ManifestAttribute_adapted_valueValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ManifestEntry"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ManifestEntry_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ManifestEntry/name"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ManifestEntry_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ManifestEntry/attributes"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ManifestEntry_adapted_attributesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MemberRef"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MemberRef_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MemberRef/member"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MemberRef_adapted_memberItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MemberRef/qualifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MemberRef_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodDeclaration/extraArrayDimensions"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted_extraArrayDimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodDeclaration/returnType"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted_returnTypeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodDeclaration/redefinedMethodDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted_redefinedMethodDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodDeclaration/redefinitions"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted_redefinitionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodInvocation"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodInvocation/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodInvocation_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodRef"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodRef_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodRef/method"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodRef_adapted_methodItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodRef/qualifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodRef_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodRef/parameters"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodRef_adapted_parametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodRefParameter"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodRefParameter_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodRefParameter/name"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodRefParameter_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodRefParameter/varargs"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodRefParameter_adapted_varargsValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodRefParameter/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodRefParameter_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Model_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/name"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Model_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/ownedElements"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Model_adapted_ownedElementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/orphanTypes"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Model_adapted_orphanTypesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/unresolvedItems"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Model_adapted_unresolvedItemsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/compilationUnits"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Model_adapted_compilationUnitsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/classFiles"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Model_adapted_classFilesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/archives"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Model_adapted_archivesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/visibility"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_visibilityValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/inheritance"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_inheritanceValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/static"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_staticValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/transient"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_transientValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/volatile"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_volatileValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/native"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_nativeValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/strictfp"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_strictfpValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/synchronized"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_synchronizedValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/bodyDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_bodyDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/singleVariableDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_singleVariableDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/variableDeclarationStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_variableDeclarationStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Modifier/variableDeclarationExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Modifier_adapted_variableDeclarationExpressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//NamedElement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//NamedElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//NamedElement/name"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//NamedElement_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//NamedElement/proxy"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//NamedElement_adapted_proxyValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//NamedElement/usagesInImports"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//NamedElement_adapted_usagesInImportsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//NamespaceAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//NamespaceAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//NumberLiteral"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//NumberLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//NumberLiteral/tokenValue"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//NumberLiteral_adapted_tokenValueValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//NullLiteral"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//NullLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Package_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package/ownedElements"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Package_adapted_ownedElementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package/model"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Package_adapted_modelItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package/ownedPackages"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Package_adapted_ownedPackagesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package/package"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Package_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package/usagesInPackageAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Package_adapted_usagesInPackageAccessItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PackageAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PackageAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PackageAccess/package"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PackageAccess_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PackageAccess/qualifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PackageAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ParameterizedType"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ParameterizedType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ParameterizedType/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ParameterizedType_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ParameterizedType/typeArguments"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ParameterizedType_adapted_typeArgumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ParenthesizedExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ParenthesizedExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ParenthesizedExpression/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ParenthesizedExpression_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PostfixExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PostfixExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PostfixExpression/operator"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PostfixExpression_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PostfixExpression/operand"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PostfixExpression_adapted_operandItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrefixExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrefixExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrefixExpression/operator"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrefixExpression_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrefixExpression/operand"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrefixExpression_adapted_operandItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrimitiveType"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrimitiveType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrimitiveTypeBoolean"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrimitiveTypeBoolean_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrimitiveTypeByte"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrimitiveTypeByte_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrimitiveTypeChar"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrimitiveTypeChar_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrimitiveTypeDouble"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrimitiveTypeDouble_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrimitiveTypeShort"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrimitiveTypeShort_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrimitiveTypeFloat"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrimitiveTypeFloat_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrimitiveTypeInt"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrimitiveTypeInt_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrimitiveTypeLong"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrimitiveTypeLong_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//PrimitiveTypeVoid"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//PrimitiveTypeVoid_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ReturnStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ReturnStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ReturnStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ReturnStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableAccess/variable"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableAccess_adapted_variableItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableAccess/qualifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableDeclaration/modifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableDeclaration_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableDeclaration/varargs"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableDeclaration_adapted_varargsValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableDeclaration/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableDeclaration_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableDeclaration/annotations"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableDeclaration_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableDeclaration/methodDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableDeclaration_adapted_methodDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableDeclaration/catchClause"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableDeclaration_adapted_catchClauseItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SingleVariableDeclaration/enhancedForStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SingleVariableDeclaration_adapted_enhancedForStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Statement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Statement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//StringLiteral"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//StringLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//StringLiteral/escapedValue"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//StringLiteral_adapted_escapedValueValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SuperConstructorInvocation"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SuperConstructorInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SuperConstructorInvocation/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SuperConstructorInvocation_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SuperFieldAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SuperFieldAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SuperFieldAccess/field"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SuperFieldAccess_adapted_fieldItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SuperMethodInvocation"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SuperMethodInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SwitchCase"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SwitchCase_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SwitchCase/default"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SwitchCase_adapted_defaultValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SwitchCase/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SwitchCase_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SwitchStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SwitchStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SwitchStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SwitchStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SwitchStatement/statements"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SwitchStatement_adapted_statementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SynchronizedStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SynchronizedStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SynchronizedStatement/body"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SynchronizedStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//SynchronizedStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//SynchronizedStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TagElement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TagElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TagElement/tagName"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TagElement_adapted_tagNameValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TagElement/fragments"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TagElement_adapted_fragmentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TextElement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TextElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TextElement/text"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TextElement_adapted_textValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ThisExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ThisExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ThrowStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ThrowStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ThrowStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//ThrowStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TryStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TryStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TryStatement/body"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TryStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TryStatement/finally"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TryStatement_adapted_finallyItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TryStatement/catchClauses"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TryStatement_adapted_catchClausesItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Type_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Type/usagesInTypeAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Type_adapted_usagesInTypeAccessItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeAccess/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeAccess/qualifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeDeclaration/typeParameters"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeDeclaration_adapted_typeParametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeDeclarationStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeDeclarationStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeDeclarationStatement/declaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeDeclarationStatement_adapted_declarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeLiteral"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeLiteral/type"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeLiteral_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeParameter"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeParameter_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeParameter/bounds"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeParameter_adapted_boundsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedItem"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedItem_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedItemAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedItemAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedItemAccess/element"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedItemAccess_adapted_elementItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedItemAccess/qualifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedItemAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedAnnotationDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedAnnotationDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedAnnotationTypeMemberDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedAnnotationTypeMemberDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedClassDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedClassDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedEnumDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedEnumDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedInterfaceDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedInterfaceDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedLabeledStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedLabeledStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedMethodDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedMethodDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedSingleVariableDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedSingleVariableDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedType"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedTypeDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedTypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//UnresolvedVariableDeclarationFragment"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//UnresolvedVariableDeclarationFragment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclaration"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclaration/extraArrayDimensions"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclaration_adapted_extraArrayDimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclaration/initializer"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclaration_adapted_initializerItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclaration/usageInVariableAccess"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclaration_adapted_usageInVariableAccessItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclarationExpression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclarationExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclarationExpression/modifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclarationExpression_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclarationExpression/annotations"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclarationExpression_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclarationFragment"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclarationFragment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclarationFragment/variablesContainer"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclarationFragment_adapted_variablesContainerItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclarationStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclarationStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclarationStatement/extraArrayDimensions"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclarationStatement_adapted_extraArrayDimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclarationStatement/modifier"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclarationStatement_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclarationStatement/annotations"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//VariableDeclarationStatement_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//WildCardType"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//WildCardType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//WildCardType/upperBound"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//WildCardType_adapted_upperBoundValue"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//WildCardType/bound"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//WildCardType_adapted_boundItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//WhileStatement"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//WhileStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//WhileStatement/expression"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//WhileStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//WhileStatement/body"/>
+    <target href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//WhileStatement_adapted_bodyItem"/>
+  </mappings>
+</mapping:MappingRoot>

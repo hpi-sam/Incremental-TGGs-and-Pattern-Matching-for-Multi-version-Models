@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mapping:MappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mapping="http://www.mdelab.de/migmm/mapping/1.0">
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLAssoc"/>
+    <target href="classDiagram_adapted.ecore#//UMLAssoc_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLAssoc/leftRole"/>
+    <target href="classDiagram_adapted.ecore#//UMLAssoc_adapted_leftRoleItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLAssoc/rightRole"/>
+    <target href="classDiagram_adapted.ecore#//UMLAssoc_adapted_rightRoleItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLCardinality"/>
+    <target href="classDiagram_adapted.ecore#//UMLCardinality_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLCardinality/cardString"/>
+    <target href="classDiagram_adapted.ecore#//UMLCardinality_adapted_cardStringValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLCardinality/revCard"/>
+    <target href="classDiagram_adapted.ecore#//UMLCardinality_adapted_revCardItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLClassDiagram"/>
+    <target href="classDiagram_adapted.ecore#//UMLClassDiagram_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLClassDiagram/elements"/>
+    <target href="classDiagram_adapted.ecore#//UMLClassDiagram_adapted_elementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLClass"/>
+    <target href="classDiagram_adapted.ecore#//UMLClass_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLClass/roles"/>
+    <target href="classDiagram_adapted.ecore#//UMLClass_adapted_rolesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLDiagramItem"/>
+    <target href="classDiagram_adapted.ecore#//UMLDiagramItem_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLElement"/>
+    <target href="classDiagram_adapted.ecore#//UMLElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLElement/name"/>
+    <target href="classDiagram_adapted.ecore#//UMLElement_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLElement/diagram"/>
+    <target href="classDiagram_adapted.ecore#//UMLElement_adapted_diagramItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLIncrement"/>
+    <target href="classDiagram_adapted.ecore#//UMLIncrement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLIncrement/stereotypes"/>
+    <target href="classDiagram_adapted.ecore#//UMLIncrement_adapted_stereotypesItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLRole"/>
+    <target href="classDiagram_adapted.ecore#//UMLRole_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLRole/adornment"/>
+    <target href="classDiagram_adapted.ecore#//UMLRole_adapted_adornmentValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLRole/card"/>
+    <target href="classDiagram_adapted.ecore#//UMLRole_adapted_cardItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLRole/revLeftRole"/>
+    <target href="classDiagram_adapted.ecore#//UMLRole_adapted_revLeftRoleItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLRole/revRightRole"/>
+    <target href="classDiagram_adapted.ecore#//UMLRole_adapted_revRightRoleItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLRole/target"/>
+    <target href="classDiagram_adapted.ecore#//UMLRole_adapted_targetItem"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLStereotype"/>
+    <target href="classDiagram_adapted.ecore#//UMLStereotype_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLStereotype/text"/>
+    <target href="classDiagram_adapted.ecore#//UMLStereotype_adapted_textValue"/>
+  </mappings>
+  <mappings>
+    <source href="file:/C:/Users/matthias.barkowsky/runtime-EclipseApplication/de.hpi.sam.classDiagram/model/classDiagram.ecore#//UMLStereotype/increment"/>
+    <target href="classDiagram_adapted.ecore#//UMLStereotype_adapted_incrementItem"/>
+  </mappings>
+  <pkg href="classDiagram_adapted.ecore#/"/>
+</mapping:MappingRoot>

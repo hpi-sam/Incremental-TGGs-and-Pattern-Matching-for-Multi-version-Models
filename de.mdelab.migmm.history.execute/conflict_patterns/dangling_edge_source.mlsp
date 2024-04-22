@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mlstorypatterns:StoryPattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" uuid="_lil6wEe7EeyX6OU9uovWhw" name="dangling_edge_source">
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_NZeeUEe-EeydEteezkqPoQ" source="_vXOdkEe7EeyX6OU9uovWhw" target="_oi_JoEe7EeyX6OU9uovWhw">
+    <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory/edgeSource"/>
+  </storyPatternLinks>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_oi_JoEe7EeyX6OU9uovWhw" name="node" incomingLinks="_NZeeUEe-EeydEteezkqPoQ">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//NodeWithHistory"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_vXOdkEe7EeyX6OU9uovWhw" name="edge" outgoingLinks="_NZeeUEe-EeydEteezkqPoQ">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//EdgeWithHistory"/>
+  </storyPatternObjects>
+  <constraints xsi:type="mlexpressions:MLStringExpression" uuid="_nMAT50hQEeyjo_FEG4YVYA" expressionString="not node.validIn.getDeletedTiming()->oclAsSet()->flatten()->intersection(edge.validIn.getAbsentTiming()->oclAsSet()->flatten())->isEmpty()" expressionLanguageID="OCL"/>
+</mlstorypatterns:StoryPattern>

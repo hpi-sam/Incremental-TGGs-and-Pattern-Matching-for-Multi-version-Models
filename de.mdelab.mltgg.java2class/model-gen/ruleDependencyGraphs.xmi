@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mltgg.ruleDependencyGraph="http://www.mdelab.de/mltgg/ruleDependencyGraph/1.0">
+  <mltgg.ruleDependencyGraph:RuleDependencyGraph uuid="_wIAmAEL0EeymDKUDinvg6Q">
+    <tggRule href="../model/java2class.mltgg#_EWn5MT8fEeKTTbcgLXf6Gw"/>
+  </mltgg.ruleDependencyGraph:RuleDependencyGraph>
+  <mltgg.ruleDependencyGraph:RuleDependencyGraph uuid="_wIAmAUL0EeymDKUDinvg6Q">
+    <tggRule href="../model/java2class.mltgg#_aHZk0UCfEey-VfNAV22-zw"/>
+    <correspondenceNodeDependencies uuid="_wIAmAkL0EeymDKUDinvg6Q">
+      <correspondenceNode href="../model/java2class.mltgg#_NjY1MECgEey-VfNAV22-zw"/>
+      <producedBy uuid="_wIAmA0L0EeymDKUDinvg6Q">
+        <producingRule href="../model/java2class.mltgg#_aHZk0UCfEey-VfNAV22-zw"/>
+      </producedBy>
+      <producedBy uuid="_wIAmBEL0EeymDKUDinvg6Q">
+        <producingRule href="../model/java2class.mltgg#_gg3hYT8fEeKTTbcgLXf6Gw"/>
+      </producedBy>
+    </correspondenceNodeDependencies>
+    <correspondenceNodeDependencies uuid="_wIAmBUL0EeymDKUDinvg6Q">
+      <correspondenceNode href="../model/java2class.mltgg#_kauZUECgEey-VfNAV22-zw"/>
+      <producedBy uuid="_wIAmBkL0EeymDKUDinvg6Q">
+        <producingRule href="../model/java2class.mltgg#_EWn5MT8fEeKTTbcgLXf6Gw"/>
+      </producedBy>
+    </correspondenceNodeDependencies>
+  </mltgg.ruleDependencyGraph:RuleDependencyGraph>
+  <mltgg.ruleDependencyGraph:RuleDependencyGraph uuid="_wIAmB0L0EeymDKUDinvg6Q">
+    <tggRule href="../model/java2class.mltgg#_gg3hYT8fEeKTTbcgLXf6Gw"/>
+    <correspondenceNodeDependencies uuid="_wIAmCEL0EeymDKUDinvg6Q">
+      <correspondenceNode href="../model/java2class.mltgg#_mGiwcT8fEeKTTbcgLXf6Gw"/>
+      <producedBy uuid="_wIAmCUL0EeymDKUDinvg6Q">
+        <producingRule href="../model/java2class.mltgg#_EWn5MT8fEeKTTbcgLXf6Gw"/>
+      </producedBy>
+    </correspondenceNodeDependencies>
+  </mltgg.ruleDependencyGraph:RuleDependencyGraph>
+  <mltgg.ruleDependencyGraph:RuleDependencyGraph uuid="_wIAmCkL0EeymDKUDinvg6Q">
+    <tggRule href="../model/java2class.mltgg#_7GjUAULwEeymDKUDinvg6Q"/>
+    <correspondenceNodeDependencies uuid="_wIAmC0L0EeymDKUDinvg6Q">
+      <correspondenceNode href="../model/java2class.mltgg#_WpI-8EL0EeymDKUDinvg6Q"/>
+      <producedBy uuid="_wIAmDEL0EeymDKUDinvg6Q">
+        <producingRule href="../model/java2class.mltgg#_EWn5MT8fEeKTTbcgLXf6Gw"/>
+      </producedBy>
+    </correspondenceNodeDependencies>
+    <correspondenceNodeDependencies uuid="_wIAmDUL0EeymDKUDinvg6Q">
+      <correspondenceNode href="../model/java2class.mltgg#_3FWS8ELxEeymDKUDinvg6Q"/>
+      <producedBy uuid="_wIAmDkL0EeymDKUDinvg6Q">
+        <producingRule href="../model/java2class.mltgg#_umrFMULrEeymDKUDinvg6Q"/>
+      </producedBy>
+    </correspondenceNodeDependencies>
+    <correspondenceNodeDependencies uuid="_wIAmD0L0EeymDKUDinvg6Q">
+      <correspondenceNode href="../model/java2class.mltgg#_0Z2WAELxEeymDKUDinvg6Q"/>
+      <producedBy uuid="_wIAmEEL0EeymDKUDinvg6Q">
+        <producingRule href="../model/java2class.mltgg#_umrFMULrEeymDKUDinvg6Q"/>
+      </producedBy>
+    </correspondenceNodeDependencies>
+  </mltgg.ruleDependencyGraph:RuleDependencyGraph>
+  <mltgg.ruleDependencyGraph:RuleDependencyGraph uuid="_wIAmEUL0EeymDKUDinvg6Q">
+    <tggRule href="../model/java2class.mltgg#_umrFMULrEeymDKUDinvg6Q"/>
+    <correspondenceNodeDependencies uuid="_wIAmEkL0EeymDKUDinvg6Q">
+      <correspondenceNode href="../model/java2class.mltgg#_VLKMwELuEeymDKUDinvg6Q"/>
+      <producedBy uuid="_wIAmE0L0EeymDKUDinvg6Q">
+        <producingRule href="../model/java2class.mltgg#_EWn5MT8fEeKTTbcgLXf6Gw"/>
+      </producedBy>
+    </correspondenceNodeDependencies>
+    <correspondenceNodeDependencies uuid="_wIAmFEL0EeymDKUDinvg6Q">
+      <correspondenceNode href="../model/java2class.mltgg#_Wjf4sELuEeymDKUDinvg6Q"/>
+      <producedBy uuid="_wIAmFUL0EeymDKUDinvg6Q">
+        <producingRule href="../model/java2class.mltgg#_gg3hYT8fEeKTTbcgLXf6Gw"/>
+      </producedBy>
+      <producedBy uuid="_wIAmFkL0EeymDKUDinvg6Q">
+        <producingRule href="../model/java2class.mltgg#_aHZk0UCfEey-VfNAV22-zw"/>
+      </producedBy>
+    </correspondenceNodeDependencies>
+  </mltgg.ruleDependencyGraph:RuleDependencyGraph>
+</xmi:XMI>

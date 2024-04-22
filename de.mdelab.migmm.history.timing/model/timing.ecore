@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="timing" nsURI="http://www.mdelab.de/migmm/history/test/timing/1.0"
+    nsPrefix="timing">
+  <eClassifiers xsi:type="ecore:EClass" name="LTBaseInterval" eSuperTypes="../../de.mdelab.migmm.history/model/history.ecore#//Interval">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cts" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dts" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="2147483647"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LTTimingUnit" eSuperTypes="../../de.mdelab.migmm.history/model/history.ecore#//TimingUnit">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="time" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LTCompositeInterval" eSuperTypes="../../de.mdelab.migmm.history/model/history.ecore#//Interval">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseIntervals" upperBound="-1"
+        eType="#//LTBaseInterval"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DAGInterval" eSuperTypes="../../de.mdelab.migmm.history/model/history.ecore#//Interval">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cts" upperBound="-1" eType="#//DAGVersion"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dts" upperBound="-1" eType="#//DAGVersion"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="recreating" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DAGVersion" eSuperTypes="../../de.mdelab.migmm.history/model/history.ecore#//TimingUnit">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="successors" upperBound="-1"
+        eType="#//DAGVersion" eOpposite="#//DAGVersion/predecessors"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="predecessors" upperBound="-1"
+        eType="#//DAGVersion" eOpposite="#//DAGVersion/successors"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="intID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+</ecore:EPackage>

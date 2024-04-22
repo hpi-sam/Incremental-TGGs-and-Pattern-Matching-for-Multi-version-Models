@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mltgg:TGG xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mltgg="http://www.mdelab.de/mltgg/1.0" uuid="_An6LwD8fEeKTTbcgLXf6Gw" name="java2class" tggID="java2class">
+  <ruleGroups uuid="_BBH9AD8fEeKTTbcgLXf6Gw" name="java2classAxiom" ruleGroupID="java2classAxiom" isAxiom="true">
+    <rules uuid="_EWn5MT8fEeKTTbcgLXf6Gw" name="axiom" leftInputElements="_HmOBsT8fEeKTTbcgLXf6Gw" rightInputElements="_WyPf8T8fEeKTTbcgLXf6Gw" ruleID="axiom">
+      <leftModelDomain uuid="_F4J9YT8fEeKTTbcgLXf6Gw">
+        <modelObjects uuid="_HmOBsT8fEeKTTbcgLXf6Gw" modifier="CREATE" incomingCorrespondenceLink="_Z6WgYj8fEeKTTbcgLXf6Gw" name="model">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model"/>
+          <attributeAssignments uuid="_1I9GoECfEey-VfNAV22-zw">
+            <assignmentExpression xsi:type="mlexpressions:MLStringExpression" uuid="_3ExTEECfEey-VfNAV22-zw" expressionString="name" expressionLanguageID="OCL"/>
+            <feature xsi:type="ecore:EAttribute" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/name"/>
+          </attributeAssignments>
+        </modelObjects>
+      </leftModelDomain>
+      <rightModelDomain uuid="_GUAy8j8fEeKTTbcgLXf6Gw">
+        <modelObjects uuid="_WyPf8T8fEeKTTbcgLXf6Gw" modifier="CREATE" incomingCorrespondenceLink="_bI1Fsj8fEeKTTbcgLXf6Gw" name="uMLClassDiagram">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+          <attributeAssignments uuid="_54YDIECfEey-VfNAV22-zw">
+            <assignmentExpression xsi:type="mlexpressions:MLStringExpression" uuid="_9LeLkECfEey-VfNAV22-zw" expressionString="name" expressionLanguageID="OCL"/>
+            <feature xsi:type="ecore:EAttribute" href="http:///de/hpi/sam/classDiagram.ecore#//UMLElement/name"/>
+          </attributeAssignments>
+        </modelObjects>
+      </rightModelDomain>
+      <correspondenceDomain uuid="_GqCGQz8fEeKTTbcgLXf6Gw">
+        <correspondenceNodes uuid="_YbWLwT8fEeKTTbcgLXf6Gw" modifier="CREATE" name="corrAxiom" outgoingLinks="_Z6WgYj8fEeKTTbcgLXf6Gw _bI1Fsj8fEeKTTbcgLXf6Gw">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrAxiom"/>
+        </correspondenceNodes>
+        <correspondenceLinks uuid="_Z6WgYj8fEeKTTbcgLXf6Gw" modifier="CREATE" source="_YbWLwT8fEeKTTbcgLXf6Gw" target="_HmOBsT8fEeKTTbcgLXf6Gw"/>
+        <correspondenceLinks uuid="_bI1Fsj8fEeKTTbcgLXf6Gw" modifier="CREATE" source="_YbWLwT8fEeKTTbcgLXf6Gw" target="_WyPf8T8fEeKTTbcgLXf6Gw"/>
+      </correspondenceDomain>
+      <ruleParameters uuid="_goPboECfEey-VfNAV22-zw" name="name">
+        <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        <forwardCalculationExpression xsi:type="mlexpressions:MLStringExpression" uuid="_qn0DIECfEey-VfNAV22-zw" expressionString="model.name" expressionLanguageID="OCL"/>
+        <backwardCalculationExpression xsi:type="mlexpressions:MLStringExpression" uuid="_q2szsECfEey-VfNAV22-zw" expressionString="uMLClassDiagram.name" expressionLanguageID="OCL"/>
+      </ruleParameters>
+    </rules>
+  </ruleGroups>
+  <ruleGroups uuid="_eLflcT8fEeKTTbcgLXf6Gw" name="java2classPkg" ruleGroupID="java2classPkg">
+    <rules uuid="_gg3hYT8fEeKTTbcgLXf6Gw" name="pkg" ruleID="pkg">
+      <leftModelDomain uuid="_iin9wT8fEeKTTbcgLXf6Gw">
+        <modelObjects uuid="_jzwOcT8fEeKTTbcgLXf6Gw" incomingCorrespondenceLink="_onHPwj8fEeKTTbcgLXf6Gw" name="model" outgoingLinks="_LJG2AECeEey-VfNAV22-zw">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model"/>
+        </modelObjects>
+        <modelObjects uuid="_HDoOYECeEey-VfNAV22-zw" modifier="CREATE" incomingCorrespondenceLink="_d0u8wECgEey-VfNAV22-zw" name="pkg" incomingLinks="_LJG2AECeEey-VfNAV22-zw">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package"/>
+        </modelObjects>
+        <modelLinks uuid="_LJG2AECeEey-VfNAV22-zw" modifier="CREATE" incomingCorrespondenceLink="_eMYnwECgEey-VfNAV22-zw" source="_jzwOcT8fEeKTTbcgLXf6Gw" target="_HDoOYECeEey-VfNAV22-zw">
+          <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Model/ownedElements"/>
+        </modelLinks>
+      </leftModelDomain>
+      <rightModelDomain uuid="_jH51Ej8fEeKTTbcgLXf6Gw">
+        <modelObjects uuid="_lDWOET8fEeKTTbcgLXf6Gw" incomingCorrespondenceLink="_pWk90j8fEeKTTbcgLXf6Gw" name="uMLClassDiagram">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+        </modelObjects>
+      </rightModelDomain>
+      <correspondenceDomain uuid="_jXSU4z8fEeKTTbcgLXf6Gw">
+        <correspondenceNodes uuid="_mGiwcT8fEeKTTbcgLXf6Gw" name="corrAxiom" outgoingLinks="_onHPwj8fEeKTTbcgLXf6Gw _pWk90j8fEeKTTbcgLXf6Gw">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrAxiom"/>
+        </correspondenceNodes>
+        <correspondenceNodes uuid="_cEgVQECgEey-VfNAV22-zw" modifier="CREATE" name="corrPkg" outgoingLinks="_d0u8wECgEey-VfNAV22-zw _eMYnwECgEey-VfNAV22-zw">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrPkg"/>
+        </correspondenceNodes>
+        <correspondenceLinks uuid="_onHPwj8fEeKTTbcgLXf6Gw" source="_mGiwcT8fEeKTTbcgLXf6Gw" target="_jzwOcT8fEeKTTbcgLXf6Gw"/>
+        <correspondenceLinks uuid="_pWk90j8fEeKTTbcgLXf6Gw" source="_mGiwcT8fEeKTTbcgLXf6Gw" target="_lDWOET8fEeKTTbcgLXf6Gw"/>
+        <correspondenceLinks uuid="_d0u8wECgEey-VfNAV22-zw" modifier="CREATE" source="_cEgVQECgEey-VfNAV22-zw" target="_HDoOYECeEey-VfNAV22-zw"/>
+        <correspondenceLinks uuid="_eMYnwECgEey-VfNAV22-zw" modifier="CREATE" source="_cEgVQECgEey-VfNAV22-zw" target="_LJG2AECeEey-VfNAV22-zw"/>
+      </correspondenceDomain>
+    </rules>
+  </ruleGroups>
+  <ruleGroups uuid="_XtE3cUCfEey-VfNAV22-zw" name="java2classChildPkg" ruleGroupID="java2classChildPkg">
+    <rules uuid="_aHZk0UCfEey-VfNAV22-zw" name="childPkg" ruleID="childPkg">
+      <leftModelDomain uuid="__rgfYUCfEey-VfNAV22-zw">
+        <modelObjects uuid="_DPXAoECgEey-VfNAV22-zw" incomingCorrespondenceLink="_PizvQECgEey-VfNAV22-zw" name="pkg" outgoingLinks="_IggxMECgEey-VfNAV22-zw">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package"/>
+        </modelObjects>
+        <modelObjects uuid="_GPBPsECgEey-VfNAV22-zw" modifier="CREATE" incomingCorrespondenceLink="_SftlQECgEey-VfNAV22-zw" name="childPkg" incomingLinks="_IggxMECgEey-VfNAV22-zw">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package"/>
+        </modelObjects>
+        <modelLinks uuid="_IggxMECgEey-VfNAV22-zw" modifier="CREATE" incomingCorrespondenceLink="_WHkcwECgEey-VfNAV22-zw" source="_DPXAoECgEey-VfNAV22-zw" target="_GPBPsECgEey-VfNAV22-zw">
+          <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package/ownedPackages"/>
+        </modelLinks>
+      </leftModelDomain>
+      <rightModelDomain uuid="_ASJBkkCgEey-VfNAV22-zw">
+        <modelObjects uuid="_m1hAwECgEey-VfNAV22-zw" incomingCorrespondenceLink="_p8y6wECgEey-VfNAV22-zw" name="uMLClassDiagram">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+        </modelObjects>
+      </rightModelDomain>
+      <correspondenceDomain uuid="_Al_xs0CgEey-VfNAV22-zw">
+        <correspondenceNodes uuid="_NjY1MECgEey-VfNAV22-zw" name="corrPkg" outgoingLinks="_PizvQECgEey-VfNAV22-zw">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrPkg"/>
+        </correspondenceNodes>
+        <correspondenceNodes uuid="_QFb7MECgEey-VfNAV22-zw" modifier="CREATE" name="corrChildPkg" outgoingLinks="_SftlQECgEey-VfNAV22-zw _WHkcwECgEey-VfNAV22-zw">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrPkg"/>
+        </correspondenceNodes>
+        <correspondenceNodes uuid="_kauZUECgEey-VfNAV22-zw" name="corrAxiom" outgoingLinks="_p8y6wECgEey-VfNAV22-zw">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrAxiom"/>
+        </correspondenceNodes>
+        <correspondenceLinks uuid="_PizvQECgEey-VfNAV22-zw" source="_NjY1MECgEey-VfNAV22-zw" target="_DPXAoECgEey-VfNAV22-zw"/>
+        <correspondenceLinks uuid="_SftlQECgEey-VfNAV22-zw" modifier="CREATE" source="_QFb7MECgEey-VfNAV22-zw" target="_GPBPsECgEey-VfNAV22-zw"/>
+        <correspondenceLinks uuid="_WHkcwECgEey-VfNAV22-zw" modifier="CREATE" source="_QFb7MECgEey-VfNAV22-zw" target="_IggxMECgEey-VfNAV22-zw"/>
+        <correspondenceLinks uuid="_p8y6wECgEey-VfNAV22-zw" source="_kauZUECgEey-VfNAV22-zw" target="_m1hAwECgEey-VfNAV22-zw"/>
+      </correspondenceDomain>
+    </rules>
+  </ruleGroups>
+  <ruleGroups uuid="_XZtPUULrEeymDKUDinvg6Q" name="java2classClassDeclaration2Class" ruleGroupID="java2classClassDeclaration2Class">
+    <rules uuid="_umrFMULrEeymDKUDinvg6Q" name="java2classClassDeclaration2Class" ruleID="java2classClassDeclaration2Class">
+      <leftModelDomain uuid="_zLsIgULrEeymDKUDinvg6Q">
+        <modelObjects uuid="_VXSPIELsEeymDKUDinvg6Q" incomingCorrespondenceLink="_Z4JgUELuEeymDKUDinvg6Q" name="pkg" outgoingLinks="_SHe10ELtEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package"/>
+        </modelObjects>
+        <modelObjects uuid="_74gSMELsEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_MCqsUELwEeymDKUDinvg6Q" name="classDeclaration" incomingLinks="_SHe10ELtEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassDeclaration"/>
+          <attributeAssignments uuid="_f0r98ELzEeymDKUDinvg6Q">
+            <assignmentExpression xsi:type="mlexpressions:MLStringExpression" uuid="_izkJ4ELzEeymDKUDinvg6Q" expressionString="name" expressionLanguageID="OCL"/>
+            <feature xsi:type="ecore:EAttribute" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//NamedElement/name"/>
+          </attributeAssignments>
+        </modelObjects>
+        <modelLinks uuid="_SHe10ELtEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_M5wsYELwEeymDKUDinvg6Q" source="_VXSPIELsEeymDKUDinvg6Q" target="_74gSMELsEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Package/ownedElements"/>
+        </modelLinks>
+      </leftModelDomain>
+      <rightModelDomain uuid="_zdAiAkLrEeymDKUDinvg6Q">
+        <modelObjects uuid="_4qlksELsEeymDKUDinvg6Q" incomingCorrespondenceLink="_YccXUELuEeymDKUDinvg6Q" name="uMLClassDiagram" outgoingLinks="_JczvQELuEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+        </modelObjects>
+        <modelObjects uuid="_GI2rMELuEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_NmUQYELwEeymDKUDinvg6Q" name="uMLClass" incomingLinks="_JczvQELuEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClass"/>
+          <attributeAssignments uuid="_gIJFcELzEeymDKUDinvg6Q">
+            <assignmentExpression xsi:type="mlexpressions:MLStringExpression" uuid="_kCXfUELzEeymDKUDinvg6Q" expressionString="name" expressionLanguageID="OCL"/>
+            <feature xsi:type="ecore:EAttribute" href="http:///de/hpi/sam/classDiagram.ecore#//UMLElement/name"/>
+          </attributeAssignments>
+        </modelObjects>
+        <modelLinks uuid="_JczvQELuEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_NRLG0ELwEeymDKUDinvg6Q" source="_4qlksELsEeymDKUDinvg6Q" target="_GI2rMELuEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram/elements"/>
+        </modelLinks>
+      </rightModelDomain>
+      <correspondenceDomain uuid="_zr22U0LrEeymDKUDinvg6Q">
+        <correspondenceNodes uuid="_VLKMwELuEeymDKUDinvg6Q" name="corrAxiom" outgoingLinks="_YccXUELuEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrAxiom"/>
+        </correspondenceNodes>
+        <correspondenceNodes uuid="_Wjf4sELuEeymDKUDinvg6Q" name="corrPkg" outgoingLinks="_Z4JgUELuEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrPkg"/>
+        </correspondenceNodes>
+        <correspondenceNodes uuid="_J0rx0ELwEeymDKUDinvg6Q" modifier="CREATE" name="corrClass" outgoingLinks="_MCqsUELwEeymDKUDinvg6Q _M5wsYELwEeymDKUDinvg6Q _NRLG0ELwEeymDKUDinvg6Q _NmUQYELwEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrClass"/>
+        </correspondenceNodes>
+        <correspondenceLinks uuid="_YccXUELuEeymDKUDinvg6Q" source="_VLKMwELuEeymDKUDinvg6Q" target="_4qlksELsEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_Z4JgUELuEeymDKUDinvg6Q" source="_Wjf4sELuEeymDKUDinvg6Q" target="_VXSPIELsEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_MCqsUELwEeymDKUDinvg6Q" modifier="CREATE" source="_J0rx0ELwEeymDKUDinvg6Q" target="_74gSMELsEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_M5wsYELwEeymDKUDinvg6Q" modifier="CREATE" source="_J0rx0ELwEeymDKUDinvg6Q" target="_SHe10ELtEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_NRLG0ELwEeymDKUDinvg6Q" modifier="CREATE" source="_J0rx0ELwEeymDKUDinvg6Q" target="_JczvQELuEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_NmUQYELwEeymDKUDinvg6Q" modifier="CREATE" source="_J0rx0ELwEeymDKUDinvg6Q" target="_GI2rMELuEeymDKUDinvg6Q"/>
+      </correspondenceDomain>
+      <ruleParameters uuid="_QNyB4ELwEeymDKUDinvg6Q" name="name">
+        <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        <forwardCalculationExpression xsi:type="mlexpressions:MLStringExpression" uuid="_SZd2UELwEeymDKUDinvg6Q" expressionString="classDeclaration.name" expressionLanguageID="OCL"/>
+        <backwardCalculationExpression xsi:type="mlexpressions:MLStringExpression" uuid="_St1j0ELwEeymDKUDinvg6Q" expressionString="uMLClass.name" expressionLanguageID="OCL"/>
+      </ruleParameters>
+    </rules>
+  </ruleGroups>
+  <ruleGroups uuid="_zv_WIULwEeymDKUDinvg6Q" name="java2classField2Association" ruleGroupID="java2classField2Association">
+    <rules uuid="_7GjUAULwEeymDKUDinvg6Q" name="java2classField2Association" ruleID="java2classField2Association">
+      <leftModelDomain uuid="_8M_XoULwEeymDKUDinvg6Q">
+        <modelObjects uuid="_-kIOIELwEeymDKUDinvg6Q" incomingCorrespondenceLink="_De5CgELyEeymDKUDinvg6Q" name="sourceClassDeclaration" outgoingLinks="_MDZPoELxEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassDeclaration"/>
+        </modelObjects>
+        <modelObjects uuid="_CCX2oELxEeymDKUDinvg6Q" incomingCorrespondenceLink="_CwRpAELyEeymDKUDinvg6Q" name="targetClassDeclaration" incomingLinks="_vrphgELxEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//ClassDeclaration"/>
+        </modelObjects>
+        <modelObjects uuid="_IPQPoELxEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_nflCgELyEeymDKUDinvg6Q" name="fieldDeclaration" outgoingLinks="_uQjcgELxEeymDKUDinvg6Q _Lzti8ELzEeymDKUDinvg6Q" incomingLinks="_MDZPoELxEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//FieldDeclaration"/>
+        </modelObjects>
+        <modelObjects uuid="_rw3uAELxEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_pPVv8ELyEeymDKUDinvg6Q" name="typeAccess" outgoingLinks="_vrphgELxEeymDKUDinvg6Q" incomingLinks="_uQjcgELxEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeAccess"/>
+        </modelObjects>
+        <modelObjects uuid="_Dj6P8ELzEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_qVhfcELzEeymDKUDinvg6Q" name="variableDeclarationFrag" incomingLinks="_Lzti8ELzEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//VariableDeclarationFragment"/>
+          <attributeAssignments uuid="_Qs5fcELzEeymDKUDinvg6Q">
+            <assignmentExpression xsi:type="mlexpressions:MLStringExpression" uuid="_SCyUUELzEeymDKUDinvg6Q" expressionString="name" expressionLanguageID="OCL"/>
+            <feature xsi:type="ecore:EAttribute" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//NamedElement/name"/>
+          </attributeAssignments>
+        </modelObjects>
+        <modelLinks uuid="_MDZPoELxEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_oflG8ELyEeymDKUDinvg6Q" source="_-kIOIELwEeymDKUDinvg6Q" target="_IPQPoELxEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractTypeDeclaration/bodyDeclarations"/>
+        </modelLinks>
+        <modelLinks uuid="_uQjcgELxEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_o3FA8ELyEeymDKUDinvg6Q" source="_IPQPoELxEeymDKUDinvg6Q" target="_rw3uAELxEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractVariablesContainer/type"/>
+        </modelLinks>
+        <modelLinks uuid="_vrphgELxEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_pm_a8ELyEeymDKUDinvg6Q" source="_rw3uAELxEeymDKUDinvg6Q" target="_CCX2oELxEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//TypeAccess/type"/>
+        </modelLinks>
+        <modelLinks uuid="_Lzti8ELzEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_pgDQAELzEeymDKUDinvg6Q" source="_IPQPoELxEeymDKUDinvg6Q" target="_Dj6P8ELzEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//AbstractVariablesContainer/fragments"/>
+        </modelLinks>
+      </leftModelDomain>
+      <rightModelDomain uuid="_8dHeUkLwEeymDKUDinvg6Q">
+        <modelObjects uuid="_EryTcELyEeymDKUDinvg6Q" incomingCorrespondenceLink="_sU39gELyEeymDKUDinvg6Q" name="sourceClass" outgoingLinks="_WHmqEELyEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClass"/>
+        </modelObjects>
+        <modelObjects uuid="_GRyn8ELyEeymDKUDinvg6Q" incomingCorrespondenceLink="_subtAELyEeymDKUDinvg6Q" name="targetClass" outgoingLinks="_dFiskELyEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClass"/>
+        </modelObjects>
+        <modelObjects uuid="_JYGRkELyEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_uHr-8ELyEeymDKUDinvg6Q" name="association" outgoingLinks="_XsAcEELyEeymDKUDinvg6Q _bhcckELyEeymDKUDinvg6Q" incomingLinks="_fWo6kEL0EeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLAssoc"/>
+          <attributeAssignments uuid="_U1MKgELzEeymDKUDinvg6Q">
+            <assignmentExpression xsi:type="mlexpressions:MLStringExpression" uuid="_XqXn4ELzEeymDKUDinvg6Q" expressionString="name" expressionLanguageID="OCL"/>
+            <feature xsi:type="ecore:EAttribute" href="http:///de/hpi/sam/classDiagram.ecore#//UMLElement/name"/>
+          </attributeAssignments>
+        </modelObjects>
+        <modelObjects uuid="_OdZXcELyEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_xIalAELyEeymDKUDinvg6Q" name="sourceRole" outgoingLinks="_0v3-cELzEeymDKUDinvg6Q" incomingLinks="_WHmqEELyEeymDKUDinvg6Q _XsAcEELyEeymDKUDinvg6Q _b7Rm8EL0EeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLRole"/>
+        </modelObjects>
+        <modelObjects uuid="_ZrVPgELyEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_vlO7AELyEeymDKUDinvg6Q" name="targetRole" outgoingLinks="_zQ5fAELzEeymDKUDinvg6Q" incomingLinks="_bhcckELyEeymDKUDinvg6Q _dFiskELyEeymDKUDinvg6Q _g-iFcEL0EeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLRole"/>
+        </modelObjects>
+        <modelObjects uuid="_shmVcELzEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_3iQmgELzEeymDKUDinvg6Q" name="sourceCard" incomingLinks="_0v3-cELzEeymDKUDinvg6Q _eYvu8EL0EeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLCardinality"/>
+          <attributeAssignments uuid="_71YBgELzEeymDKUDinvg6Q">
+            <assignmentExpression xsi:type="mlexpressions:MLStringExpression" uuid="_AW99YEL0EeymDKUDinvg6Q" expressionString="'0..*'" expressionLanguageID="OCL"/>
+            <feature xsi:type="ecore:EAttribute" href="http:///de/hpi/sam/classDiagram.ecore#//UMLCardinality/cardString"/>
+          </attributeAssignments>
+        </modelObjects>
+        <modelObjects uuid="_sv8TcELzEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_5GzicELzEeymDKUDinvg6Q" name="targetCard" incomingLinks="_zQ5fAELzEeymDKUDinvg6Q _jLly4EL0EeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLCardinality"/>
+          <constraints xsi:type="mlexpressions:MLStringExpression" uuid="_OGav8EL0EeymDKUDinvg6Q" expressionString="self.cardString = '0..1' or self.cardString = '1'" expressionLanguageID="OCL"/>
+          <attributeAssignments uuid="_FBw4kEL0EeymDKUDinvg6Q">
+            <assignmentExpression xsi:type="mlexpressions:MLStringExpression" uuid="_GMCTUEL0EeymDKUDinvg6Q" expressionString="'0..1'" expressionLanguageID="OCL"/>
+            <feature xsi:type="ecore:EAttribute" href="http:///de/hpi/sam/classDiagram.ecore#//UMLCardinality/cardString"/>
+          </attributeAssignments>
+        </modelObjects>
+        <modelObjects uuid="_X6US8EL0EeymDKUDinvg6Q" incomingCorrespondenceLink="_c9uicEL0EeymDKUDinvg6Q" name="uMLClassDiagram" outgoingLinks="_b7Rm8EL0EeymDKUDinvg6Q _eYvu8EL0EeymDKUDinvg6Q _fWo6kEL0EeymDKUDinvg6Q _g-iFcEL0EeymDKUDinvg6Q _jLly4EL0EeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram"/>
+        </modelObjects>
+        <modelLinks uuid="_WHmqEELyEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_tCaY8ELyEeymDKUDinvg6Q" source="_EryTcELyEeymDKUDinvg6Q" target="_OdZXcELyEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClass/roles"/>
+        </modelLinks>
+        <modelLinks uuid="_XsAcEELyEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_tlbmcELyEeymDKUDinvg6Q" source="_JYGRkELyEeymDKUDinvg6Q" target="_OdZXcELyEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLAssoc/leftRole"/>
+        </modelLinks>
+        <modelLinks uuid="_bhcckELyEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_vA--cELyEeymDKUDinvg6Q" source="_JYGRkELyEeymDKUDinvg6Q" target="_ZrVPgELyEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLAssoc/rightRole"/>
+        </modelLinks>
+        <modelLinks uuid="_dFiskELyEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_wQVtgELyEeymDKUDinvg6Q" source="_GRyn8ELyEeymDKUDinvg6Q" target="_ZrVPgELyEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClass/roles"/>
+        </modelLinks>
+        <modelLinks uuid="_zQ5fAELzEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_51f0cELzEeymDKUDinvg6Q" source="_ZrVPgELyEeymDKUDinvg6Q" target="_sv8TcELzEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLRole/card"/>
+        </modelLinks>
+        <modelLinks uuid="_0v3-cELzEeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_4FWFcELzEeymDKUDinvg6Q" source="_OdZXcELyEeymDKUDinvg6Q" target="_shmVcELzEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLRole/card"/>
+        </modelLinks>
+        <modelLinks uuid="_b7Rm8EL0EeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_mCoRcEL0EeymDKUDinvg6Q" source="_X6US8EL0EeymDKUDinvg6Q" target="_OdZXcELyEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram/elements"/>
+        </modelLinks>
+        <modelLinks uuid="_eYvu8EL0EeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_pDbI8EL0EeymDKUDinvg6Q" source="_X6US8EL0EeymDKUDinvg6Q" target="_shmVcELzEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram/elements"/>
+        </modelLinks>
+        <modelLinks uuid="_fWo6kEL0EeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_nc9hcEL0EeymDKUDinvg6Q" source="_X6US8EL0EeymDKUDinvg6Q" target="_JYGRkELyEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram/elements"/>
+        </modelLinks>
+        <modelLinks uuid="_g-iFcEL0EeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_oTIUcEL0EeymDKUDinvg6Q" source="_X6US8EL0EeymDKUDinvg6Q" target="_ZrVPgELyEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram/elements"/>
+        </modelLinks>
+        <modelLinks uuid="_jLly4EL0EeymDKUDinvg6Q" modifier="CREATE" incomingCorrespondenceLink="_pvEG8EL0EeymDKUDinvg6Q" source="_X6US8EL0EeymDKUDinvg6Q" target="_sv8TcELzEeymDKUDinvg6Q">
+          <feature xsi:type="ecore:EReference" href="http:///de/hpi/sam/classDiagram.ecore#//UMLClassDiagram/elements"/>
+        </modelLinks>
+      </rightModelDomain>
+      <correspondenceDomain uuid="_8shzU0LwEeymDKUDinvg6Q">
+        <correspondenceNodes uuid="_0Z2WAELxEeymDKUDinvg6Q" name="corrSource" outgoingLinks="_De5CgELyEeymDKUDinvg6Q _sU39gELyEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrClass"/>
+        </correspondenceNodes>
+        <correspondenceNodes uuid="_3FWS8ELxEeymDKUDinvg6Q" name="corrTarget" outgoingLinks="_CwRpAELyEeymDKUDinvg6Q _subtAELyEeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrClass"/>
+        </correspondenceNodes>
+        <correspondenceNodes uuid="_g-2gcELyEeymDKUDinvg6Q" modifier="CREATE" name="corrAssociation" outgoingLinks="_nflCgELyEeymDKUDinvg6Q _oflG8ELyEeymDKUDinvg6Q _o3FA8ELyEeymDKUDinvg6Q _pPVv8ELyEeymDKUDinvg6Q _pm_a8ELyEeymDKUDinvg6Q _tCaY8ELyEeymDKUDinvg6Q _tlbmcELyEeymDKUDinvg6Q _uHr-8ELyEeymDKUDinvg6Q _vA--cELyEeymDKUDinvg6Q _vlO7AELyEeymDKUDinvg6Q _wQVtgELyEeymDKUDinvg6Q _xIalAELyEeymDKUDinvg6Q _pgDQAELzEeymDKUDinvg6Q _qVhfcELzEeymDKUDinvg6Q _3iQmgELzEeymDKUDinvg6Q _4FWFcELzEeymDKUDinvg6Q _5GzicELzEeymDKUDinvg6Q _51f0cELzEeymDKUDinvg6Q _mCoRcEL0EeymDKUDinvg6Q _nc9hcEL0EeymDKUDinvg6Q _oTIUcEL0EeymDKUDinvg6Q _pDbI8EL0EeymDKUDinvg6Q _pvEG8EL0EeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrAssociation"/>
+        </correspondenceNodes>
+        <correspondenceNodes uuid="_WpI-8EL0EeymDKUDinvg6Q" name="corrAxiom" outgoingLinks="_c9uicEL0EeymDKUDinvg6Q">
+          <type xsi:type="ecore:EClass" href="java2class.ecore#//CorrAxiom"/>
+        </correspondenceNodes>
+        <correspondenceLinks uuid="_CwRpAELyEeymDKUDinvg6Q" source="_3FWS8ELxEeymDKUDinvg6Q" target="_CCX2oELxEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_De5CgELyEeymDKUDinvg6Q" source="_0Z2WAELxEeymDKUDinvg6Q" target="_-kIOIELwEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_nflCgELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_IPQPoELxEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_oflG8ELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_MDZPoELxEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_o3FA8ELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_uQjcgELxEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_pPVv8ELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_rw3uAELxEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_pm_a8ELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_vrphgELxEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_sU39gELyEeymDKUDinvg6Q" source="_0Z2WAELxEeymDKUDinvg6Q" target="_EryTcELyEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_subtAELyEeymDKUDinvg6Q" source="_3FWS8ELxEeymDKUDinvg6Q" target="_GRyn8ELyEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_tCaY8ELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_WHmqEELyEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_tlbmcELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_XsAcEELyEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_uHr-8ELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_JYGRkELyEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_vA--cELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_bhcckELyEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_vlO7AELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_ZrVPgELyEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_wQVtgELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_dFiskELyEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_xIalAELyEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_OdZXcELyEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_pgDQAELzEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_Lzti8ELzEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_qVhfcELzEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_Dj6P8ELzEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_3iQmgELzEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_shmVcELzEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_4FWFcELzEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_0v3-cELzEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_5GzicELzEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_sv8TcELzEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_51f0cELzEeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_zQ5fAELzEeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_c9uicEL0EeymDKUDinvg6Q" source="_WpI-8EL0EeymDKUDinvg6Q" target="_X6US8EL0EeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_mCoRcEL0EeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_b7Rm8EL0EeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_nc9hcEL0EeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_fWo6kEL0EeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_oTIUcEL0EeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_g-iFcEL0EeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_pDbI8EL0EeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_eYvu8EL0EeymDKUDinvg6Q"/>
+        <correspondenceLinks uuid="_pvEG8EL0EeymDKUDinvg6Q" modifier="CREATE" source="_g-2gcELyEeymDKUDinvg6Q" target="_jLly4EL0EeymDKUDinvg6Q"/>
+      </correspondenceDomain>
+      <ruleParameters uuid="_5lthcELyEeymDKUDinvg6Q" name="name">
+        <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        <forwardCalculationExpression xsi:type="mlexpressions:MLStringExpression" uuid="_6kzm8ELyEeymDKUDinvg6Q" expressionString="variableDeclarationFrag.name" expressionLanguageID="OCL"/>
+        <backwardCalculationExpression xsi:type="mlexpressions:MLStringExpression" uuid="_62DH8ELyEeymDKUDinvg6Q" expressionString="association.name" expressionLanguageID="OCL"/>
+      </ruleParameters>
+    </rules>
+  </ruleGroups>
+</mltgg:TGG>

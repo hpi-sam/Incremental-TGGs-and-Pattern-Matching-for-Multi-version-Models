@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ASCII"?>
+<java2class.generated:java2classOperationalTGG xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:java2class.generated="http://www.mdelab.de/mltgg/java2class/1.0/generated" tggID="java2class">
+  <operationalAxiomGroup xsi:type="java2class.generated:java2classAxiom" ruleGroupID="java2classAxiom">
+    <axioms xsi:type="java2class.generated:java2classAxiom_axiom" ruleID="axiom">
+      <addElementActivity href="modelGeneration/java2classAxiom_axiom_addElement.mlsdm#_wpgwkEL0EeymDKUDinvg6Q"/>
+      <changeAttributeActivity href="modelGeneration/java2classAxiom_axiom_changeAttributeValues.mlsdm#_wqRlkEL0EeymDKUDinvg6Q"/>
+      <transformForwardActivity href="modelTransformation/java2classAxiom_axiom_transform_forward.mlsdm#_wqVP8EL0EeymDKUDinvg6Q"/>
+      <transformMappingActivity href="modelTransformation/java2classAxiom_axiom_transform_mapping.mlsdm#_wqiEQEL0EeymDKUDinvg6Q"/>
+      <transformBackwardActivity href="modelTransformation/java2classAxiom_axiom_transform_backward.mlsdm#_wqoK4EL0EeymDKUDinvg6Q"/>
+      <synchronizeForwardActivity href="modelSynchronization/java2classAxiom_axiom_synchronize_forward.mlsdm#_wqscUEL0EeymDKUDinvg6Q"/>
+      <synchronizeBackwardActivity href="modelSynchronization/java2classAxiom_axiom_synchronize_backward.mlsdm#_wq53sEL0EeymDKUDinvg6Q"/>
+    </axioms>
+  </operationalAxiomGroup>
+  <operationalRuleGroups xsi:type="java2class.generated:java2classPkg" ruleGroupID="java2classPkg">
+    <rules xsi:type="java2class.generated:java2classPkg_pkg" ruleID="pkg">
+      <preferredInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      <allInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      <addElementActivity href="modelGeneration/java2classPkg_pkg_addElement.mlsdm#_wq_XQEL0EeymDKUDinvg6Q"/>
+      <moveElementActivity href="modelGeneration/java2classPkg_pkg_moveElement.mlsdm#_wrDosEL0EeymDKUDinvg6Q"/>
+      <changeAttributeActivity href="modelGeneration/java2classPkg_pkg_changeAttributeValues.mlsdm#_wrIhMEL0EeymDKUDinvg6Q"/>
+      <transformForwardActivity href="modelTransformation/java2classPkg_pkg_transform_forward.mlsdm#_wrLkgEL0EeymDKUDinvg6Q"/>
+      <transformMappingActivity href="modelTransformation/java2classPkg_pkg_transform_mapping.mlsdm#_wrQdAEL0EeymDKUDinvg6Q"/>
+      <transformBackwardActivity href="modelTransformation/java2classPkg_pkg_transform_backward.mlsdm#_wrUucEL0EeymDKUDinvg6Q"/>
+      <conflictCheckForwardActivity href="conflictCheck/java2classPkg_pkg_conflictCheck_forward.mlsdm#_wrZm8EL0EeymDKUDinvg6Q"/>
+      <conflictCheckMappingActivity href="conflictCheck/java2classPkg_pkg_conflictCheck_mapping.mlsdm#_wrl0MEL0EeymDKUDinvg6Q"/>
+      <conflictCheckBackwardActivity href="conflictCheck/java2classPkg_pkg_conflictCheck_backward.mlsdm#_wrqFoEL0EeymDKUDinvg6Q"/>
+      <synchronizeForwardActivity href="modelSynchronization/java2classPkg_pkg_synchronize_forward.mlsdm#_wrvlMEL0EeymDKUDinvg6Q"/>
+      <synchronizeBackwardActivity href="modelSynchronization/java2classPkg_pkg_synchronize_backward.mlsdm#_wr2S4EL0EeymDKUDinvg6Q"/>
+      <repairForwardActivity href="modelSynchronization/java2classPkg_pkg_repair_forward.mlsdm#_wr7LYEL0EeymDKUDinvg6Q"/>
+      <repairBackwardActivity href="modelSynchronization/java2classPkg_pkg_repair_backward.mlsdm#_wsBSAEL0EeymDKUDinvg6Q"/>
+    </rules>
+  </operationalRuleGroups>
+  <operationalRuleGroups xsi:type="java2class.generated:java2classChildPkg" ruleGroupID="java2classChildPkg">
+    <rules xsi:type="java2class.generated:java2classChildPkg_childPkg" ruleID="childPkg">
+      <preferredInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      <preferredInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrPkg"/>
+      <allInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrPkg"/>
+      <allInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      <addElementActivity href="modelGeneration/java2classChildPkg_childPkg_addElement.mlsdm#_wsFjcEL0EeymDKUDinvg6Q"/>
+      <moveElementActivity href="modelGeneration/java2classChildPkg_childPkg_moveElement.mlsdm#_wsLqEEL0EeymDKUDinvg6Q"/>
+      <changeAttributeActivity href="modelGeneration/java2classChildPkg_childPkg_changeAttributeValues.mlsdm#_wsP7gEL0EeymDKUDinvg6Q"/>
+      <transformForwardActivity href="modelTransformation/java2classChildPkg_childPkg_transform_forward.mlsdm#_wsUM8EL0EeymDKUDinvg6Q"/>
+      <transformMappingActivity href="modelTransformation/java2classChildPkg_childPkg_transform_mapping.mlsdm#_wsZFcEL0EeymDKUDinvg6Q"/>
+      <transformBackwardActivity href="modelTransformation/java2classChildPkg_childPkg_transform_backward.mlsdm#_wsfMEEL0EeymDKUDinvg6Q"/>
+      <conflictCheckForwardActivity href="conflictCheck/java2classChildPkg_childPkg_conflictCheck_forward.mlsdm#_wsnH4EL0EeymDKUDinvg6Q"/>
+      <conflictCheckMappingActivity href="conflictCheck/java2classChildPkg_childPkg_conflictCheck_mapping.mlsdm#_wstOgEL0EeymDKUDinvg6Q"/>
+      <conflictCheckBackwardActivity href="conflictCheck/java2classChildPkg_childPkg_conflictCheck_backward.mlsdm#_wszVIEL0EeymDKUDinvg6Q"/>
+      <synchronizeForwardActivity href="modelSynchronization/java2classChildPkg_childPkg_synchronize_forward.mlsdm#_ws40sEL0EeymDKUDinvg6Q"/>
+      <synchronizeBackwardActivity href="modelSynchronization/java2classChildPkg_childPkg_synchronize_backward.mlsdm#_ws-UQEL0EeymDKUDinvg6Q"/>
+      <repairForwardActivity href="modelSynchronization/java2classChildPkg_childPkg_repair_forward.mlsdm#_wtDz0EL0EeymDKUDinvg6Q"/>
+      <repairBackwardActivity href="modelSynchronization/java2classChildPkg_childPkg_repair_backward.mlsdm#_wtJ6cEL0EeymDKUDinvg6Q"/>
+    </rules>
+  </operationalRuleGroups>
+  <operationalRuleGroups xsi:type="java2class.generated:java2classClassDeclaration2Class" ruleGroupID="java2classClassDeclaration2Class">
+    <rules xsi:type="java2class.generated:java2classClassDeclaration2Class_java2classClassDeclaration2Class" ruleID="java2classClassDeclaration2Class">
+      <preferredInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrPkg"/>
+      <preferredInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      <allInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      <allInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrPkg"/>
+      <addElementActivity href="modelGeneration/java2classClassDeclaration2Class_java2classClassDeclaration2Class_addElement.mlsdm#_wtgfwEL0EeymDKUDinvg6Q"/>
+      <moveElementActivity href="modelGeneration/java2classClassDeclaration2Class_java2classClassDeclaration2Class_moveElement.mlsdm#_wtlYQEL0EeymDKUDinvg6Q"/>
+      <changeAttributeActivity href="modelGeneration/java2classClassDeclaration2Class_java2classClassDeclaration2Class_changeAttributeValues.mlsdm#_wtq30EL0EeymDKUDinvg6Q"/>
+      <transformForwardActivity href="modelTransformation/java2classClassDeclaration2Class_java2classClassDeclaration2Class_transform_forward.mlsdm#_wtvJQEL0EeymDKUDinvg6Q"/>
+      <transformMappingActivity href="modelTransformation/java2classClassDeclaration2Class_java2classClassDeclaration2Class_transform_mapping.mlsdm#_wt128EL0EeymDKUDinvg6Q"/>
+      <transformBackwardActivity href="modelTransformation/java2classClassDeclaration2Class_java2classClassDeclaration2Class_transform_backward.mlsdm#_wt7WgEL0EeymDKUDinvg6Q"/>
+      <conflictCheckForwardActivity href="conflictCheck/java2classClassDeclaration2Class_java2classClassDeclaration2Class_conflictCheck_forward.mlsdm#_wuBdIEL0EeymDKUDinvg6Q"/>
+      <conflictCheckMappingActivity href="conflictCheck/java2classClassDeclaration2Class_java2classClassDeclaration2Class_conflictCheck_mapping.mlsdm#_wuFHgEL0EeymDKUDinvg6Q"/>
+      <conflictCheckBackwardActivity href="conflictCheck/java2classClassDeclaration2Class_java2classClassDeclaration2Class_conflictCheck_backward.mlsdm#_wuLOIEL0EeymDKUDinvg6Q"/>
+      <synchronizeForwardActivity href="modelSynchronization/java2classClassDeclaration2Class_java2classClassDeclaration2Class_synchronize_forward.mlsdm#_wuQtsEL0EeymDKUDinvg6Q"/>
+      <synchronizeBackwardActivity href="modelSynchronization/java2classClassDeclaration2Class_java2classClassDeclaration2Class_synchronize_backward.mlsdm#_wuU_IEL0EeymDKUDinvg6Q"/>
+      <repairForwardActivity href="modelSynchronization/java2classClassDeclaration2Class_java2classClassDeclaration2Class_repair_forward.mlsdm#_wubFwEL0EeymDKUDinvg6Q"/>
+      <repairBackwardActivity href="modelSynchronization/java2classClassDeclaration2Class_java2classClassDeclaration2Class_repair_backward.mlsdm#_wuglUEL0EeymDKUDinvg6Q"/>
+    </rules>
+  </operationalRuleGroups>
+  <operationalRuleGroups xsi:type="java2class.generated:java2classField2Association" ruleGroupID="java2classField2Association">
+    <rules xsi:type="java2class.generated:java2classField2Association_java2classField2Association" ruleID="java2classField2Association">
+      <preferredInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      <preferredInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrClass"/>
+      <allInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrClass"/>
+      <allInputCorrNodeTypes href="http://www.mdelab.de/mltgg/java2class/1.0#//CorrAxiom"/>
+      <addElementActivity href="modelGeneration/java2classField2Association_java2classField2Association_addElement.mlsdm#_wunTAEL0EeymDKUDinvg6Q"/>
+      <moveElementActivity href="modelGeneration/java2classField2Association_java2classField2Association_moveElement.mlsdm#_wutZoEL0EeymDKUDinvg6Q"/>
+      <changeAttributeActivity href="modelGeneration/java2classField2Association_java2classField2Association_changeAttributeValues.mlsdm#_wu3xsEL0EeymDKUDinvg6Q"/>
+      <transformForwardActivity href="modelTransformation/java2classField2Association_java2classField2Association_transform_forward.mlsdm#_wvIQYEL0EeymDKUDinvg6Q"/>
+      <transformMappingActivity href="modelTransformation/java2classField2Association_java2classField2Association_transform_mapping.mlsdm#_wvQzQEL0EeymDKUDinvg6Q"/>
+      <transformBackwardActivity href="modelTransformation/java2classField2Association_java2classField2Association_transform_backward.mlsdm#_wvZWIEL0EeymDKUDinvg6Q"/>
+      <conflictCheckForwardActivity href="conflictCheck/java2classField2Association_java2classField2Association_conflictCheck_forward.mlsdm#_wvh5AEL0EeymDKUDinvg6Q"/>
+      <conflictCheckMappingActivity href="conflictCheck/java2classField2Association_java2classField2Association_conflictCheck_mapping.mlsdm#_wvnYkEL0EeymDKUDinvg6Q"/>
+      <conflictCheckBackwardActivity href="conflictCheck/java2classField2Association_java2classField2Association_conflictCheck_backward.mlsdm#_wvs4IEL0EeymDKUDinvg6Q"/>
+      <synchronizeForwardActivity href="modelSynchronization/java2classField2Association_java2classField2Association_synchronize_forward.mlsdm#_wvzl0EL0EeymDKUDinvg6Q"/>
+      <synchronizeBackwardActivity href="modelSynchronization/java2classField2Association_java2classField2Association_synchronize_backward.mlsdm#_wv6TgEL0EeymDKUDinvg6Q"/>
+      <repairForwardActivity href="modelSynchronization/java2classField2Association_java2classField2Association_repair_forward.mlsdm#_wwAaIEL0EeymDKUDinvg6Q"/>
+      <repairBackwardActivity href="modelSynchronization/java2classField2Association_java2classField2Association_repair_backward.mlsdm#_wwIV8EL0EeymDKUDinvg6Q"/>
+    </rules>
+  </operationalRuleGroups>
+</java2class.generated:java2classOperationalTGG>

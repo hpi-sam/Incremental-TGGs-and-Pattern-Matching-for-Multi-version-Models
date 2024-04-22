@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: History
+Bundle-SymbolicName: de.mdelab.mlsdm.interpreter.searchModel.history
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: de.mdelab.mlsdm.interpreter.searchModel,
+ de.mdelab.mlstorypatterns,
+ de.mdelab.sdm.interpreter.core,
+ de.mdelab.mlsdm,
+ de.mdelab.expressions.interpreter.core,
+ de.mdelab.sdm.interpreter.core.searchModel,
+ de.mdelab.mlsdm.interpreter,
+ de.mdelab.migmm.history,
+ de.mdelab.migmm.history.timing
+Automatic-Module-Name: de.mdelab.mlsdm.interpreter.searchModel.history
+Export-Package: de.mdelab.mlsdm.interpreter.searchModel.history

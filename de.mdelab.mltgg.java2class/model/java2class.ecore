@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="java2class" nsURI="http://www.mdelab.de/mltgg/java2class/1.0"
+    nsPrefix="java2class">
+  <eClassifiers xsi:type="ecore:EClass" name="CorrAxiom" eSuperTypes="platform:/plugin/de.mdelab.mltgg.mote2/model/mote2.ecore#//TGGNode"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CorrPkg" eSuperTypes="platform:/plugin/de.mdelab.mltgg.mote2/model/mote2.ecore#//TGGNode"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CorrClass" eSuperTypes="platform:/plugin/de.mdelab.mltgg.mote2/model/mote2.ecore#//TGGNode"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CorrAssociation" eSuperTypes="platform:/plugin/de.mdelab.mltgg.mote2/model/mote2.ecore#//TGGNode"/>
+</ecore:EPackage>

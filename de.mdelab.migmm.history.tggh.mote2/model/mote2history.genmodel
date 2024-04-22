@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/de.mdelab.migmm.history.tggh.mote2/src" modelPluginID="de.mdelab.migmm.history.tggh.mote2"
+    modelName="Mote2history" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    usedGenPackages="../../de.mdelab.mlcore/model/mlcore.genmodel#//mlcore ../../de.mdelab.mltgg.mote2/model/mote2.genmodel#//mote2"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>mote2history.ecore</foreignModel>
+  <genPackages prefix="Mote2history" basePackage="de.mdelab.migmm.history.tggh" disposableProviderFactory="true"
+      ecorePackage="mote2history.ecore#/">
+    <genClasses image="false" ecoreClass="mote2history.ecore#//TGGHEngine">
+      <genOperations ecoreOperation="mote2history.ecore#//TGGHEngine/registerCoveringCorrNode">
+        <genParameters ecoreParameter="mote2history.ecore#//TGGHEngine/registerCoveringCorrNode/element"/>
+        <genParameters ecoreParameter="mote2history.ecore#//TGGHEngine/registerCoveringCorrNode/corrNode"/>
+      </genOperations>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

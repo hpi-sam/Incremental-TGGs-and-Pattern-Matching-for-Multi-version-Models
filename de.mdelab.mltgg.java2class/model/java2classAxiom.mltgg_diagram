@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mltgg="http://www.mdelab.de/mltgg/1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_9C5wUECdEey-VfNAV22-zw" type="Mltgg" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_9OrigECdEey-VfNAV22-zw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9OsJkECdEey-VfNAV22-zw" type="5011"/>
+    <children xmi:type="notation:Shape" xmi:id="_9OvM4ECdEey-VfNAV22-zw" type="3001" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9OvM4kCdEey-VfNAV22-zw" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_9OxCEECdEey-VfNAV22-zw" type="3002" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_9OxCEkCdEey-VfNAV22-zw" type="5001"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_9OxCE0CdEey-VfNAV22-zw" type="7001">
+          <children xmi:type="notation:Node" xmi:id="_1I_i4ECfEey-VfNAV22-zw" type="3003">
+            <element xmi:type="mltgg:AttributeAssignment" href="java2class.mltgg#_1I9GoECfEey-VfNAV22-zw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_1I_i4UCfEey-VfNAV22-zw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_9OxCFECdEey-VfNAV22-zw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_9OxCFUCdEey-VfNAV22-zw"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_9OxCFkCdEey-VfNAV22-zw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_9OxCF0CdEey-VfNAV22-zw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_9OxCGECdEey-VfNAV22-zw"/>
+        </children>
+        <element xmi:type="mltgg:ModelObject" href="java2class.mltgg#_HmOBsT8fEeKTTbcgLXf6Gw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9OxCEUCdEey-VfNAV22-zw"/>
+      </children>
+      <element xmi:type="mltgg:LeftModelDomain" href="java2class.mltgg#_F4J9YT8fEeKTTbcgLXf6Gw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9OvM4UCdEey-VfNAV22-zw"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_9OvM40CdEey-VfNAV22-zw" type="3005" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9OvM5UCdEey-VfNAV22-zw" type="5004"/>
+      <element xmi:type="mltgg:CorrespondenceDomain" href="java2class.mltgg#_GqCGQz8fEeKTTbcgLXf6Gw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9OvM5ECdEey-VfNAV22-zw" x="310"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_9OvM5kCdEey-VfNAV22-zw" type="3007" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9Ovz8ECdEey-VfNAV22-zw" type="5005"/>
+      <children xmi:type="notation:Shape" xmi:id="_9O3vwECdEey-VfNAV22-zw" type="3002" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_9O3vwkCdEey-VfNAV22-zw" type="5001"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_9O3vw0CdEey-VfNAV22-zw" type="7001">
+          <children xmi:type="notation:Node" xmi:id="_54afYECfEey-VfNAV22-zw" type="3003">
+            <element xmi:type="mltgg:AttributeAssignment" href="java2class.mltgg#_54YDIECfEey-VfNAV22-zw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_54afYUCfEey-VfNAV22-zw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_9O3vxECdEey-VfNAV22-zw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_9O3vxUCdEey-VfNAV22-zw"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_9O3vxkCdEey-VfNAV22-zw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_9O3vx0CdEey-VfNAV22-zw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_9O3vyECdEey-VfNAV22-zw"/>
+        </children>
+        <element xmi:type="mltgg:ModelObject" href="java2class.mltgg#_WyPf8T8fEeKTTbcgLXf6Gw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9O3vwUCdEey-VfNAV22-zw"/>
+      </children>
+      <element xmi:type="mltgg:RightModelDomain" href="java2class.mltgg#_GUAy8j8fEeKTTbcgLXf6Gw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9OvM50CdEey-VfNAV22-zw" x="620"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_goR34ECfEey-VfNAV22-zw" type="3008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_goR35UCfEey-VfNAV22-zw" type="5008"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_goR35kCfEey-VfNAV22-zw" type="7003">
+        <children xmi:type="notation:Shape" xmi:id="_q2szsUCfEey-VfNAV22-zw" type="3010" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_q2tawECfEey-VfNAV22-zw" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q2tawUCfEey-VfNAV22-zw" y="5"/>
+          </children>
+          <element xmi:type="mlexpressions:MLStringExpression" href="java2class.mltgg#_q2szsECfEey-VfNAV22-zw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q2szskCfEey-VfNAV22-zw"/>
+        </children>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_goR350CfEey-VfNAV22-zw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_goR36ECfEey-VfNAV22-zw"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_goR36UCfEey-VfNAV22-zw" type="7004">
+        <children xmi:type="notation:Shape" xmi:id="_qn0qMECfEey-VfNAV22-zw" type="3009" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qn0qMkCfEey-VfNAV22-zw" type="5006">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qn1RQECfEey-VfNAV22-zw" y="5"/>
+          </children>
+          <element xmi:type="mlexpressions:MLStringExpression" href="java2class.mltgg#_qn0DIECfEey-VfNAV22-zw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qn0qMUCfEey-VfNAV22-zw"/>
+        </children>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_goR36kCfEey-VfNAV22-zw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_goR360CfEey-VfNAV22-zw"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_goR34UCfEey-VfNAV22-zw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_goR34kCfEey-VfNAV22-zw" fontName="Segoe UI"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_goR340CfEey-VfNAV22-zw"/>
+      <element xmi:type="mltgg:RuleParameter" href="java2class.mltgg#_goPboECfEey-VfNAV22-zw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_goR35ECfEey-VfNAV22-zw" x="211" y="379" width="157"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9OrigUCdEey-VfNAV22-zw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9OrigkCdEey-VfNAV22-zw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_9Orig0CdEey-VfNAV22-zw"/>
+    <element xmi:type="mltgg:TGGRule" href="java2class.mltgg#_EWn5MT8fEeKTTbcgLXf6Gw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9OrihECdEey-VfNAV22-zw" height="529"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_9C5wUUCdEey-VfNAV22-zw"/>
+  <element xmi:type="mltgg:TGGRuleGroup" href="java2class.mltgg#_BBH9AD8fEeKTTbcgLXf6Gw"/>
+</notation:Diagram>

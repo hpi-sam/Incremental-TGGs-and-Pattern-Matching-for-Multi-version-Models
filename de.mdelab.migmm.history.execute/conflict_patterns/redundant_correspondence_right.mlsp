@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mlstorypatterns:StoryPattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" uuid="__tyYEEiGEeyJzOJZPD4H4Q" name="redundant_correspondence_right">
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_IVhC4EiHEeyJzOJZPD4H4Q" source="_APYpQEiHEeyJzOJZPD4H4Q" target="_GqiHwEiHEeyJzOJZPD4H4Q">
+    <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/rightNodes"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_IwrU4EiHEeyJzOJZPD4H4Q" source="_EJjYwEiHEeyJzOJZPD4H4Q" target="_GqiHwEiHEeyJzOJZPD4H4Q">
+    <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/rightNodes"/>
+  </storyPatternLinks>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_APYpQEiHEeyJzOJZPD4H4Q" name="corr1" outgoingLinks="_IVhC4EiHEeyJzOJZPD4H4Q" bindingType="CAN_BE_BOUND">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/tggh/1.0#//TGGNodeWithHistory"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_EJjYwEiHEeyJzOJZPD4H4Q" name="corr2" outgoingLinks="_IwrU4EiHEeyJzOJZPD4H4Q" bindingType="CAN_BE_BOUND">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/tggh/1.0#//TGGNodeWithHistory"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_GqiHwEiHEeyJzOJZPD4H4Q" name="element" incomingLinks="_IVhC4EiHEeyJzOJZPD4H4Q _IwrU4EiHEeyJzOJZPD4H4Q" bindingType="CAN_BE_BOUND">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  </storyPatternObjects>
+  <constraints xsi:type="mlexpressions:MLStringExpression" uuid="_PnZVGEiHEeyJzOJZPD4H4Q" expressionString="(not corr1.validIn.getPresentTiming()->oclAsSet()->flatten()->intersection(corr2.validIn.getAbsentTiming()->oclAsSet()->flatten())->isEmpty()) and (not corr2.validIn.getPresentTiming()->oclAsSet()->flatten()->intersection(corr1.validIn.getAbsentTiming()->oclAsSet()->flatten())->isEmpty())" expressionLanguageID="OCL"/>
+</mlstorypatterns:StoryPattern>

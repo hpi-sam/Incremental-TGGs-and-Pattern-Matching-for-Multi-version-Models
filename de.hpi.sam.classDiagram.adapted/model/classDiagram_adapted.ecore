@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="classDiagram_adapted" nsURI="http:///de/hpi/sam/classDiagram.ecore_adapted" nsPrefix="de.hpi.sam.classDiagram_adapted">
+  <eClassifiers xsi:type="ecore:EClass" name="UMLAssoc_adapted" eSuperTypes="//UMLDiagramItem_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftRole" ordered="false" upperBound="-1" eType="//UMLAssoc_adapted_leftRoleItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightRole" ordered="false" upperBound="-1" eType="//UMLAssoc_adapted_rightRoleItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLCardinality_adapted" eSuperTypes="//UMLIncrement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cardString" upperBound="-1" eType="//UMLCardinality_adapted_cardStringValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="revCard" ordered="false" upperBound="-1" eType="//UMLCardinality_adapted_revCardItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLClassDiagram_adapted" eSuperTypes="//UMLElement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" ordered="false" upperBound="-1" eType="//UMLClassDiagram_adapted_elementsItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLClass_adapted" eSuperTypes="//UMLDiagramItem_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="roles" ordered="false" upperBound="-1" eType="//UMLClass_adapted_rolesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLDiagramItem_adapted" abstract="true" eSuperTypes="//UMLIncrement_adapted"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLElement_adapted" abstract="true">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//NodeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" upperBound="-1" eType="//UMLElement_adapted_nameValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diagram" ordered="false" upperBound="-1" eType="//UMLElement_adapted_diagramItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLIncrement_adapted" abstract="true" eSuperTypes="//UMLElement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="stereotypes" ordered="false" upperBound="-1" eType="//UMLIncrement_adapted_stereotypesItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLRole_adapted" eSuperTypes="//UMLIncrement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="adornment" upperBound="-1" eType="//UMLRole_adapted_adornmentValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="card" ordered="false" upperBound="-1" eType="//UMLRole_adapted_cardItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="revLeftRole" ordered="false" upperBound="-1" eType="//UMLRole_adapted_revLeftRoleItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="revRightRole" ordered="false" upperBound="-1" eType="//UMLRole_adapted_revRightRoleItem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" ordered="false" upperBound="-1" eType="//UMLRole_adapted_targetItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLStereotype_adapted" eSuperTypes="//UMLIncrement_adapted">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="text" upperBound="-1" eType="//UMLStereotype_adapted_textValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="increment" ordered="false" upperBound="-1" eType="//UMLStereotype_adapted_incrementItem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLAssoc_adapted_leftRoleItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftRole" lowerBound="1" eType="//UMLRole_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLAssoc_adapted_rightRoleItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightRole" lowerBound="1" eType="//UMLRole_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLCardinality_adapted_cardStringValue">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//AttributeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLCardinality_adapted_revCardItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="revCard" lowerBound="1" eType="//UMLRole_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLClassDiagram_adapted_elementsItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//ContainmentEdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" lowerBound="1" eType="//UMLElement_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLClass_adapted_rolesItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="roles" lowerBound="1" eType="//UMLRole_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLElement_adapted_nameValue">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//AttributeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLElement_adapted_diagramItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diagram" lowerBound="1" eType="//UMLClassDiagram_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLIncrement_adapted_stereotypesItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="stereotypes" lowerBound="1" eType="//UMLStereotype_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLRole_adapted_adornmentValue">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//AttributeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLRole_adapted_cardItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="card" lowerBound="1" eType="//UMLCardinality_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLRole_adapted_revLeftRoleItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="revLeftRole" lowerBound="1" eType="//UMLAssoc_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLRole_adapted_revRightRoleItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="revRightRole" lowerBound="1" eType="//UMLAssoc_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLRole_adapted_targetItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1" eType="//UMLClass_adapted"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLStereotype_adapted_textValue">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//AttributeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMLStereotype_adapted_incrementItem">
+    <eSuperTypes href="../../../plugin/de.mdelab.migmm.history/model/history.ecore#//EdgeWithHistory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="increment" lowerBound="1" eType="//UMLIncrement_adapted"/>
+  </eClassifiers>
+</ecore:EPackage>

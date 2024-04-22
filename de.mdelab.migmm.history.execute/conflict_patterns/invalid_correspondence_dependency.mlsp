@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mlstorypatterns:StoryPattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" uuid="_EaZ38EkmEeyPp_HkDXtQoQ" name="invalid_correspondence_dependency">
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_S91k0EkpEeyPp_HkDXtQoQ" source="_HCyPcEkmEeyPp_HkDXtQoQ" target="_NLTF0EkmEeyPp_HkDXtQoQ">
+    <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/next"/>
+  </storyPatternLinks>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_HCyPcEkmEeyPp_HkDXtQoQ" name="parent" outgoingLinks="_S91k0EkpEeyPp_HkDXtQoQ" bindingType="CAN_BE_BOUND">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/tggh/1.0#//TGGNodeWithHistory"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_NLTF0EkmEeyPp_HkDXtQoQ" name="child" incomingLinks="_S91k0EkpEeyPp_HkDXtQoQ" bindingType="CAN_BE_BOUND">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/tggh/1.0#//TGGNodeWithHistory"/>
+  </storyPatternObjects>
+  <constraints xsi:type="mlexpressions:MLStringExpression" uuid="_bfcg50kmEeyPp_HkDXtQoQ" expressionString="not parent.validIn.getDeletedTiming()->oclAsSet()->flatten()->intersection(child.validIn.getAbsentTiming()->oclAsSet()->flatten())->isEmpty()" expressionLanguageID="OCL"/>
+</mlstorypatterns:StoryPattern>

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: de.hpi.sam.classDiagram.adapted;singleton:=true
+Automatic-Module-Name: de.hpi.sam.classDiagram.adapted
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: de.hpi.sam.classDiagram_adapted,
+ de.hpi.sam.classDiagram_adapted.impl,
+ de.hpi.sam.classDiagram_adapted.util
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;visibility:=reexport,
+ de.mdelab.migmm.history;visibility:=reexport
+Bundle-ActivationPolicy: lazy

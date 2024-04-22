@@ -1,0 +1,17 @@
+/**
+ */
+package de.mdelab.migmm.history.modisco.java.adapted.java_adapted;
+
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Namespace Access adapted</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ *
+ * @see de.mdelab.migmm.history.modisco.java.adapted.java_adapted.Java_adaptedPackage#getNamespaceAccess_adapted()
+ * @model abstract="true"
+ * @generated
+ */
+public interface NamespaceAccess_adapted extends ASTNode_adapted {
+} // NamespaceAccess_adapted
